@@ -15,6 +15,7 @@
 #########################################################
 import telepot
 import calendar
+import json
 from icalendar import Calendar
 import requests
 from urllib.request import urlopen
@@ -366,6 +367,12 @@ def handler(m):
         checkWeeklyEvents(message.user)
 
 
+#####Push first events to file
+    if message.text == '/firstEventPush':
+        print('worked')
+        pushToPrevious()
+
+
 #####test Changed Meets
     if message.text == '/testChanges':
         postMeetChanges()
@@ -648,13 +655,17 @@ def Shorten(long_url):
         return result
 
 
-def getEvents(date=True, days=1):
+def getEvents(date=True, days=1, fromPrevious=False):
     eventList = []
-    ics = requests.get("https://calendar.google.com/"
+    if not fromPrevious:
+        ics = requests.get("https://calendar.google.com/"
             "calendar/ical/86krr4fvs3jjbv4nsstlj4e2v"
             "0%40group.calendar.google.com/public/ba"
             "sic.ics")
-    cal = Calendar.from_ical(ics.content)
+        cal = Calendar.from_ical(ics.content)
+    else:
+        ics = open("previous_events.ics", 'rb').read()
+        cal = Calendar.from_ical(ics)
     for e in cal.walk('vevent'):
         eventTime = e.get('dtstart')
         if type(eventTime) != datetime:
@@ -807,7 +818,7 @@ def compareNewEvents(oldMeets, newMeets):
 
 def postMeetChanges():
     newEventList = getEvents(today, 60)
-    global previousEvents
+    previousEvents = pullFromPrevious()
     announcementLists = compareNewEvents(previousEvents, newEventList)
     if (len(announcementLists[0]) + len(announcementLists[1]) + len(announcementLists[2])) < 1:
         print("No Changes on " + str(datetime.now()))
@@ -852,7 +863,22 @@ def postMeetChanges():
         telegramMessage += "🚫" + text + '\n\n'
 
     bot.sendMessage('@NEFuzz', telegramMessage, reply_markup=baseKeyboard)
-    previousEvents = newEventList
+    pushToPrevious()
+
+
+def pullFromPrevious():
+    return getEvents(today, 60, True)
+
+
+def pushToPrevious():
+    ics = requests.get("https://calendar.google.com/"
+            "calendar/ical/86krr4fvs3jjbv4nsstlj4e2v"
+            "0%40group.calendar.google.com/public/ba"
+            "sic.ics")
+    cal = Calendar.from_ical(ics.content)
+    print("Push for first time at :" + str(datetime.now()))
+    file = open('previous_events.ics', 'wb')
+    file.write(cal.to_ical())
 
 
 def tryUserName(message):
@@ -890,7 +916,6 @@ def main():
 postTw = True
 postTe = True
 today = datetime.now(localtz).date() + timedelta(days=0)
-previousEvents = getEvents(today, 60)
 Users = {}
 if __name__ == '__main__':
     main()

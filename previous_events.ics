@@ -1,0 +1,5226 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Fun furry events happening in New England!
+X-WR-CALNAME:New England Furry Events
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:NH Furbowl
+DTSTART:20160826T223000Z
+DTEND:20160827T023000Z
+DTSTAMP:20160826T024324Z
+UID:10k73c493iosctkr3nk36jvq84@google.com
+SEQUENCE:9
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CREATED:20160607T003415Z
+DESCRIPTION:https://twitter.com/nhfurbowl\n@NHFurBowl\n\nMonthly NH Furbow
+ l hosted at Strikers East Bowling Center. $10/person\, shoes and bowling i
+ ncluded! (3 hours of Cosmic/glow bowling)
+LAST-MODIFIED:20160823T161741Z
+LOCATION:Strikers East Bowling Center & Function Room\, 4 Essex Rd\, Raymo
+ nd\, NH 03077\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mass FurBowl 48
+DTSTART:20160917T230000Z
+DTEND:20160918T030000Z
+DTSTAMP:20160826T024324Z
+UID:jlbf8p0sif6s4clv8v1bpsauv4@google.com
+SEQUENCE:0
+CREATED:20160822T193438Z
+DESCRIPTION:https://twitter.com/MassFurBowl/status/739455161857376258\n@Ma
+ ssFurBowl\n\nA bowling furmeet down in Cape Cod! Entrance fee is $5 if you
+ 're not bowling and $10 if you are.
+LAST-MODIFIED:20160822T193440Z
+LOCATION:Ryan Family Amusements\, 1067 MA-28\, South Yarmouth\, MA 02664\,
+  USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ramen Meet
+DTSTART:20161009T160000Z
+DTEND:20161009T193000Z
+DTSTAMP:20160826T024324Z
+UID:rqifa3tjf3dcs4fjsb3q6nnhvk@google.com
+SEQUENCE:0
+CREATED:20160818T080538Z
+DESCRIPTION:http://www.furaffinity.net/journal/7717794/\n@VermontFurs\nRSV
+ P.\n\nSunday October 9\nTime: 12pm\nWhere: Gaku Ramen Church Street Burlin
+ gton\nEvent: Eating tasty Ramen at Burlington's newest Ramen Noodle House.
+  *They have more than just Ramen* They accept cash and card.\n\nMenu inclu
+ ding pricing is here: http://gakuramen.com/menu/ \n\nPlease RSVP so we can
+  ensure they have a table space for us: https://www.eventbrite.com/e/gaku-
+ r.....ts-26722701319 \n\nBring your suit there is the potential to suit AF
+ TER we eat ramen.
+LAST-MODIFIED:20160818T080538Z
+LOCATION:Gaku Ramen\, 144 Church St\, Burlington\, VT 05401\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VT Suiting Meet
+DTSTART:20160924T160000Z
+DTEND:20160924T193000Z
+DTSTAMP:20160826T024324Z
+UID:1brfrjnktaqfn8bd0l2r50rads@google.com
+SEQUENCE:0
+CREATED:20160818T080418Z
+DESCRIPTION:http://www.furaffinity.net/journal/7717794/\n@vermontfurs\n\n\
+ nSaturday Sept 24th\nTime: 12pm\nWhere: Church Street Burlington\nEvent: S
+ uiting\, meeting outside Starbucks (potential for food AFTER suiting) Come
+  ready to suit.\n\nBack up in case of rain: TBD
+LAST-MODIFIED:20160818T080418Z
+LOCATION:Starbucks\, Church Street\, Burlington\, VT\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Table Top Gaming Meet
+DTSTART:20160910T153000Z
+DTEND:20160910T193000Z
+DTSTAMP:20160826T024324Z
+UID:707na0ei3gb13blbcips9756bk@google.com
+SEQUENCE:0
+CREATED:20160818T080302Z
+DESCRIPTION:http://www.furaffinity.net/journal/7717794/\n@VermontFurs\nBri
+ ng games!\n\nSaturday September 10th (Tentative)\nTime: 11:30am\nWhere: Br
+ ownell Library\nEvent: Table Top Gaming. Break around 2/2:30 for lunch - u
+ sually Chinese but there is pizza and other things around.\n\nThis meet is
+  tentative\, the library has been undergoing renovations and its contingen
+ t on the completion.\n\nBring games to share!\n
+LAST-MODIFIED:20160818T080302Z
+LOCATION:Brownell Library\, 6 Lincoln St\, Essex Junction\, VT 05452\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pirate Meet
+DTSTART:20160819T160000Z
+DTEND:20160819T183000Z
+DTSTAMP:20160826T024324Z
+UID:ukd3v56jfp8g2s483mj2gbonh0@google.com
+SEQUENCE:0
+CREATED:20160818T075846Z
+DESCRIPTION:http://www.furaffinity.net/journal/7744229/\n@Vermontfurs\n\n\
+ nSaturday August 20th\nTime: 12pm\nWhere: Church Street Burlington\nEvent:
+  Suiting/role-playing as pirates meeting outside Starbucks (potential for 
+ food AFTER suiting) Come ready to suit/pirate.\n\nThis is during the Champ
+ lain maritime celebration\, dressing as pirates encouraged! ARGGGG! No rea
+ l weapons!\n\nBack up if its down pouring is Bowling at Sparetime in Colch
+ ester.
+LAST-MODIFIED:20160818T075846Z
+LOCATION:Starbucks\, Church Street\, Burlington\, VT\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New England Furbowl
+DTSTART:20160820T220000Z
+DTEND:20160821T010000Z
+DTSTAMP:20160826T024324Z
+UID:p3mpsfflegollfoku9n1slingk@google.com
+SEQUENCE:0
+CREATED:20160805T014921Z
+DESCRIPTION:https://twitter.com/xBladeWolfx/status/761368010716225536\n@xB
+ ladeWolfx\nRSVP.\n\n12$/person for 2 games and shoe rental. 6-10pm or when
+  everyone is done. Slider's meet follows!
+LAST-MODIFIED:20160818T022953Z
+LOCATION:Callahan's Bowl-O-Rama\, 2143 Berlin Turnpike\, Newington\, CT 06
+ 111\, USA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sliders Meet
+DTSTART:20160821T010000Z
+DTEND:20160821T023000Z
+DTSTAMP:20160826T024324Z
+UID:hedgnuudqvncg5di9dgjifbl5o@google.com
+SEQUENCE:1
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CREATED:20160805T015158Z
+DESCRIPTION:https://twitter.com/xBladeWolfx/status/761368418734014465\n@xB
+ ladeWolfx\nRSVP on Twitter\n\nSliders meet after the New England Furbowl f
+ or wings and drinks.
+LAST-MODIFIED:20160818T022951Z
+LOCATION:Sliders Grill & Bar\, 197 Episcopal Rd\, Berlin\, CT 06037\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mass FurBowl 47
+DTSTART:20160820T230000Z
+DTEND:20160821T040000Z
+DTSTAMP:20160826T024324Z
+UID:9m87j9np8u3tvqtppnlj845clo@google.com
+SEQUENCE:0
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CREATED:20160606T181527Z
+DESCRIPTION:https://twitter.com/MassFurBowl/status/739455161857376258\n@Ma
+ ssFurBowl\n\nA fun bowl at the cape! Entrance fee is $5 if you're not bowl
+ ing and $10 if you are.
+LAST-MODIFIED:20160816T194908Z
+LOCATION:Ryan Family Amusements\, 1067 MA-28\, South Yarmouth\, MA 02664\,
+  USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PTown Carnival and Parade Meet
+DTSTART:20160818T150000Z
+DTEND:20160819T010000Z
+DTSTAMP:20160826T024324Z
+UID:cohmi3k0cv2obov302oru2fio8@google.com
+SEQUENCE:1
+CREATED:20160802T151100Z
+DESCRIPTION:http://www.furaffinity.net/journal/7691355/\n@nexusfolf
+LAST-MODIFIED:20160816T194744Z
+LOCATION:Jerome Smith Parking Lot\, Jerome Smith Rd\, Provincetown\, MA 02
+ 657\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Maine FurBowl
+DTSTART:20160910T190000Z
+DTEND:20160910T220000Z
+DTSTAMP:20160826T024324Z
+UID:5jvn51ob7tg65vsn4g5415flbk@google.com
+SEQUENCE:0
+CREATED:20160812T002447Z
+DESCRIPTION:http://welcome.mainefurs.org/index.php/calendar/icalrepeat.det
+ ail/2016/09/10/75/-/maine-furbowl\n@Mainefurs\nFollows the BBQ\n\nThis fur
+ bowl is a little bit different from the normal furbowls because of the End
+  of Summer BBQ happening before!
+LAST-MODIFIED:20160812T002447Z
+LOCATION:Yankee Lanes\, 276 Bath Rd\, Brunswick\, ME 04011\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:End of Summer BBQ
+DTSTART:20160910T140000Z
+DTEND:20160910T180000Z
+DTSTAMP:20160826T024324Z
+UID:arne9cen3b1m53uraaa5a7ho2k@google.com
+SEQUENCE:0
+CREATED:20160812T002218Z
+DESCRIPTION:http://welcome.mainefurs.org/index.php/calendar/icalrepeat.det
+ ail/2016/09/10/79/-/maine-furs-end-of-summer-bbq\n@Mainefurs\n\nFursuits: 
+ Recommend only partials as it'll probably be pretty warm that day.\nDon't 
+ forget to stay hydrated and to take your suit off if you start to feel exh
+ austed. \nNo suits on the beach please! And please stay at least 5 feet aw
+ ay from the grill\, don't want to have any fires.
+LAST-MODIFIED:20160812T002218Z
+LOCATION:Thomas Point Beach\, 29 Meadow Rd\, Brunswick\, ME\, United State
+ s
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Buffalo Wild Wings Furmeet
+DTSTART:20160814T000000Z
+DTEND:20160814T023000Z
+DTSTAMP:20160826T024324Z
+UID:3vbek0mr2721ukpvi739jfkkas@google.com
+SEQUENCE:2
+CREATED:20160809T215157Z
+DESCRIPTION:https://calendar.google.com/calendar/render?eid=M3ZiZWswbXIyNz
+ IxdWtwdmk3MzlqZmtrYXMgODZrcnI0ZnZzM2pqYnY0bnNzdGxqNGUydjBAZw&ctz=America/N
+ ew_York&sf=true&output=xml#eventpage_6\n@RIFurs\nRSVP on Facebook\n\nFrom:
+  https://www.facebook.com/events/652923138198991/\n\nWanted wings so I'm m
+ aking it a thing!\n\nCode of conduct for Rhode Island Furmeets can be foun
+ d here: http://www.furaffinity.net/journal/7326890/\n\nPlease RSVP (: \n\n
+ Ears and tails welcome. Fursuits are not recommended as it is a restaurant
+ .
+LAST-MODIFIED:20160810T220727Z
+LOCATION:Buffalo Wild Wings\, 400 Bald Hill Rd Ste E107\, Warwick\, Rhode 
+ Island 02886
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MicroFurCon #3
+DTSTART:20160813T230000Z
+DTEND:20160814T020000Z
+DTSTAMP:20160826T024324Z
+UID:6kkbqnv641ss42o39d43oicp0s@google.com
+SEQUENCE:2
+CREATED:20160614T010058Z
+DESCRIPTION:http://www.microfurcon.com/index.php/event-infomation/\n@Micro
+ furcon\nRSVP\n
+LAST-MODIFIED:20160810T071810Z
+LOCATION:Undisclosed location\, Undisclosed\, Central MA\, MA\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Area Furry Luncheon
+DTSTART;TZID=America/New_York:20160911T130000
+DTEND;TZID=America/New_York:20160911T160000
+DTSTAMP:20160826T024324Z
+UID:op1t7nnen5mhp6obel01r19m6k_R20160911T170000@google.com
+SEQUENCE:0
+RRULE:FREQ=MONTHLY;BYDAY=2SU
+CLASS:PUBLIC
+CREATED:20150618T221748Z
+DESCRIPTION:https://www.furaffinity.net/user/boston-area-furmeets\n@Massfu
+ rs\n2nd Sunday of Every Month
+LAST-MODIFIED:20160809T034016Z
+LOCATION:Pub 99\, 29-31 Austin Street\, Charlestown\, MA 02129\, United St
+ ates
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Area Furry Luncheon
+DTSTART;TZID=America/New_York:20160911T130000
+DTEND;TZID=America/New_York:20160911T160000
+DTSTAMP:20160826T024324Z
+UID:op1t7nnen5mhp6obel01r19m6k_R20160911T170000@google.com
+RECURRENCE-ID;TZID=America/New_York:20160911T130000
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150618T221748Z
+DESCRIPTION:https://www.furaffinity.net/user/boston-area-furmeets\n@Massfu
+ rs\n2nd Sunday of Every Month
+LAST-MODIFIED:20160809T034016Z
+LOCATION:Pub 99\, 29-31 Austin Street\, Charlestown\, MA 02129\, United St
+ ates
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Area Furry Luncheon
+DTSTART;TZID=America/New_York:20160814T130000
+DTEND;TZID=America/New_York:20160814T160000
+DTSTAMP:20160826T024324Z
+UID:op1t7nnen5mhp6obel01r19m6k@google.com
+RECURRENCE-ID;TZID=America/New_York:20160814T130000
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150618T221748Z
+DESCRIPTION:https://www.furaffinity.net/user/boston-area-furmeets\n@Massfu
+ rs\n2nd Sunday of Every Month
+LAST-MODIFIED:20160809T034016Z
+LOCATION:Pub 99\, 29-31 Austin Street\, Charlestown\, MA 02129\, United St
+ ates
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Area Furry Luncheon
+DTSTART;TZID=America/New_York:20150614T130000
+DTEND;TZID=America/New_York:20150614T160000
+DTSTAMP:20160826T024324Z
+UID:op1t7nnen5mhp6obel01r19m6k@google.com
+SEQUENCE:0
+RRULE:FREQ=MONTHLY;UNTIL=20160911T165959Z;BYDAY=2SU
+CLASS:PUBLIC
+CREATED:20150618T221748Z
+DESCRIPTION:https://www.furaffinity.net/user/boston-area-furmeets\n@Massfu
+ rs\n2nd Sunday of Every Month
+LAST-MODIFIED:20160809T034016Z
+LOCATION:Pub 99\, 29-31 Austin Street\, Charlestown\, MA 02129\, United St
+ ates
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Furpocalypse
+DTSTART;VALUE=DATE:20161028
+DTEND;VALUE=DATE:20161031
+DTSTAMP:20160826T024324Z
+UID:h6ppl0nioavie5livtc6fn5euk@google.com
+SEQUENCE:0
+CREATED:20160802T151305Z
+DESCRIPTION:http://www.furpocalypse.org/\n@FurpocalypseInc\nCON!
+LAST-MODIFIED:20160804T225021Z
+LOCATION:Radisson Hotel Cromwell\, 100 Berlin Rd\, Cromwell\, CT 06416\, U
+ SA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Anthro New England 2017
+DTSTART;VALUE=DATE:20170119
+DTEND;VALUE=DATE:20170123
+DTSTAMP:20160826T024324Z
+UID:qquikr0stsp6eu88h6l0kb2ucg@google.com
+SEQUENCE:1
+CREATED:20160802T151432Z
+DESCRIPTION:http://www.anthronewengland.com/\n@Antrho_NE\nCON!
+LAST-MODIFIED:20160804T224954Z
+LOCATION:Hyatt Regency Cambridge Overlooking Boston\, 575 Memorial Dr\, Ca
+ mbridge\, MA 02139\, USA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NH Furbowl
+DTSTART:20160916T230000Z
+DTEND:20160917T030000Z
+DTSTAMP:20160826T024324Z
+UID:s9l2oh0b4t76eg2luv7n7mhhbc@google.com
+SEQUENCE:0
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CREATED:20160607T003439Z
+DESCRIPTION:https://twitter.com/nhfurbowl\n@NHFurbowl\n\nMonthly NH Furbow
+ l hosted by Strikers East Bowling Center.\n$10/person\, shoes and bowling 
+ included! (3 hours of Cosmic/glow bowling)\n[RSVP] @NHFurbowl on twitter
+LAST-MODIFIED:20160804T223544Z
+LOCATION:Strikers East Bowling Center & Function Room\, 4 Essex Rd\, Raymo
+ nd\, NH 03077\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furbowl
+DTSTART:20160903T230000Z
+DTEND:20160904T020000Z
+DTSTAMP:20160826T024324Z
+UID:hjv893r3ukuv615frn4klagg9c@google.com
+SEQUENCE:0
+CREATED:20160802T164957Z
+DESCRIPTION:http://www.furaffinity.net/user/rhodeislandfurs/\n@RIFurs
+LAST-MODIFIED:20160804T223207Z
+LOCATION:East Providence Lanes\, 80 Newport Ave\, Rumford\, RI 02916\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auburn Meet and Greet then Eat
+DTSTART:20160819T210000Z
+DTEND:20160820T000000Z
+DTSTAMP:20160826T024324Z
+UID:ecj6bl5q9a6ta4qln4715cu37o@google.com
+SEQUENCE:0
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CREATED:20160425T230441Z
+DESCRIPTION:https://www.google.com/calendar/event?eid=ZWNqNmJsNXE5YTZ0YTRx
+ bG40NzE1Y3UzN28gODZrcnI0ZnZzM2pqYnY0bnNzdGxqNGUydjBAZw&ctz=America/New_Yor
+ k\n@blackdruidwolf\n\nFacebook: https://www.facebook.com/events/1713795275
+ 572580/\n\nThis date is subject to change but hopefully will stick!\n\nDat
+ e: Friday 08/19/2016\nTime: 5:00+\nPlace: Starting at Rocket Land Park in 
+ Auburn 5 Brayman St Auburn\, Massachusetts 01501\nthen ending with Ice Cre
+ am/Dinner at Ronnies Seafood and Ice Cream a really yummy spot that's clos
+ e by!\n\nThis is a very casual meet for furs to hang out and get to know o
+ ne another.\nTo avoid the Mass Pike\, take Rt 20\, you'll have lights but 
+ no traffic jams!\nYou may wear a fursuit but remember...\n\n1. Prepare for
+  hot or cooler weather\n2. We want to see your faces!\nTails and Ears are 
+ always welcome.\n\nPlease be respectful of the boundaries of others and he
+ lp us keep the fandom looking good :)\nBring outdoor games to play if you 
+ wish! The park is perfect for kite flying and Frisbee tossing!\nIf you wou
+ ld like to bring food to share\, please do!\n\nDogs are welcome too (as lo
+ ng as friendly)! \nThere are big blue trash bins for da poops :P\nBring Ch
+ airs\, food\, blankets\, outside games\, etc...\n\nAt Rocket Land Park in 
+ Auburn we close to the entrance by the track under the 2 big trees.
+LAST-MODIFIED:20160804T221022Z
+LOCATION:Lemansky Park\, 22 Brayman St\, Auburn\, MA 01501\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Roller Derby Meet
+DTSTART:20160820T210000Z
+DTEND:20160821T000000Z
+DTSTAMP:20160826T024324Z
+UID:kb2fepdp74l7jkefj8rsa0qsrc@google.com
+SEQUENCE:0
+CREATED:20160728T160600Z
+DESCRIPTION:https://www.facebook.com/events/364853540305274/\n@Shane_Deepw
+ ood\n\n\nStory time! Karmas friend is part of a roller derby team\, the we
+ stern mass furies. Long story short their next event their name for messed
+  up in the program and it was put they are the furries. So we thought it w
+ ould be hilarious to have a bunch of us show up in suit to go cheer the te
+ am on. We have gotten the ok from her friend that we can do this. We will 
+ be making signs to help cheer the team on. FURSUITING IS HIGHLY ENCOURAGED
+ !!!! \n\nDetails: Location 202 Sports Complex in Orange\, MA. Doors at 5\,
+  first whistle at 6. Tickets $10 for adults\, available at the door or onl
+ ine (will put link when I have). Bring your own chair. Bake sale and conce
+ ssions on site.\n\nYes this is during the mass furbowl time but it's close
+  to CT so all you ct furs can join us!\n\nThis is a public event so please
+  be on your best behavior and represent the fandom well!
+LAST-MODIFIED:20160804T220918Z
+LOCATION:202 Sports Complex\, 207 Daniel Shays Hwy\, Orange\, MA 01364\, U
+ SA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furbowl
+DTSTART:20160806T230000Z
+DTEND:20160807T010000Z
+DTSTAMP:20160826T024324Z
+UID:imp4bpmfoi9n238pc6likr9lu8@google.com
+SEQUENCE:2
+CREATED:20160606T182216Z
+DESCRIPTION:https://twitter.com/RIFurs/status/739882162644623360\n@RIFurs\
+ n\nA Fun bowl every month in RI\, usually followed by dinner
+LAST-MODIFIED:20160804T215745Z
+LOCATION:East Providence Lanes\, 80 Newport Ave\, Rumford\, RI 02916\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee House Meet
+DTSTART;TZID=America/New_York:20150411T170000
+DTEND;TZID=America/New_York:20150411T200000
+DTSTAMP:20160826T024324Z
+UID:nclblrns1v33ijbt4asj2rljl8@google.com
+SEQUENCE:0
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CLASS:PUBLIC
+CREATED:20150411T151702Z
+DESCRIPTION:http://www.furaffinity.net/journal/6641367/\n@NHFurs\nEvery Sa
+ turday.
+LAST-MODIFIED:20160804T212523Z
+LOCATION:True Brew Barista\, 3 Bicentennial Square\, Concord\, NH 03301\, 
+ United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Furry Karaoke
+DTSTART:20160807T223000Z
+DTEND:20160808T030000Z
+DTSTAMP:20160826T024324Z
+UID:hidh5fpo8eu2alk1v2c0p0ggto@google.com
+SEQUENCE:0
+CREATED:20160729T015731Z
+DESCRIPTION:https://twitter.com/jynx_panda/status/758769692899237888\n@jyn
+ x_panda\nFursuits Welcome\n$7 Cover Charge
+LAST-MODIFIED:20160804T212514Z
+LOCATION:Jitto's Super Steak\, 3131 Lafayette Rd\, Portsmouth\, NH 03801\,
+  USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Diner Meet
+DTSTART;TZID=America/New_York:20160805T190000
+DTEND;TZID=America/New_York:20160805T230000
+DTSTAMP:20160826T024324Z
+UID:urfdv4an2498ofussrkgo8cvus_R20160805T230000@google.com
+SEQUENCE:1
+RRULE:FREQ=MONTHLY;BYDAY=1FR
+CLASS:PUBLIC
+CREATED:20150317T180011Z
+DESCRIPTION:http://newenglandfurs.livejournal.com/427549.html\n@CTFurs\n\n
+ 7pm is a recommended start time. The diner is open 24/7\, so the event con
+ tinues until whenever. The diner does serve alcohol if desired. Fursuits a
+ re welcome. First Friday of every month\, no exceptions.
+LAST-MODIFIED:20160804T212435Z
+LOCATION:Town Line Diner\, 80 Town Line Road #17\, Rocky Hill\, CT 06067\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Diner Meet
+DTSTART;TZID=America/New_York:20160805T190000
+DTEND;TZID=America/New_York:20160805T230000
+DTSTAMP:20160826T024324Z
+UID:urfdv4an2498ofussrkgo8cvus_R20160805T230000@google.com
+RECURRENCE-ID;TZID=America/New_York:20160805T190000
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150317T180011Z
+DESCRIPTION:http://newenglandfurs.livejournal.com/427549.html\n@CTFurs\n\n
+ 7pm is a recommended start time. The diner is open 24/7\, so the event con
+ tinues until whenever. The diner does serve alcohol if desired. Fursuits a
+ re welcome. First Friday of every month\, no exceptions.
+LAST-MODIFIED:20160804T212435Z
+LOCATION:Town Line Diner\, 80 Town Line Road #17\, Rocky Hill\, CT 06067\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Diner Meet
+DTSTART;TZID=America/New_York:20160708T190000
+DTEND;TZID=America/New_York:20160708T230000
+DTSTAMP:20160826T024324Z
+UID:urfdv4an2498ofussrkgo8cvus@google.com
+RECURRENCE-ID;TZID=America/New_York:20160701T190000
+SEQUENCE:2
+CLASS:PUBLIC
+CREATED:20150317T180011Z
+DESCRIPTION:http://newenglandfurs.livejournal.com/427549.html\n@CTFurs\n\n
+ 7pm is a recommended start time. The diner is open 24/7\, so the event con
+ tinues until whenever. The diner does serve alcohol if desired. Fursuits a
+ re welcome. First Friday of every month\, no exceptions.
+LAST-MODIFIED:20160804T212435Z
+LOCATION:Town Line Diner\, 80 Town Line Road #17\, Rocky Hill\, CT 06067\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Diner Meet
+DTSTART;TZID=America/New_York:20160212T190000
+DTEND;TZID=America/New_York:20160212T230000
+DTSTAMP:20160826T024324Z
+UID:urfdv4an2498ofussrkgo8cvus@google.com
+RECURRENCE-ID;TZID=America/New_York:20160205T190000
+SEQUENCE:2
+CLASS:PUBLIC
+CREATED:20150317T180011Z
+DESCRIPTION:http://newenglandfurs.livejournal.com/427549.html\n@CTFurs\n\n
+ 7pm is a recommended start time. The diner is open 24/7\, so the event con
+ tinues until whenever. The diner does serve alcohol if desired. Fursuits a
+ re welcome. First Friday of every month\, no exceptions.
+LAST-MODIFIED:20160804T212435Z
+LOCATION:Town Line Diner\, 80 Town Line Road #17\, Rocky Hill\, CT 06067\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Diner Meet
+DTSTART;TZID=America/New_York:20160108T190000
+DTEND;TZID=America/New_York:20160108T230000
+DTSTAMP:20160826T024324Z
+UID:urfdv4an2498ofussrkgo8cvus@google.com
+RECURRENCE-ID;TZID=America/New_York:20160101T190000
+SEQUENCE:2
+CLASS:PUBLIC
+CREATED:20150317T180011Z
+DESCRIPTION:http://newenglandfurs.livejournal.com/427549.html\n@CTFurs\n\n
+ 7pm is a recommended start time. The diner is open 24/7\, so the event con
+ tinues until whenever. The diner does serve alcohol if desired. Fursuits a
+ re welcome. First Friday of every month\, no exceptions.
+LAST-MODIFIED:20160804T212435Z
+LOCATION:Town Line Diner\, 80 Town Line Road #17\, Rocky Hill\, CT 06067\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Diner Meet
+DTSTART;TZID=America/New_York:20151106T190000
+DTEND;TZID=America/New_York:20151106T230000
+DTSTAMP:20160826T024324Z
+UID:urfdv4an2498ofussrkgo8cvus@google.com
+RECURRENCE-ID;TZID=America/New_York:20151106T190000
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150317T180011Z
+DESCRIPTION:http://newenglandfurs.livejournal.com/427549.html\n@CTFurs\n\n
+ 7pm is a recommended start time. The diner is open 24/7\, so the event con
+ tinues until whenever. The diner does serve alcohol if desired. Fursuits a
+ re welcome. First Friday of every month\, no exceptions.
+LAST-MODIFIED:20160804T212435Z
+LOCATION:Town Line Diner\, 80 Town Line Road #17\, Rocky Hill\, CT 06067\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Diner Meet
+DTSTART;TZID=America/New_York:20150403T190000
+DTEND;TZID=America/New_York:20150403T230000
+DTSTAMP:20160826T024324Z
+UID:urfdv4an2498ofussrkgo8cvus@google.com
+SEQUENCE:1
+RRULE:FREQ=MONTHLY;UNTIL=20160805T225959Z;BYDAY=1FR
+CLASS:PUBLIC
+CREATED:20150317T180011Z
+DESCRIPTION:http://newenglandfurs.livejournal.com/427549.html\n@CTFurs\n\n
+ 7pm is a recommended start time. The diner is open 24/7\, so the event con
+ tinues until whenever. The diner does serve alcohol if desired. Fursuits a
+ re welcome. First Friday of every month\, no exceptions.
+LAST-MODIFIED:20160804T212435Z
+LOCATION:Town Line Diner\, 80 Town Line Road #17\, Rocky Hill\, CT 06067\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Maine State Furbowl
+DTSTART;TZID=America/New_York:20160312T140000
+DTEND;TZID=America/New_York:20160312T210000
+DTSTAMP:20160826T024324Z
+UID:4ahqc8lahjhmmvg9bekjronupo_R20160312T190000@google.com
+SEQUENCE:2
+CLASS:PUBLIC
+CREATED:20151001T010335Z
+DESCRIPTION:http://www.furaffinity.net/journal/7075907/\n\nMaine State Fur
+ bowl ( date may change )\nThe Second Saturday of every month\nPresented an
+ d hosted by: Novar Lynx (@novarlynx[🐦])\nFurbowl at Spare Time Recreati
+ on! Arrival at 2:00 PM. \nFursuits: Welcomed and encouraged!
+LAST-MODIFIED:20160804T200612Z
+LOCATION:Yankee Lanes\, 276 Bath Road\, Brunswick\, ME 04011\, United Stat
+ es
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Laser Tag Meet
+DTSTART:20160729T220000Z
+DTEND:20160730T030000Z
+DTSTAMP:20160826T024324Z
+UID:uctsfd24473s0kpvj528kudhgc@google.com
+SEQUENCE:0
+CREATED:20160725T034216Z
+DESCRIPTION:This is a fursuit free event.\n\nAll you can play starting wit
+ h first game at 6:30\n\n$25 to play 6 sessions and you get $5 for the game
+ s there. We are guaranteed at least 2 games. Other games may vary based on
+  how many people are there. \n\nI'll be throwing a reservation together la
+ ter that day to reserve us space. \n\nhttp://www.lasercraze.us/directions-
+ Westborough/\n\nhttps://www.facebook.com/events/290304861320367/\n\n@Shane
+ _Deepwood
+LAST-MODIFIED:20160725T034226Z
+LOCATION:LaserCraze\, 166 Milk St\, Westborough\, MA 01581\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Woobowl 
+DTSTART:20160722T220000Z
+DTEND:20160723T030000Z
+DTSTAMP:20160826T024324Z
+UID:c9hjge9i64om6b9ocdhjeb9k6ks68bb26ooj0b9j61i64c346spj6ob26g@google.com
+SEQUENCE:0
+CREATED:20160722T191617Z
+DESCRIPTION:Hosted by @NishaBlueFloof on Twitter
+LAST-MODIFIED:20160722T191617Z
+LOCATION:Mohegan Bowl\, 51 Thompson Rd\, Webster\, MA 01570\, United State
+ s
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Beach Meet 2016 Turbo Edition
+DTSTART:20160716T150000Z
+DTEND:20160716T190000Z
+DTSTAMP:20160826T024324Z
+UID:d2ptj6ebg7ckf96v7but3q7blo@google.com
+SEQUENCE:0
+CREATED:20160715T204443Z
+DESCRIPTION:Meet across from Kelly's\nhttps://twitter.com/zikotter/status/
+ 753666774768517121
+LAST-MODIFIED:20160715T204443Z
+LOCATION:Kelly's Roast Beef\, 410 Revere Beach Blvd\, Revere\, MA 02151\, 
+ USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/ODZrcnI0ZnZzM
+ 2pqYnY0bnNzdGxqNGUydjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.d2ptj6ebg7ckf96v
+ 7but3q7blo
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ri Furs Pre-Furbowl Park Meet
+DTSTART:20160709T200000Z
+DTEND:20160709T230000Z
+DTSTAMP:20160826T024324Z
+UID:7p5obkhqvf0bkji9lrm736l7i8@google.com
+SEQUENCE:1
+CREATED:20160708T173815Z
+DESCRIPTION:http://www.furaffinity.net/journal/7603177/
+LAST-MODIFIED:20160708T173847Z
+LOCATION:Slater Park\, RR 1A\, Pawtucket\, RI 02860\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mini Golf at Pirate's Cove
+DTSTART:20160716T180000Z
+DTEND:20160716T210000Z
+DTSTAMP:20160826T024324Z
+UID:jqb2igm85epdb2oirechbarlt4@google.com
+SEQUENCE:0
+CREATED:20160708T164917Z
+DESCRIPTION:http://welcome.mainefurs.org/index.php/calendar/icalrepeat.det
+ ail/2016/07/16/78/-/mini-golf-at-pirate-s-cove
+LAST-MODIFIED:20160708T164917Z
+LOCATION:Pirate's Cove Adventure Golf\, 70 1st St\, Old Orchard Beach\, ME
+  04064\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Denny's Meet
+DTSTART:20160708T233000Z
+DTEND:20160709T020000Z
+DTSTAMP:20160826T024324Z
+UID:g71b7kodu8pomu57hk9s1vl3mo@google.com
+SEQUENCE:0
+CREATED:20160708T164812Z
+DESCRIPTION:https://twitter.com/RIFurs/status/751373969756942336
+LAST-MODIFIED:20160708T164817Z
+LOCATION:Denny's\, 444 Quaker Ln #5\, Warwick\, RI 02886\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Woo Bowl #5
+DTSTART:20160617T220000Z
+DTEND:20160618T010000Z
+DTSTAMP:20160826T024324Z
+UID:k18p2kedrbdmbgm8e69t2glg4c@google.com
+SEQUENCE:0
+CREATED:20160617T000553Z
+DESCRIPTION:https://www.facebook.com/events/1808809359350205/\n\nAfter a b
+ reak in May the central mass bowl is back!\n\nRemember\, it's been moved t
+ o a new venue! The new venue is the Mohegan Bowl at 51 Thompson Road in We
+ bster Mass. This location is candlepin (aka small balls). The Bowl will be
+  Friday\, June 17 from 6-9 PM.\n\n$10 to bowl\, which includes shoes\, for
+  3 hours of unlimited bowling (that's like $3\, a game \;p). $5 cover char
+ ge if you're not bowling. No feetpaws on lanes! The owner doesn't want us 
+ falling (and suing). If you bowl\, make sure you get shoes. Your bowling c
+ ost includes the shoes\, just go to the counter and say you're with the gr
+ oup.\n\nNow...the best part about this: we have a MASSIVE area to use as a
+  headless lounge. There's a restaurant/bar attached to the alley that hasn
+ 't been used in some time. The owner has agreed to let us use that as our 
+ headless lounge and he will put down tables and chairs for people to use f
+ or games and hanging out\, to keep foot traffic by the lanes clear. We'll 
+ have access to five lanes closest to this area\, and there are bathrooms d
+ irectly next to the bar as well. All he asks is if you use the space to ha
+ ng out you get a snack and drink. They have everything from chicken finger
+ s and fries\, popcorn\, pizza\, pretzels\, slushies\, soda\, and a variety
+  of brews on tap. I'm thrilled we get to have such a large space for hangi
+ ng out so I ask you please be courteous and clean up after yourselves in t
+ here (no fur tumbleweeds n stuff). There's also a large game room (a la th
+ e Cape Bowl's) with redemption area.\n\nWhen you arrive remember to find m
+ e to check in and pay\, and fill out our log book. I'll be wearing my Nish
+ a tail so I should be easy to spot.\n\nAfter the bowl there's a number of 
+ food options in the area\, a number of them fast food. Last bowl two group
+ s went out\, one to Mexicali grill and the other to Wind Tiki for Chinese.
+  Both are very good and decently priced. I haven't decided which will be t
+ he "official" spot post bowl\, but if a group is planning to go calling ah
+ ead is reccommended.\n\nThis is a very popular site for families\, so be r
+ espectful and watch your boundaries. If you are suiting\, let them approac
+ h you to interact. Don't go hounding them (no pun intended\, honest!). The
+  manager and staff loved us last time\, let's keep our new home!\n\n\nIf I
+ 've missed anything please tell me! Hope to see you there!
+LAST-MODIFIED:20160617T000553Z
+LOCATION:Mohegan Bowl\, 51 Thompson Rd\, Webster\, MA 01570\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Annual Vermont Furs BBQ
+DTSTART:20160730T160000Z
+DTEND:20160730T200000Z
+DTSTAMP:20160826T024324Z
+UID:renbaerpclm8ncnmpmbag27dag@google.com
+SEQUENCE:1
+CREATED:20160616T212305Z
+DESCRIPTION:http://www.furaffinity.net/journal/7637190/\n\nSaturday July 3
+ 0\nWhat Annual Vermont Furs BBQ\nTime: 12:00\nWhere: North Beach Burlingto
+ n\, VT\nCost: $8 per person (current estimate not including parking)\n\nNo
+ rth Beach (60 Institute Road) is our meeting spot for a day of fun and exc
+ itement. Come one\, come all\, bring a guest\, and hang loose. This is goi
+ ng to be epic!\n\nFull BBQ Lunch to be provided (Hot Dogs\, Hamburgers\, S
+ oda\, Chips\, Condiments\, Dessert) If you want to bring a dish please do!
+  Frisbee\, swimming\, and good times await you. Kayaks and boat rental ava
+ ilable for an additional charge. Feel free to bring stuff like balls\, bad
+ mittten etc. \n\n21+ with ID can bring your own booze as long as its not i
+ n a glass container . \n\nThere will be additional fee of $6 for Burlingto
+ n Residents $8 for non residents for parking (this is collected by Burling
+ ton Parks and Rec at the park gates) Do not park at Burlington High School
+  it is a tow zone and it will be at your expense. By purchasing a ticket y
+ ou are attending the event at your own risk\, Vermont Furs is not responsi
+ ble for injuries\, death\, food poisoning\, or car towing expenses. Additi
+ onally if you bring a guest you are responsible for them.\n\nRain date is 
+ 8/6/16. In the event of a complete wash out\, folks will be issued refunds
+ .\n\nWe will be posting a separate journal the first week in July for peop
+ le to start prepaying for the event. \n\nWE WILL NOT BE TAKING PAYMENT AT 
+ THE EVENT!
+LAST-MODIFIED:20160616T212317Z
+LOCATION:60 Institute Rd\, Burlington\, VT 05408\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Post-AC Hampton Beach Meet
+DTSTART:20160709T150000Z
+DTEND:20160709T180000Z
+DTSTAMP:20160826T024324Z
+UID:r7tlk55jcao7jp8701r3poorb0@google.com
+SEQUENCE:0
+CREATED:20160616T211602Z
+DESCRIPTION:http://www.furaffinity.net/journal/7635630/
+LAST-MODIFIED:20160616T211602Z
+LOCATION:A Street\, A St\, Hampton\, NH 03842\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Micro Fur Con
+DTSTART:20160611T230000Z
+DTEND:20160612T020000Z
+DTSTAMP:20160826T024324Z
+UID:d2nobrb46hkbl3uftvcnep0hv0@google.com
+SEQUENCE:1
+CREATED:20160403T223923Z
+DESCRIPTION:
+LAST-MODIFIED:20160611T214151Z
+LOCATION:
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: NH Furbowl
+DTSTART:20160715T230000Z
+DTEND:20160716T030000Z
+DTSTAMP:20160826T024324Z
+UID:0q8o4vh42oi0s5tmtkufvn0118@google.com
+SEQUENCE:0
+CREATED:20160607T003343Z
+DESCRIPTION:Monthly NH Furbowl hosted by Strikers East Bowling Center.\n$1
+ 0/person\, shoes and bowling included! (3 hours of Cosmic/glow bowling)\n[
+ RSVP] @NHFurbowl on twitter
+LAST-MODIFIED:20160607T003343Z
+LOCATION:Strikers East Bowling Center & Function Room\, 4 Essex Rd\, Raymo
+ nd\, NH 03077\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: NH Furbowl
+DTSTART:20160617T230000Z
+DTEND:20160618T030000Z
+DTSTAMP:20160826T024324Z
+UID:41t7aulq07r89g967h8lgec7l0@google.com
+SEQUENCE:0
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CREATED:20160324T023520Z
+DESCRIPTION:Monthly NH Furbowl hosted by Strikers East Bowling Center.\n$1
+ 0/person\, shoes and bowling included! (3 hours of Cosmic/glow bowling)
+LAST-MODIFIED:20160606T181457Z
+LOCATION:Strikers East Bowling Center & Function Room\, 4 Essex Rd\, Raymo
+ nd\, NH 03077\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auburn Meet and Greet then Eat
+DTSTART:20160624T210000Z
+DTEND:20160625T000000Z
+DTSTAMP:20160826T024324Z
+UID:cmj8e3rlcijkp4u1t5qfge3gfs@google.com
+SEQUENCE:0
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CREATED:20160425T230233Z
+DESCRIPTION:Hosted by: @blackdruidwolf\n\nFacebook: https://www.facebook.c
+ om/events/984058528341933/\nThis date is subject to change but hopefully w
+ ill stick!\n\nDate: Friday May 27th 2016\nTime: 5:00+\nPlace: Starting at 
+ Rocket Land Park in Auburn 5 Brayman St Auburn\, Massachusetts 01501\nthen
+  ending with Ice Cream/Dinner at Ronnies Seafood and Ice Cream a really yu
+ mmy spot that's close by!\n\nThis is a very casual meet for furs to hang o
+ ut and get to know one another.\nTo avoid the Mass Pike\, take Rt 20\, you
+ 'll have lights but no traffic jams!\nYou may wear a fursuit but remember.
+ ..\n\n1. Prepare for hot or cooler weather\n2. We want to see your faces!\
+ nTails and Ears are always welcome.\n\nPlease be respectful of the boundar
+ ies of others and help us keep the fandom looking good :)\nBring outdoor g
+ ames to play if you wish! The park is perfect for kite flying and Frisbee 
+ tossing!\nIf you would like to bring food to share\, please do!\n\nDogs ar
+ e welcome too (as long as friendly)! \nThere are big blue trash bins for d
+ a poops :P\nBring Chairs\, food\, blankets\, outside games\, etc...\n\nAt 
+ Rocket Land Park in Auburn we close to the entrance by the track under the
+  2 big trees.
+LAST-MODIFIED:20160606T181355Z
+LOCATION:Lemansky Park\, 22 Brayman St\, Auburn\, MA 01501\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MassFurBowl
+DTSTART:20160723T230000Z
+DTEND:20160724T040000Z
+DTSTAMP:20160826T024324Z
+UID:rtrdcgbo8k6j3b64h0el697198@google.com
+SEQUENCE:0
+CREATED:20160606T181319Z
+DESCRIPTION:https://twitter.com/MassFurBowl/status/739455161857376258
+LAST-MODIFIED:20160606T181319Z
+LOCATION:Ryan Family Amusements\, 1067 MA-28\, South Yarmouth\, MA 02664\,
+  USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Sonic meet
+DTSTART:20160612T180000Z
+DTEND:20160612T200000Z
+DTSTAMP:20160826T024324Z
+UID:j77h4utildv42sfu003ofeoq9g@google.com
+SEQUENCE:0
+CREATED:20160606T023733Z
+DESCRIPTION:http://www.furaffinity.net/journal/7620238/
+LAST-MODIFIED:20160606T023741Z
+LOCATION:Sonic Drive In\, 393 Putnam Pike\, Smithfield\, RI 02917\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ANE Pre-Reg Opens
+DTSTART:20160603T160000Z
+DTSTAMP:20160826T024324Z
+UID:5fcjidcqonr2neams2ap9gu05k@google.com
+SEQUENCE:0
+CREATED:20160602T234747Z
+DESCRIPTION:http://www.anthronewengland.com/
+LAST-MODIFIED:20160602T234747Z
+LOCATION:http://www.anthronewengland.com/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furbowl 52
+DTSTART:20160709T230000Z
+DTEND:20160710T010000Z
+DTSTAMP:20160826T024324Z
+UID:83sc31n4e8rqf097kjsnte3prs@google.com
+SEQUENCE:0
+CREATED:20160602T234139Z
+DESCRIPTION:http://www.furaffinity.net/user/rhodeislandfurs/
+LAST-MODIFIED:20160602T234139Z
+LOCATION:East Providence Lanes\, 80 Newport Ave\, Rumford\, RI 02916\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breakfast at JP's [RSVP]
+DTSTART:20160612T150000Z
+DTEND:20160612T180000Z
+DTSTAMP:20160826T024324Z
+UID:p06s0urrdg9p3e1hpru0fa6ljc@google.com
+SEQUENCE:1
+CREATED:20160425T231425Z
+DESCRIPTION:https://www.eventbrite.com/e/vt-furs-breakfast-at-jps-tickets-
+ 25820754572\nRSVP\n\nThey accept cash or card\, and serve both lunch and b
+ reakfast.\n
+LAST-MODIFIED:20160602T233951Z
+LOCATION:JP's Restaurant & Deli\, 39 River Rd #1\, Essex Junction\, VT 054
+ 52\, USA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ri Furs Pre-Furbowl Park Meet
+DTSTART:20160611T190000Z
+DTEND:20160611T220000Z
+DTSTAMP:20160826T024324Z
+UID:dimpcap9u98gbt623cr11qsfsc@google.com
+SEQUENCE:0
+CREATED:20160602T232347Z
+DESCRIPTION:http://www.furaffinity.net/journal/7603177/
+LAST-MODIFIED:20160602T232440Z
+LOCATION:Slater Park\, RR 1A\, Pawtucket\, RI 02860\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furbowl 51
+DTSTART:20160611T220000Z
+DTEND:20160612T010000Z
+DTSTAMP:20160826T024324Z
+UID:4i05vn5kdl96o7pv2n99hkgmf8@google.com
+SEQUENCE:0
+CREATED:20160602T232435Z
+DESCRIPTION:http://www.furaffinity.net/journal/7603181/
+LAST-MODIFIED:20160602T232435Z
+LOCATION:East Providence Lanes\, 80 Newport Ave\, Rumford\, RI 02916\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:North Attleboro Strut Your Mutt Charity Event
+DTSTART:20160618T140000Z
+DTEND:20160618T190000Z
+DTSTAMP:20160826T024324Z
+UID:6sr3edr5c4o3eb9i70q66b9k75h38b9p68rjeb9jc8pjgohkcksm6c9mc8@google.com
+SEQUENCE:0
+CREATED:20160524T193753Z
+DESCRIPTION:LOCAL FURS: UPCOMING CHARITY EVENT\n\nNorth Attleboro Strut Yo
+ ur Mutt Event\n\nJune 18th 10am-3pm\n\nSee link for details\n\nhttps://t.c
+ o/wfOEaJ5Ln6
+LAST-MODIFIED:20160524T193753Z
+LOCATION:North Attleboro High School\, 1 Wilson Whitty Way\, North Attlebo
+ rough\, MA 02760\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NE Furs Billiards Meet
+DTSTART:20160709T230000Z
+DTEND:20160710T020000Z
+DTSTAMP:20160826T024324Z
+UID:96mb09bukct3ilja9c8kb1ddik@google.com
+SEQUENCE:0
+CREATED:20160520T181950Z
+DESCRIPTION:https://www.facebook.com/events/1190241701000654/\n\nComing ba
+ ck from AC and wanna keep the fun going? Not going to AC and bummed cause 
+ there's nothing to do? Well have no fear\, because the next NE Furs Billia
+ rds Meet will closely follow the 4th of July holiday!\n\nEver play pool in
+  your fursuit? Want to? Then come down to the New England Furs fursuit bil
+ liards meet! You don't need a fursuit to come and play though.....anything
+  is welcome :) There will be fans available to coll down the suiters\, as 
+ well as cold ice water too.\n\nThere is a bar on the premises and alcohol 
+ will be available for an additional fee.....as well as food for an additio
+ nal fee.\n\nThere is a small game room and if you would like tokens for th
+ e game room\, go see the front desk. Part of the deal we get is for game r
+ oom tokens as well from 7pm until 10pm.\n\nIt's 15.95 per person. That inc
+ ludes 3 hours of pool\, soft drinks\, coffee\, tea\, and game room tokens\
+ n\nAfter the meet is over\, there is plenty of options for food in the are
+ a. Most of us go over to Denny's a couple blocks away\, but now there is a
+  new Ihop that just opened not too far away. There is also a Buffalo Wild 
+ Wings there now too. I will create a poll with some options for food\, and
+  you can vote for your choice. Winning choice will be where we go for food
+ . \n\nThe meet ends at 10pm\, please do not hang around the billiards area
+  for too long after 10pm or the people that are hanging around will be cha
+ rged for another hour of pool at regular price. You are free to do so if y
+ ou choose\, or you can hang around the arcade area. Again we will be going
+  for food afterwards\, but you may choose not to do that too if you like. 
+ \n\nLocation : Shooters Billiards and Arcade\n50 Spring Street\, Southingt
+ on CT\n\nDate : July 9\, 2016\nTime : 7pm-10pm (please arrive around 6:30 
+ to allow time to collect the money and also suit up\, we start promptly at
+  7pm and end promptly at 10pm)\nCost : 15.95$ per person
+LAST-MODIFIED:20160520T181950Z
+LOCATION:Shooters Billiards & Arcade\, 50 Spring St\, Southington\, CT 064
+ 89\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auburn Meet and Greet then Eat
+DTSTART:20160521T170000Z
+DTEND:20160521T200000Z
+DTSTAMP:20160826T024324Z
+UID:hdtp17nafchng8u6lic3u0f24g@google.com
+SEQUENCE:2
+CREATED:20160425T230056Z
+DESCRIPTION:Hosted by: @blackdruidwolf\n\nFacebook: https://www.facebook.c
+ om/events/523151201200921/\n\nThis date is subject to change but hopefully
+  will stick!\n\nDate: Saturday May 21st 2016\nTime: 1:00pm\nPlace: Startin
+ g at Rocket Land Park in Auburn 5 Brayman St Auburn\, Massachusetts 01501\
+ nthen ending at Crystal Caves Family Entertainment Center for mini golf an
+ d food!\n\nThis is a very casual meet for furs to hang out and get to know
+  one another.\nTo avoid the Mass Pike\, take Rt 20\, you'll have lights bu
+ t no traffic jams!\nYou may wear a fursuit but remember...\n\n1. Prepare f
+ or hot or cooler weather\n2. We want to see your faces!\nTails and Ears ar
+ e always welcome.\n\nPlease be respectful of the boundaries of others and 
+ help us keep the fandom looking good :)\nBring outdoor games to play if yo
+ u wish! The park is perfect for kite flying and Frisbee tossing!\nIf you w
+ ould like to bring food to share\, please do!\n\nDogs are welcome too (as 
+ long as friendly)! \nThere are big blue trash bins for da poops :P\nBring 
+ Chairs\, food\, blankets\, outside games\, etc...\n\nAt Rocket Land Park i
+ n Auburn we close to the entrance by the track under the 2 big trees.
+LAST-MODIFIED:20160520T170734Z
+LOCATION:Lemansky Park\, 22 Brayman St\, Auburn\, MA 01501\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Maine Furs Spontaneous Minimeet
+DTSTART:20160521T220000Z
+DTEND:20160522T010000Z
+DTSTAMP:20160826T024324Z
+UID:9j0kjqb4vk3si4o6ubpiiqhr20@google.com
+SEQUENCE:1
+CREATED:20160520T170459Z
+DESCRIPTION:http://welcome.mainefurs.org/index.php/calendar/icalrepeat.det
+ ail/2016/05/21/63/-/northern-maine-furs-spontaneous-mini-meet
+LAST-MODIFIED:20160520T170507Z
+LOCATION:Jade Palace Restaurant\, 30 Skyway Dr\, Caribou\, ME 04736\, Unit
+ ed States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wings / maybe Candlepin Meet
+DTSTART:20160519T220000Z
+DTEND:20160520T010000Z
+DTSTAMP:20160826T024324Z
+UID:9ukik3e36qosbtsb283obvmlc0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160510T151132Z
+DESCRIPTION:http://welcome.mainefurs.org/index.php/calendar/icalrepeat.det
+ ail/2016/05/19/62/-/wings-maybe-candlepin-meet
+LAST-MODIFIED:20160510T151132Z
+LOCATION:Buffalo Wild Wings\, 85 Western Ave\, South Portland\, ME 04106\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: 3rd Annual NoHo LGBTQ+ Pride Parade
+DTSTART:20160507T153000Z
+DTEND:20160507T183000Z
+DTSTAMP:20160826T024324Z
+UID:jrblbhf2e5kgjnj5hocn2fdta0@google.com
+SEQUENCE:0
+CREATED:20160506T155638Z
+DESCRIPTION:http://www.furaffinity.net/journal/7547255/\nhttps://www.faceb
+ ook.com/events/1136613063036718/\n\nLOOK FOR THE BIG YELLOW SCHOOLBUS!!!\n
+ \nGood Day every fur!\nI would like to announce the 3rd Annual Pride Day m
+ arch here at the LGBT+ Pride Day march in Northampton\, MA.\n\n***This is 
+ a DUPLICATE EVENT! \nThe original was in the New England Furs and Therian 
+ group\, so there WILL be more folks than indicated above!\n\nSorrel has pu
+ t on past events last year as well as the year prior and it was extremely 
+ successful. The parade route is roughly 1.1 miles long\, and takes you thr
+ ough downtown North Hampton. PLEASE if you plan in attending\, make sure y
+ ou hydrate properly! \n\nFursuiters are welcome\, just make sure to come p
+ repared and hydrated. THIS IS VERY IMPORTANT!!! The parade route CAN BE ta
+ xing on fursuiters and attendees alike. People not in suit will be asked t
+ o help the fursuiters and basically be handlers for the furs in suit\, car
+ rying water\, etc.\n\nDepending on the weather\, we recommend that fursuit
+ ers partial\, as it is a long walk and it can get hot.\n\nThe parade begin
+ s at NOON SHARP!! PLEASE make sure to arrive\, park and meet up at the beg
+ inning of the parade route provided in the link below NO LATER THAN 11:30 
+ AM or you likely will miss us.\n\n**PLEASE NOTE - Yes there is a fur meet 
+ after at the end of the parade route\, but we want to represent the fandom
+  well and treat everyone with the utmost respect! Please be on your best b
+ ehavior! \n\nThere will be a dinner meet up after the march\, we will all 
+ meet at the end of the parade route and discuss plans\, rides\, and other 
+ things there.\n\nMore details will be given on here after the event is ini
+ tially posted in addition to FA journals.\n\nInfo about the NoHo Pride Par
+ ade can be found via their website:\nhttp://www.nohopride.org/home.html\n\
+ nMOAR in depth information can be found here on Sorrel's future journal on
+  FA! (The link will be provided when available!
+LAST-MODIFIED:20160506T155648Z
+LOCATION:Northampton\, MA\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VT Furs Suiting Meet
+DTSTART:20160515T160000Z
+DTEND:20160515T180000Z
+DTSTAMP:20160826T024324Z
+UID:370v9bnlvpskem8g546jeatf34@google.com
+SEQUENCE:0
+CREATED:20160425T231255Z
+DESCRIPTION:Sunday May 15\nWhat: Suiting\nWhen 12:00\nWhere Church Street 
+ meeting outside Starbucks\n\nCome already in suit and ready to roll! This 
+ of course is weather dependent. If its crappy weather bowling will be the 
+ back up.\n\nhttp://www.furaffinity.net/journal/7514837/#cid:49706270
+LAST-MODIFIED:20160501T165257Z
+LOCATION:Starbucks\, 84 Burlington Mall Road\, Burlington\, MA 01803\, Uni
+ ted States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: NH Furbowl- May Edition
+DTSTART:20160520T230000Z
+DTEND:20160521T030000Z
+DTSTAMP:20160826T024324Z
+UID:r66fuvd08phrfin7pfbn8q4t10@google.com
+SEQUENCE:0
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CREATED:20160324T023511Z
+DESCRIPTION:https://twitter.com/NHFurBowl\n\nMonthly NH Furbowl hosted by 
+ Strikers East Bowling Center.\n$10/person\, shoes and bowling included! (3
+  hours of Cosmic/glow bowling)
+LAST-MODIFIED:20160429T152727Z
+LOCATION:Strikers East Bowling Center & Function Room\, 4 Essex Rd\, Raymo
+ nd\, NH 03077\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Furry Picnic
+DTSTART:20160604T150000Z
+DTEND:20160604T200000Z
+DTSTAMP:20160826T024324Z
+UID:ba83rittvq694jvqnf452icins@google.com
+SEQUENCE:0
+CREATED:20160425T232526Z
+DESCRIPTION:http://www.furrypicnic.com/
+LAST-MODIFIED:20160425T232526Z
+LOCATION:Wickham Park\, 1329 Middle Turnpike W\, Manchester\, CT 06040\, U
+ nited States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mass Fur Bowl
+DTSTART:20160604T230000Z
+DTEND:20160605T040000Z
+DTSTAMP:20160826T024324Z
+UID:7v9inj7r69flgera2bgtkmq9lk@google.com
+SEQUENCE:0
+CREATED:20160425T232133Z
+DESCRIPTION:@massfurbowl
+LAST-MODIFIED:20160425T232133Z
+LOCATION:Ryan Family Amusements\, 1067 MA-28\, South Yarmouth\, MA 02664\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Woobowl #4
+DTSTART:20160429T220000Z
+DTEND:20160430T020000Z
+DTSTAMP:20160826T024324Z
+UID:n09ppfrrkbc2n9jdd55bu0jth4@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20160301T043010Z
+DESCRIPTION:https://www.facebook.com/events/960272650732919/\n\nHey there 
+ all you furs and fuzz butts!! It's happening!! Woo Bowl NUMBER 4!! And LOO
+ K!! There's some NEW THINGS!!\n\n**The Woo Bowl has MOVED!!! \nAfter disco
+ vering a new venue\, we feel we will be much happier and well taken care o
+ f here! There is more space for totes\, tables for table-top gaming\, and 
+ just over all more room! We have a WHOPPING FIVE LANES FOR BOWLING!!! The 
+ bowl is in WEBSTER\, MASS! That means is closer to CT and RI right?!? \n\n
+ **The Woo Bowl for March is on SUNDAY!!!! \nAfter speaking with the staff\
+ , they feel it will be a better fit for us as well as them to have the bow
+ l on Sunday. This is a trial bowl! If it is successful\, the bowl will lik
+ ely move to Sundays at the same venue\, but as for right ... See More\n
+LAST-MODIFIED:20160425T231627Z
+LOCATION:Mohegan Bowl\, 51 Thompson Rd\, Webster\, MA 01570\, United State
+ s
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TacoCon 
+DTSTART:20160505T200000Z
+DTEND:20160506T010000Z
+DTSTAMP:20160826T024324Z
+UID:e59b2qc84v51oj24r4d2e6i1f8@google.com
+SEQUENCE:0
+CREATED:20160425T230815Z
+DESCRIPTION:Hosted by @Nightlinez\n\nhttp://www.furaffinity.net/journal/75
+ 26552/
+LAST-MODIFIED:20160425T230815Z
+LOCATION:Margaritas Mexican Restaurant\, 1037 Elm St\, Manchester\, NH 031
+ 01\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auburn Meet and Greet then Mini Golf
+DTSTART:20160730T170000Z
+DTEND:20160730T200000Z
+DTSTAMP:20160826T024324Z
+UID:srsfrcgip15u19v87is52t54l8@google.com
+SEQUENCE:0
+CREATED:20160425T230352Z
+DESCRIPTION:Hosted by: @blackdruidwolf\n\nFacebook: https://www.facebook.c
+ om/events/1002246393179537/\n\nThis date is subject to change but hopefull
+ y will stick!\n\nDate: Saturday 07/30/2016\nTime: 1:00pm+\nPlace: Starting
+  at Rocket Land Park in Auburn 5 Brayman St Auburn\, Massachusetts 01501\n
+ Following this meet will be Mini Golf at Crystal Caves Family Entertainmen
+ t Center at 4:30pm (they have food and ice cream!)\n\nThis is a very casua
+ l meet for furs to hang out and get to know one another.\nTo avoid the Mas
+ s Pike\, take Rt 20\, you'll have lights but no traffic jams!\nYou may wea
+ r a fursuit but remember...\n\n1. Prepare for hot or cooler weather\n2. We
+  want to see your faces!\nTails and Ears are always welcome.\n\nPlease be 
+ respectful of the boundaries of others and help us keep the fandom looking
+  good :)\nBring outdoor games to play if you wish! The park is perfect for
+  kite flying and Frisbee tossing!\nIf you would like to bring food to shar
+ e\, please do!\n\nDogs are welcome too (as long as friendly)! \nThere are 
+ big blue trash bins for da poops :P\nBring Chairs\, food\, blankets\, outs
+ ide games\, etc...\n\nAt Rocket Land Park in Auburn we close to the entran
+ ce by the track under the 2 big trees.
+LAST-MODIFIED:20160425T230352Z
+LOCATION:Lemansky Park\, 22 Brayman St\, Auburn\, MA 01501\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wachusett Mountain Hike Meet
+DTSTART:20160514T130000Z
+DTEND:20160514T160000Z
+DTSTAMP:20160826T024324Z
+UID:rq67d8u4l6prdg559f21f2efk8@google.com
+SEQUENCE:0
+CREATED:20160425T225858Z
+DESCRIPTION:Hosted by @LokiWolfdog\n\nFacebook: https://www.facebook.com/e
+ vents/480877122036931/\n\nThis is it! This time\, I have chosen a new trai
+ l and it promises to be scenic\, somewhat shorter and most of it should be
+  relitively easy on the feet! Starts at 9 am and ends when we finish. I am
+  excited and I hope all of you who come\, are as well! Bring plenty of wat
+ ers\, snacks and lunch. Wear appropriate footwear for hiking. bring all ne
+ eded emergency medications\, such as epipens and asthma inhalers. Rain dat
+ e will be May 15th.\n
+LAST-MODIFIED:20160425T225858Z
+LOCATION:Wachusett Mountain\, Princeton\, MA 01541\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: NH Furbowl- March Edition
+DTSTART:20160422T230000Z
+DTEND:20160423T030000Z
+DTSTAMP:20160826T024324Z
+UID:9sh3h7v46botthddih0014m9c8@google.com
+SEQUENCE:0
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CREATED:20160324T023500Z
+DESCRIPTION:https://www.facebook.com/events/1524307257870369/\n\nMonthly N
+ H Furbowl hosted by Strikers East Bowling Center.\n$10/person\, shoes and 
+ bowling included! (3 hours of Cosmic/glow bowling)
+LAST-MODIFIED:20160422T232750Z
+LOCATION:Strikers East Bowling Center & Function Room\, 4 Essex Rd\, Raymo
+ nd\, NH 03077\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NH Dinner meet
+DTSTART:20160415T230000Z
+DTEND:20160416T020000Z
+DTSTAMP:20160826T024324Z
+UID:o33mbsg498m08q405cnhu6kc4g@google.com
+SEQUENCE:0
+CREATED:20160415T195153Z
+DESCRIPTION:Hey spontaneous meet in NH. Dinner and possible movie. Start t
+ ime is at 7. And it's going to be at Nashua ihop. (I'll pull a pin)\n@Jynx
+ redpanda is hosting.\n230 Daniel Webster Hwy\, Nashua\, NH 03060
+LAST-MODIFIED:20160415T195153Z
+LOCATION:230 Daniel Webster Hwy\, Nashua\, NH 03060\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mass fur bowl
+DTSTART:20160416T230000Z
+DTEND:20160417T035900Z
+DTSTAMP:20160826T024324Z
+UID:69i68p1kccpj4b9g68pjib9k71h6ab9oc4sjcbb46ssm2phl61gmccb660@google.com
+SEQUENCE:0
+CREATED:20160408T194410Z
+DESCRIPTION:http://www.furaffinity.net/user/massfurbowl/\n@massfurbowl
+LAST-MODIFIED:20160408T194410Z
+LOCATION:Ryan Family Amusements\, 1067 MA-28\, South Yarmouth\, MA 02664\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Laser Tag
+DTSTART:20160408T220000Z
+DTEND:20160409T040000Z
+DTSTAMP:20160826T024324Z
+UID:fckgpnppajffvqdts9m948jt0k@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160403T224128Z
+DESCRIPTION:https://www.facebook.com/events/1769224903309203/1769225433309
+ 150/\n\nhosted by : @shane_deepwood\n\nAll you can play laser tag friday n
+ ights. First game starts at 6:30 so show up around 6 if you want to be in 
+ that session \n\nThis is a non suiting event so please not tails\, paws\, 
+ etc. \n\nInfo from their site:\n\nAll You Can Play Laser Tag\nFriday Night
+ s\n$25 Per Person PLUS Get $5 in FREE Arcade credit/tokens\n\n\n. Reservat
+ ions are always recommended! \nTo make reservations\, 508-366-6366 in West
+ borough
+LAST-MODIFIED:20160403T224128Z
+LOCATION:LaserCraze\, 166 Milk St\, Westborough\, MA 01581\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VermontFurs table top gaming meet
+DTSTART:20160402T153000Z
+DTEND:20160402T200000Z
+DTSTAMP:20160826T024324Z
+UID:63ffcacgkltd4cak7q6656qidg@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160401T172546Z
+DESCRIPTION:http://www.furaffinity.net/journal/7459166/
+LAST-MODIFIED:20160401T172546Z
+LOCATION:Brownell Library\, 6 Lincoln St\, Essex Junction\, VT 05452\, Uni
+ ted States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furbowl 49
+DTSTART:20160402T230000Z
+DTEND:20160403T020000Z
+DTSTAMP:20160826T024324Z
+UID:cijppqh5rm06p7lqcmojfdjc2k@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160308T135724Z
+DESCRIPTION:http://www.furaffinity.net/user/rhodeislandfurs/
+LAST-MODIFIED:20160331T123459Z
+LOCATION:East Providence Lanes\, 80 Newport Ave\, Rumford\, RI 02916\, Uni
+ ted States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Slater Park Meet
+DTSTART:20160402T200000Z
+DTEND:20160402T230000Z
+DTSTAMP:20160826T024324Z
+UID:qol2bud55sduhd81dv5mtpvr1c@google.com
+SEQUENCE:0
+CREATED:20160331T123448Z
+DESCRIPTION:@RIFurs pre bowl park meet\, Meet at the merry-go-round
+LAST-MODIFIED:20160331T123456Z
+LOCATION:Slater Park\, RR 1A\, Pawtucket\, RI 02860\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jungle Book Movie Meet
+DTSTART:20160416T163000Z
+DTEND:20160416T183000Z
+DTSTAMP:20160826T024324Z
+UID:14c5fhin5m5mpba6ckk6hl5js0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160330T173042Z
+DESCRIPTION:https://twitter.com/MaineFurs/status/714078756114137088\n
+LAST-MODIFIED:20160330T173042Z
+LOCATION:Flagship Cinemas\, 247 Kennedy Memorial Dr\, Waterville\, ME 0490
+ 1\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VT Furs Table Top Gaming Meet
+DTSTART:20160326T154500Z
+DTEND:20160326T201500Z
+DTSTAMP:20160826T024324Z
+UID:4sksaa745scss6q98mmu11d1e0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160324T022704Z
+DESCRIPTION:http://www.furaffinity.net/journal/7459166/
+LAST-MODIFIED:20160324T022713Z
+LOCATION:Brownell Library\, 6 Lincoln St\, Essex Junction\, VT 05452\, Uni
+ ted States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wing Meet
+DTSTART:20160324T220000Z
+DTEND:20160325T010000Z
+DTSTAMP:20160826T024324Z
+UID:u76m2dkgihi1t9piouemj63sqo@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160324T022503Z
+DESCRIPTION:http://welcome.mainefurs.org/index.php/calendar/icalrepeat.det
+ ail/2016/03/24/58/-/wings-meet
+LAST-MODIFIED:20160324T022503Z
+LOCATION:Buffalo Wild Wings\, 85 Western Ave\, South Portland\, ME 04106\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Maine Furs Annual BBQ
+DTSTART:20160507T150000Z
+DTEND:20160507T180000Z
+DTSTAMP:20160826T024324Z
+UID:laa9katdj0i3fphar8ve2ofqf0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160316T012347Z
+DESCRIPTION:http://welcome.mainefurs.org/index.php/calendar/icalrepeat.det
+ ail/2016/05/07/37/-/maine-s-annual-furry-bbq
+LAST-MODIFIED:20160316T012347Z
+LOCATION:1000 Shore Rd\, Cape Elizabeth\, ME 04107\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VT Furs Waterpark Meet
+DTSTART:20160423T150000Z
+DTEND:20160423T170000Z
+DTSTAMP:20160826T024324Z
+UID:o7sdcet7qtqp5a9nd0cccqgce0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160316T011928Z
+DESCRIPTION:https://www.eventbrite.com/e/vermont-furs-waterpark-adventure-
+ tickets-22234386649
+LAST-MODIFIED:20160316T011928Z
+LOCATION:Pump House\, 1144 access rd\, Jay\, VT 05859\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furbowl 50
+DTSTART:20160514T160000Z
+DTEND:20160514T200000Z
+DTSTAMP:20160826T024324Z
+UID:n0hepaph37uuutm5ij2duc181s@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20160308T135821Z
+DESCRIPTION:http://www.furaffinity.net/user/rhodeislandfurs/\n\n+Dance Par
+ ty!
+LAST-MODIFIED:20160308T140633Z
+LOCATION:East Providence Lanes\, 80 Newport Ave\, Rumford\, RI 02916\, Uni
+ ted States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furs Annual Dance Party
+DTSTART:20160514T220000Z
+DTEND:20160515T010000Z
+DTSTAMP:20160826T024324Z
+UID:2go24bv1dmhjtcneqrsr90bdn8@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20160308T135937Z
+DESCRIPTION:https://www.facebook.com/events/1506469709662002/\nhttp://www.
+ furaffinity.net/user/rhodeislandfurs/\n\nIn celebration of my 50th consecu
+ tive monthly furry bowling event\, I am finally officially announcing that
+  RI Furbowl 50 will take place along with another RI Furry Dance Party. Th
+ ey are happening on May 14 with the Furbowl in the afternoon and the Dance
+  Party at night. I am still in the process of working out the details\, es
+ pecially the price.\n\nI will mention that the Dance Party is NOT taking p
+ lace at the Comfort Inn in Pawtucket because the hotel is currently under 
+ renovations. We are renting out local hall space instead.\n\nThis post is 
+ a placeholder and details will come later.
+LAST-MODIFIED:20160308T140553Z
+LOCATION:German American Cultural Society\, 78 Carter Ave\, Pawtucket\, RI
+  02861\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aubrun Meet and Greet
+DTSTART:20160430T180000Z
+DTEND:20160430T200000Z
+DTSTAMP:20160826T024324Z
+UID:ksrf1l20o6js5g4h1rf3ur0pf8@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160308T135536Z
+DESCRIPTION:https://www.facebook.com/events/1576173246033437/\n\nIt's been
+  too long!!!\nI've had a lot of people asking me when the next Auburn Meet
+  will be so here it is!!!\n\nFollowing this meet will either be a Mini Gol
+ f meet OR \nan Furcade meet. Details to follow soon!\n\nDate: April 30th 2
+ 016\nTime: 12:00pm-3:30pm\nPlace: Rocket Land Park in Auburn 5 Brayman St 
+ Auburn\, Massachusetts 01501\n\nThis is a very casual meet for furs to han
+ g out and get to know one another.\nTo avoid the Mass Pike\, take Rt 20\, 
+ you'll have lights but no traffic jams!\nYou may wear a fursuit but rememb
+ er...\n\n1. Prepare for hot or cooler weather\n2. We want to see your face
+ s!\nTails and Ears are always welcome.\n\nPlease be respectful of the boun
+ daries of others and help us keep the fandom looking good :)\nBring outdoo
+ r games to play if you wish! The park is perfect for kite flying and Frisb
+ ee tossing!\nIf you would like to bring food to share\, please do!\n\nDogs
+  are welcome too (as long as friendly)! \nThere are big blue trash bins fo
+ r da poops :P\nBring Chairs\, food\, blankets\, outside games\, etc...\n\n
+ At Rocket Land Park in Auburn we close to the entrance by the track under 
+ the 2 big trees.
+LAST-MODIFIED:20160308T135536Z
+LOCATION:Lemansky Park\, 22 Brayman St\, Auburn\, MA 01501\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NH Furs Karaoke
+DTSTART:20160424T223000Z
+DTEND:20160425T020000Z
+DTSTAMP:20160826T024324Z
+UID:5khi98mtqn1sp4rd6i20r5u5ak@google.com
+SEQUENCE:0
+CREATED:20160308T135409Z
+DESCRIPTION:https://www.facebook.com/events/929762690455734/\n\nJynxRedPan
+ da [FA] is hosting a furry karaoke meet! \n\nFun for all even if you dont 
+ sing still a great time!!! There will be Karaoke\, Fursuiters and Food and
+  a Bar you can order from!!! Fursuits are most welcome!!! $7 cover charge.
+LAST-MODIFIED:20160308T135409Z
+LOCATION:Jitto's Supersteak\, 3131 Lafayette Rd\, Portsmouth\, NH 03801\, 
+ United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Autism Speaks U 5K
+DTSTART:20160424T150000Z
+DTEND:20160424T193000Z
+DTSTAMP:20160826T024324Z
+UID:a7hhihojceu9sc81e2oennj684@google.com
+SEQUENCE:0
+CREATED:20160308T135213Z
+DESCRIPTION:https://www.facebook.com/events/182763235435331/\n\nThis will 
+ be our 4th year doing this walk....every year the group has been getting b
+ igger and bigger and every year they always love having us there :) Let's 
+ make this the biggest year so far! This is the annual spring Autism Speaks
+  U walk at Uconn in Storrs CT.....fullsuits and partials are welcome....if
+  you would like to be a handler that is also welcome. This is an outdoor e
+ vent so be sure to hydrate yourself before\, during\, and after the walk. 
+ The handlers will be asked to carry water for the suiters. In recent years
+  we have been asked to kick off the race....before the race starts we will
+  line each side of the raceway and greet the runners and walkers with chee
+ rs\, howls\, and high fives! We will then (depending on the weather and te
+ mps) decide to either walk the 3K route through the center of town or cut 
+ through the center of campus. If you do so choose to either take the 3K ro
+ ute or 5K route...please do so at your own risk and please please please d
+ o NOT go off on your own. Be sure you have someone with you at all times..
+ .the last thing I want to see or need to see is a suiter collapse or faint
+  when nobody is around. I strive to keep everyone safe at all of my events
+ .\n\nTo join the team you will need to make at least a 25$ donation...but 
+ you may feel free to donate more than tha if you so choose to. You mat als
+ o create your own page and get friends and family members to either donate
+  to the team page or your own specific page. All money donated will go to 
+ Autism Speaks through Uconn. You can also sign up on race day...the cost w
+ ill then be 30$ but again you are more than welcome to donate more than th
+ at.\n\nWe will meet up at Uconn between 10am and 10:30 am across from Gamp
+ el Pavillion where the starting line and finish line is. There is a small 
+ parking garage around the corner behind the student center where for a sma
+ ll fee you can park. There is no changing rooms provided so arriving in yo
+ ur gear and suiting up in the parking garage would be ideal. There are bat
+ hrooms inside the student center if need be. \n\nWe will then head down to
+  the starting area and be mascots....entertain the crowd and kids. There w
+ ill be music\, activities\, and other stuff. Please be aware of your surro
+ undings\, and please be on your best behavior. The 5K race will start prec
+ isely at 12pm sharp\, shortly followed by the 3K walk. After the race conc
+ ludes\, there will be live music\, water\, and free food for everyone whic
+ h is usually pizza or something.\n\nWe will then gather for a group photo 
+ across the street by the Uconn huksy statue by Gampel Pavillion.....in bet
+ ween all of the other group photos we usually are asked to take lol.\n\nAf
+ ter all of that.....if you may choose to\, you can desuit at your car or i
+ f you feel comfortable staying in suit you may do so also. We will be head
+ ing into the student center foof court where there is a dunkin donuts\, we
+ ndys\, subway\, and other food options. How long you want to stay is entir
+ ely up to you.\n\nAttire.....please be curteous when wearing harnesses and
+  collars.....no muzzle harnesses and leashes. Body harnesses are okay.\n\n
+ -@XbladewolfX
+LAST-MODIFIED:20160308T135213Z
+LOCATION:University of Connecticut\, Storrs\, CT 06269\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Anime Boston Furmeet
+DTSTART:20160326T150000Z
+DTEND:20160326T180000Z
+DTSTAMP:20160826T024324Z
+UID:hoeo79vtjmo32l4pd3bpn426dg@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160308T134956Z
+DESCRIPTION:https://www.facebook.com/events/1503059716664293/\n\nHolding a
+  furmeet saturday of anime boston 11am-12pm the location I'm thinking of h
+ aving it is over by pf Chang's in the prudential center that way those who
+  don't plan to attend anime boston but still want to go to a meet can stil
+ l attend. As the con gets closer I'll update this event page.
+LAST-MODIFIED:20160308T134956Z
+LOCATION:Hynes Convention Center\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ASM Walk for Autism
+DTSTART:20160424T143000Z
+DTEND:20160424T183000Z
+DTSTAMP:20160826T024324Z
+UID:t54fnl9f0dqju38mond7135hgs@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160308T134823Z
+DESCRIPTION:http://welcome.mainefurs.org/index.php/calendar/icalrepeat.det
+ ail/2016/04/24/36/-/asm-walk-for-autism\n\nAny questions please contact Ni
+ ghtspiritwing:\nTwitter: @Nightspiritwing\nFA: http://www.furaffinity.net/
+ user/nightspiritwing/\n
+LAST-MODIFIED:20160308T134823Z
+LOCATION:University of New England campus\, Biddeford ME
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VT Furs Zootopia Movie Screening
+DTSTART:20160306T000000Z
+DTEND:20160306T020000Z
+DTSTAMP:20160826T024324Z
+UID:u6147kv50698udlai8i97kfj98@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20151201T040805Z
+DESCRIPTION:https://www.facebook.com/events/491068787731270/\n\n7pm showin
+ g at Essex Cinemas\n\nAdmission: $11.50
+LAST-MODIFIED:20160304T232301Z
+LOCATION:Essex Cinemas\, 21 Essex Way #300\, Essex\, VT 05452\, United Sta
+ tes
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: NH Furbowl- March Edition
+DTSTART:20160325T230000Z
+DTEND:20160326T030000Z
+DTSTAMP:20160826T024324Z
+UID:hfr2ri7itg5862it3b11njp2ms@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160301T044001Z
+DESCRIPTION:https://www.facebook.com/events/1524307257870369/\n\nMonthly N
+ H Furbowl hosted by Strikers East Bowling Center.\n$10/person\, shoes and 
+ bowling included! (3 hours of Cosmic/glow bowling)
+LAST-MODIFIED:20160301T044001Z
+LOCATION:Strikers East Bowling Center & Function Room\, 4 Essex Rd\, Raymo
+ nd\, NH 03077\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mardi Gras Madness
+DTSTART:20160305T163000Z
+DTEND:20160305T210000Z
+DTSTAMP:20160826T024324Z
+UID:a9mfh015leo4upnh3pcckc1u4k@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160301T043616Z
+DESCRIPTION:http://www.furaffinity.net/journal/7406652/
+LAST-MODIFIED:20160301T043616Z
+LOCATION:Church Street\, Church St\, Burlington\, VT 05401\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zootopia Movie Meet
+DTSTART:20160306T000000Z
+DTEND:20160306T043000Z
+DTSTAMP:20160826T024324Z
+UID:r7006vgro56tkikp47h0ir5ato@google.com
+SEQUENCE:0
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CLASS:PUBLIC
+CREATED:20150707T042140Z
+DESCRIPTION:Hosted by Samhain\nhttp://www.furaffinity.net/journal/6846231/
+ \nFood after Probably
+LAST-MODIFIED:20160301T043504Z
+LOCATION:Showcase Cinema de Lux Patriot Place\, 24 Patriot Place\, Foxboro
+ ugh\, MA 02035\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NE Furs Shooters Billiards meet
+DTSTART:20160319T230000Z
+DTEND:20160320T033000Z
+DTSTAMP:20160826T024324Z
+UID:po9if2lnjsjffumai7m9abdkv0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160301T042227Z
+DESCRIPTION:https://www.facebook.com/events/969918106439314/\n\nEver play 
+ pool in your fursuit? Want to? Then come down to the 3rd fursuit billiards
+  meet! You don't need a fursuit to come and play though.....anything is we
+ lcome :) There will be fans available to cool down the suiters\, as well a
+ s cold ice water too.\n\nThere is a bar on the premises and alcohol will b
+ e available for an additional fee.....as well as food for an additional fe
+ e.\n\nThere is a small game room and if you would like tokens for the game
+  room\, go see the front desk. Part of the deal we get is for game room to
+ kens as well. This is a available from 7-10\, after 10 you will have to pa
+ y for tokens.\n\nIt's 15.95 per person. That includes 3 hours of pool\, so
+ ft drinks\, and game room tokens.\n\nAfter the billiards meet is over we w
+ ill go over to Denny's across the street for some food if anyone would lik
+ e to attend.\n\nPlease arrive around 6:30 to allow time for suiting up and
+  set up\, our time starts at 7pm exactly and ends at 10pm. \n\nOur 3 hours
+  is up at 10pm and a Denny's meet will follow. Denny's is two blocks away 
+ from Shooters.
+LAST-MODIFIED:20160301T042238Z
+LOCATION:Shooters Billiards & Arcade\, 50 Spring St\, Southington\, CT 064
+ 89\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spontaneous Wings Meet (And maybe candlepin too)
+DTSTART:20160226T230000Z
+DTEND:20160227T020000Z
+DTSTAMP:20160826T024324Z
+UID:2ira3r1ccecl99s6qsifhi6dnk@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160225T222216Z
+DESCRIPTION:pontaneous Wings Meet (And maybe candlepin too)\nFriday 26 Feb
+ ruary 2016\, 06:00pm\n\nContact Novar Lynx \nLocation 85 Western Ave\, Sou
+ th Portland\, ME 04106\nFursuits: If you have one\, bring it in case we go
+  bowl after \nThis is a spontaneous meet!!!!\n\nCome have some wings at Bu
+ ffalo Wild Wings in South Portland\, then after that we might go candlepin
+  bowling in Westbrook!\n\nMeet up at 6 PM\n\n\nAfter that we may go bowlin
+ g at the West-Port Bowling Lanes in Westbrook\, if enough want to. This is
+  a candlepin place. \nCost to bowl is $3 per person roughly\nCASH ONLY... 
+ they do take cards but their system won't do a transaction less than $8 fo
+ r some reason.\n\nAddress to the bowling place is:\n135 Main St\, Westbroo
+ k\, ME 04092
+LAST-MODIFIED:20160225T222216Z
+LOCATION:85 Western Ave\, South Portland\, ME 04106\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Pre-Furbowl Meet
+DTSTART:20160306T190000Z
+DTEND:20160306T213000Z
+DTSTAMP:20160826T024324Z
+UID:2lklcn8rd494klb40a5hrg5crg@google.com
+SEQUENCE:0
+CREATED:20160225T014200Z
+DESCRIPTION:http://www.furaffinity.net/journal/7377753/
+LAST-MODIFIED:20160225T014225Z
+LOCATION:Slater Park\, RR 1A\, Pawtucket\, RI 02860\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furbowl 48
+DTSTART:20160306T220000Z
+DTEND:20160307T020000Z
+DTSTAMP:20160826T024324Z
+UID:oc48ft5vlu765moeehupvohnps@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20160205T162328Z
+DESCRIPTION:http://www.furaffinity.net/user/rhodeislandfurs\n\nYes Sunday
+LAST-MODIFIED:20160225T014204Z
+LOCATION:East Providence Lanes\, 80 Newport Ave\, Rumford\, RI 02916\, Uni
+ ted States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NH Furs Karaoke
+DTSTART:20160306T233000Z
+DTEND:20160307T030000Z
+DTSTAMP:20160826T024324Z
+UID:oo2mnm8um10b3f26h3viakufbc@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20160130T042230Z
+DESCRIPTION:http://www.furaffinity.net/journal/7346058/\n\nJynxRedPanda [F
+ A] is hosting a furry karaoke meet! \n\nWhere: Jittos Super Steak \n3131 L
+ afayette rd\, Portsmouth NH\nWhen: Sunday March 6th \nTime: 6:30-10pm\n\n$
+ 7 dollar cover just to help pay the karaoke guy. There will be a kitchen y
+ ou can order food from (and a bar for all furs 21+).\n\nContact JynxRedPan
+ da[FA]\nEmail bigd3394[at]gmail.com or text \n6039981644
+LAST-MODIFIED:20160225T014034Z
+LOCATION:Jitto's Supersteak\, 3131 Lafayette Rd\, Portsmouth\, NH 03801\, 
+ United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pokemon 20th Party
+DTSTART:20160227T223000Z
+DTEND:20160228T023000Z
+DTSTAMP:20160826T024324Z
+UID:1750vl705pgfuihdc2lhg8e7ks@google.com
+SEQUENCE:0
+CREATED:20160225T013935Z
+DESCRIPTION:http://www.furaffinity.net/journal/7392024/\n\nHuge game selec
+ tion\, pizza\, food. Pokemon themed yankee swap. NO FURSUITS. \n
+LAST-MODIFIED:20160225T013935Z
+LOCATION:Funspot Lane\, Funspot Ln\, Laconia\, NH 03246\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Maine Furs Zootopia Meet
+DTSTART:20160305T183000Z
+DTEND:20160305T213000Z
+DTSTAMP:20160826T024324Z
+UID:e7apbvnv5pjos1o6slcfoqcohs@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160212T034640Z
+DESCRIPTION:Zootopia meet!!! Sat.\, March 5th\, 1:30pm!!\nFlagship Cinema\
+ , Waterville \n\nRSVP @CCSMascots \n\nhttp://welcome.mainefurs.org/index.p
+ hp/calendar/icalrepeat.detail/2016/03/05/9/-/zootopia-movie-meet 
+LAST-MODIFIED:20160212T034640Z
+LOCATION:Flagship Cinemas\, 247 Kennedy Memorial Dr\, Waterville\, ME 0490
+ 1\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furs Zootopia Meet With Fursuits
+DTSTART:20160306T020000Z
+DTEND:20160306T050000Z
+DTSTAMP:20160826T024324Z
+UID:shhspe52jfdr26gd01krrlgjs4@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160205T162559Z
+DESCRIPTION:Fursuits Allowed!\nhttps://www.facebook.com/events/96994000309
+ 4086/\nhttp://www.furaffinity.net/journal/7319254/
+LAST-MODIFIED:20160205T162600Z
+LOCATION:Cinemaworld Lincoln Mall 16\, 622 George Washington Hwy\, Lincoln
+ \, RI 02865\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furbowl 47
+DTSTART:20160207T000000Z
+DTEND:20160207T030000Z
+DTSTAMP:20160826T024324Z
+UID:dbvt7v4fc8jlc17rap0rqc9lj8@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20160205T162223Z
+DESCRIPTION:https://www.facebook.com/events/512310898946907/?ref=2&ref_das
+ hboard_filter=upcoming&action_history=null\n\nhttp://www.furaffinity.net/j
+ ournal/7340545/\n
+LAST-MODIFIED:20160205T162227Z
+LOCATION:East Providence Lanes\, 80 Newport Ave\, Rumford\, RI 02916\, Uni
+ ted States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FurWow in Milford
+DTSTART:20160130T220000Z
+DTEND:20160131T010000Z
+DTSTAMP:20160826T024324Z
+UID:ke77kfl61rfpraragjqb5sofbs@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20160105T010436Z
+DESCRIPTION:https://www.facebook.com/events/1721843121384844/\n\nFurbowl i
+ n milford ma. Trying to start a new furbowl\, hope I can drag along as muc
+ h as you as possible. I will get the rsvp form up on monday! Hope to see e
+ veryone there :)
+LAST-MODIFIED:20160128T194403Z
+LOCATION:PiNZ Entertainment\, 110 S Main St\, Milford\, MA 01757\, United 
+ States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NH Furbowl
+DTSTART:20160220T000000Z
+DTEND:20160220T030000Z
+DTSTAMP:20160826T024324Z
+UID:4pqa676gfrrimmul7l8657738s@google.com
+SEQUENCE:0
+CREATED:20160127T011240Z
+DESCRIPTION:http://www.furaffinity.net/journal/7336732/\n\n\nFebruary NH F
+ urbowl\nWhen: Friday\, February 19th ~7pm\nWhere: Strikers East Bowling Ce
+ nter (Raymond\, NH)\nWhat: Open lounge and three hours of cosmic bowling (
+ starting at 8)\nPrice: $10/person\n
+LAST-MODIFIED:20160127T011240Z
+LOCATION:Strikers East Bowling Center & Function Room\, 4 Essex Rd\, Raymo
+ nd\, NH 03077\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Woobowl
+DTSTART:20160220T200000Z
+DTEND:20160220T220000Z
+DTSTAMP:20160826T024324Z
+UID:jp79bbuv0cs7k5b6c6d5d0bog4@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20160112T211129Z
+DESCRIPTION:https://www.facebook.com/events/1649267005334710/\n\nIt's back
+ ! We took off a month for ANE but we are back and ready for more!\n\nAs us
+ ual\, cost is $10 to bowl and $5 if you aren't bowling. If you are bowling
+  and plan to suit remember to wear bowling shoes\, no feetpaws on the lane
+ s as it's a slip hazard. Make sure you check in with either myself or Kait
+ o when you arrive so we can collect payment and sign you in.\n\nThe group 
+ photo will take place at 5 to give people one last hurrah in suit before c
+ hanging up. This will allow folks to finish their games. The location of t
+ he photo will be determined once we see where the alley places us.\n\nPros
+ pective post meet dinner location is IHOP located in the White City Plaza\
+ , of course people are free to go where they choose as there's lots in the
+  area. \n\nCan't wait to see you there!
+LAST-MODIFIED:20160115T173022Z
+LOCATION:AMF Town & Country Lanes\, 405 Boston Turnpike\, Shrewsbury\, MA 
+ 01545\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NH Art Jam
+DTSTART:20160116T170000Z
+DTEND:20160116T203000Z
+DTSTAMP:20160826T024324Z
+UID:nt119f7k4il0gbip2m7ea9pj98@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160115T172242Z
+DESCRIPTION:http://www.furaffinity.net/journal/7298016/\n\n(2 miles west o
+ f Calef's country store at 33 Boxwood Lane\, at the intersection of 9 and 
+ 126. Take the driveway into the complex\, take a left and it's the middle 
+ building down the hill. Apt E6)
+LAST-MODIFIED:20160115T172242Z
+LOCATION:Barrington\, NH\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mass Fur Bowl
+DTSTART:20160214T000000Z
+DTEND:20160214T043000Z
+DTSTAMP:20160826T024324Z
+UID:jp228qfs6ribvk3pflrigd32c8@google.com
+SEQUENCE:0
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CLASS:PUBLIC
+CREATED:20151228T171221Z
+DESCRIPTION:http://www.furaffinity.net/user/massfurbowl/
+LAST-MODIFIED:20160112T212039Z
+LOCATION:Ryan Family Amusements\, 1067 MA-28\, South Yarmouth\, MA 02664\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Oriental Potluck
+DTSTART:20160116T190000Z
+DTEND:20160116T220000Z
+DTSTAMP:20160826T024324Z
+UID:9s10p9d2idj2cau1a579ot0qf8@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20160105T010129Z
+DESCRIPTION:https://www.facebook.com/events/1180482865312653/\n\nHello all
+ !\n\nI will be hosting an Oriental Themed Pot Luck in January the 16th\, 2
+ pm to 9pm. Everyone will be required to RSVP for this event and are requir
+ ed to bring a dish or tea.\n\nIf you are bringing a dish\, keep in mind po
+ tential food allergies and please keep a list of ingredients around to hav
+ e with your dish. There are several ingredients in many Asian dishes that 
+ could trigger someone's food allergies so keep that in mind. Not saying do
+ n't make em though cause I have no food allergies haha.\n\nIf you have a f
+ ood allergy\, please let me know.\n\nAlso\, I will be providing paper plat
+ es and utensils. If you need more (bowls for soups\, curry\, etc) let me k
+ now or try to bring them.\n\nRemember\, there are rules you must follow wh
+ en attending my meets\, especially those in my place. \n\nFirst and Foremo
+ st\, no uninvited physical contact and strictly nothing sexual in any natu
+ re what so ever. This is my condo\, not yours. Please respect everyone\, n
+ o smoking inside my place (those you may Vape in my bedroom). If you wish 
+ to smoke\, I will show you where you can and you can not toss your cigaret
+ tes on the ground. Also no drug or alcohol use.\n\n**LOCATION IS AT THE AD
+ DRESS LISTED ABOVE. CONFIRMED.**\n\n-- I may be holding my mother's house 
+ since it is bigger but people are welcome to spend the night back at my pl
+ ace after.--\n\n**at my place\n\nParking spots are assigned! However in th
+ e back left corner is a good sized lot for guest parking. \n\nTry not to b
+ e talking or loud when coming up and down the stairs. Be respectful of my 
+ neighbors.\n\nNo lewd conduct in the parking lot. Also\, please do not arr
+ ive dragging someone else on a leash. This happened last time and it made 
+ people feel uncomfortable. Keep your fetishes to your bedrooms\, not mine\
+ , but wearing dog collars are fine. Also\, some people have chilled at my 
+ place in fursuits\, that is fine. I don't have the most space but it's coo
+ l.\n\n**at my mother's\n\nThere is street side parking. The neighbor is of
+ f the main road so it is kinda private. She is used to hosting parties wit
+ h many people so this is nothing new to her. \n\nSmoking is allowed in the
+  house as she is a smoker\, however I would like it if you only smoked on 
+ the porch or bar room. \n\nFursuits and the like are allowed. My mother ha
+ s one dog\, small\, derpy\, and adorable. \n\nAll the same physical contac
+ t and such rules apply at my mother's just like at my place. If you need t
+ o spend the night you are welcome to come back to my place after to crash 
+ the night.\n\nOnly extra rules here is that we are required to clean up al
+ l of our mess before leaving :3\n\nOther than that\, have fun\, try not to
+  be too loud haha
+LAST-MODIFIED:20160105T010130Z
+LOCATION:14 South Grove Ave. Warren Ri\, 02885
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mass Fur Bowl
+DTSTART:20160313T000000Z
+DTEND:20160313T050000Z
+DTSTAMP:20160826T024324Z
+UID:lca49836ovj2em1pl0rb5ocf20@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151228T171306Z
+DESCRIPTION:http://www.furaffinity.net/user/massfurbowl/
+LAST-MODIFIED:20151228T171306Z
+LOCATION:Ryan Family Amusements\, 1067 MA-28\, South Yarmouth\, MA 02664\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Meet Kalahari Fox Meet 
+DTSTART:20151229T000000Z
+DTEND:20151229T030000Z
+DTSTAMP:20160826T024324Z
+UID:r9fr8qk15su02m65u39g4i8t48@google.com
+SEQUENCE:0
+CREATED:20151228T165516Z
+DESCRIPTION:http://www.furaffinity.net/journal/7246078/#cid:48354257
+LAST-MODIFIED:20151228T165517Z
+LOCATION:NEFSA Clubhouse\, 504 Medford Street\, Somerville\, MA\, United S
+ tates
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jonus's Amazing Event & Fundraiser
+DTSTART:20160305T180000Z
+DTEND:20160305T200000Z
+DTSTAMP:20160826T024324Z
+UID:2hv8295cgorpqc6t9a7rota764@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151222T195110Z
+DESCRIPTION:https://www.gofundme.com/unclejonus\n\nfor location sign up fo
+ r the event
+LAST-MODIFIED:20151222T195110Z
+LOCATION:Central MA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furbowl 46
+DTSTART:20160103T000000Z
+DTEND:20160103T030000Z
+DTSTAMP:20160826T024324Z
+UID:iigqh0rcj5dt68pst92ju3vpd0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151218T045020Z
+DESCRIPTION:https://t.co/GjUzqNvwuB\nArcade open!
+LAST-MODIFIED:20151218T045026Z
+LOCATION:East Providence Lanes\, 80 Newport Ave\, Rumford\, RI 02916\, Uni
+ ted States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Christmas Dinner Event
+DTSTART:20151220T000000Z
+DTEND:20151220T020000Z
+DTSTAMP:20160826T024324Z
+UID:bmv027d38gqqiei6l8t9hltbjo@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151218T043033Z
+DESCRIPTION:https://www.facebook.com/events/1634219896843557/\n\nThank you
+  for filling out the survey it is very apprecaited. \nDecember is a crazy 
+ month Christmas is just around the corner so we'll be having a social dinn
+ er this weekend. It was tough to decide a place based on all the responses
+  I recieved so I picked Habachi Grill and Buffet. Chinese and Japanese was
+  a popular choice among you furs\, but it should have some American food t
+ oo. :3 \nPrice: The buffet dinner price is 15$ per person (it's 11.99 but 
+ please consider taxes) \nIt will take place at 7 pm\, giving people time t
+ o get off work or finish thier day to day activites. If you are interested
+  in going and may come late please do not worry my cellphone number is 401
+  316 3987. \n\nIf there's enough interest among members\, a meet in warwic
+ k mall prior to the dinner event is possible\, please remember it is Star 
+ Wars weekend so movie theathers will be packed! If it snows then an organi
+ zed snowball fight will occur for those wanting it at a local park. Please
+  stay tune for more updates. If you have any questions or concerns post be
+ low.\n\nIf you need a ride please contact me. There's a 3$ gas fee and I w
+ ork overnight that night so I will be returning people home early before g
+ oing to work. Please feel free to message me for more information\n\nThank
+  you and hope to see you there!
+LAST-MODIFIED:20151218T043116Z
+LOCATION:Hibachi Grill And Buffet 1245 Bald Hill Rd\, Warwick\, Rhode Isla
+ nd 02886
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Christmas and Chinese food meet
+DTSTART:20151219T230000Z
+DTEND:20151220T023000Z
+DTSTAMP:20160826T024324Z
+UID:m11jgostmk8t30n0cjkkgc6hm4@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151214T164928Z
+DESCRIPTION:http://welcome.mainefurs.org/index.php/calendar/icalrepeat.det
+ ail/2015/12/19/7/-/christmas-and-chinese-food-meet\n\nChristmas and Chines
+ e food meet\nSaturday 19 December 2015\, 06:00pm\n Hits : 210\n\nContact a
+ wolfgod[FA]\nLocation 198 Maine Mall Road South Portland\, ME 04106\nFursu
+ its: no \, but bring them anyways might do something after the meet  \nSna
+ ck's had to cancel his meet but people still wanted a meet so his meet was
+  Replaced to Chinese meet at the great wall buffet in South portland [ goo
+ gle maps location ] the meet will start at 6pm on 12/19 \,\n\nIt's all you
+  can eat buffet which cost $15.49 + tax for access to the buffet .  we wil
+ l still be having a christmas swap \n\nHope to see you there.\n\n \n\nNama
+ ste\n~awolf ♥∞♥
+LAST-MODIFIED:20151214T164928Z
+LOCATION:198 Maine Mall Rd\, South Portland\, ME 04106\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vermont Furbowl
+DTSTART:20160123T190000Z
+DTEND:20160123T220000Z
+DTSTAMP:20160826T024324Z
+UID:3m5bmv7i9p5p79r1l500junr2o@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151201T041347Z
+DESCRIPTION:TIME IS TBD (still working out details with spare time)\n\nJoi
+ n us for a game of bowling!\n\nFursuit friendly! We want to encourage peop
+ le to actually bowl as much as possible even if its just for one game. Las
+ er Tag is a possibliy! 21+ may drink responsibly.\n\nBowling: $4.79 Per Ga
+ me Per Person\nShoe Rental $3.99 Per Person\nLaser Tag: $7.50 Per Game Per
+  Person.
+LAST-MODIFIED:20151201T041347Z
+LOCATION:Spare Time\, 215 Lower Mountain View Dr\, Colchester\, VT 05446\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Adult Night Skating at Skateland
+DTSTART:20160226T000000Z
+DTEND:20160226T030000Z
+DTSTAMP:20160826T024324Z
+UID:nenb6koritgjhm9c5jrnps76ds@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151201T041007Z
+DESCRIPTION:https://www.facebook.com/events/1639875629589241/\n\nAges 18+ 
+ Only\n\nCost:\n\nAdmission: $8\nSkate/Blade Rental $5\n\nNo Fursuits!\n\nL
+ ocation does accept debit cards!
+LAST-MODIFIED:20151201T041007Z
+LOCATION:Skateland Vermont\, 8 Susie Wilson Rd\, Essex Junction\, VT 05452
+ \, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Essex Tree Lighting Ceremony
+DTSTART:20151211T223000Z
+DTEND:20151212T033000Z
+DTSTAMP:20160826T024324Z
+UID:rdk06kjhi2rvq9sr80n7tg5gig@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151015T004128Z
+DESCRIPTION: http://www.furaffinity.net/journal/7107636/ \nRSVP/Headcount:
+ \nhttp://www.furaffinity.net/journal/7209962/
+LAST-MODIFIED:20151129T165533Z
+LOCATION:Five Corners Antiques\, 11 Maple St\, Essex Junction\, VT 05452\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Furry Holiday Party
+DTSTART:20151213T230000Z
+DTEND:20151214T040000Z
+DTSTAMP:20160826T024324Z
+UID:saf9fnmbvo7i2bahaqvm31sppc@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20151118T020223Z
+DESCRIPTION:http://www.furaffinity.net/journal/7192487/\n
+LAST-MODIFIED:20151127T214628Z
+LOCATION:Milly's Tavern\, 500 N Commercial St\, Manchester\, NH 03101\, Un
+ ited States
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mass Fur Bowl
+DTSTART:20151213T000000Z
+DTEND:20151213T050000Z
+DTSTAMP:20160826T024324Z
+UID:gfgtqu06d65mttmondgpnmgn8k@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151118T013903Z
+DESCRIPTION:http://www.furaffinity.net/journal/7184163/\n\n\nMass FurBowl 
+ #41\n\nINFO:\n\nPLEASE RSVP ON THIS JOURNAL SO WE CAN HAVE AN ACCURATE TAL
+ LY OF PEOPLE\n\nDate: December 12th\, 2015\n\nThis bowl will also be our h
+ oliday bowl! What's that mean? Contests and candy canes and prizes! We wil
+ l be hosting a costume contest to see who is the most festive of our bowl 
+ goers! There will be an in suit and out of suit division so everyone can p
+ articipate! Please dress up in your favorite holiday/winter swag! Come as 
+ santa\, and elf\, a snowman\, the grinch\, a dreidel\, whatever! Thanksgiv
+ ing costumes welcome too! The winner of each division will win an awesome 
+ gift bag of knick knacks\, candy\, giftcards and other swag! \n\nWe're als
+ o looking for any little gift donations anyone would like to make to the t
+ wo baskets\, so shoot us a note if you'd like to help!\n\n\nIt will take p
+ lace at Yarmouth bowling alley! \nwww.ryanfamily.com\n\nADDRESS: \n1067 Ro
+ ute 28 So. Yarmouth\, MA 02664 \n508-394-5644 HOURS: \n\n\nThe bowl starts
+  at 7. Ends at close\, like usual. If you're bowling\, eating or whatever 
+ bring money so you can pay the proper amount.\n\n***Please pay a staff mem
+ ber your $5 fee (non bowling) or $10 (bowling) fee. Preferably in cash. We
+ 'd like to cut down the amount of work the bowling alley has to do with al
+ l the transactions. Thanks!***\n\n\nPLEASE BRING ENOUGH MONEY TO COVER THE
+  PRICE OF WHATEVER YOU ARE DOING THAT NIGHT.\n\nQuestions? \nhttp://www.fu
+ raffinity.net/journal/3217377/\n\n\n\nSee you there!\n\n----\n\nTwitter\n\
+ nWe have a twitter account! And we'll be using that a lot to send out News
+  and Updates so you should follow us.\n\nMassFurBowl
+LAST-MODIFIED:20151118T013903Z
+LOCATION:Ryan Family Amusements\, 1067 MA-28\, South Yarmouth\, MA 02664\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Woobowl #2
+DTSTART:20151212T194500Z
+DTEND:20151212T220000Z
+DTSTAMP:20160826T024324Z
+UID:hm0b8e77nsoo3uki6fc2rhj8bg@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151118T013746Z
+DESCRIPTION:Round 2\, go!\n\nThis is our monthly central MA bowling event 
+ located at AMF Town and Country Lanes\, 405 Boston Turnpike Shrewsbury MA.
+  It will cost $10 per person to bowl and that includes shoes. If you are n
+ ot bowling the cost is $5 each.\n\nWhen you arrive please find either myse
+ lf or Kaito to check in and sign in to our log book. This helps us keep tr
+ ack of who's paid and also will help us plan for dinner later.\n\nFursuits
+  are allowed! If you are bowling in fursuit you must wear bowling shoes\, 
+ this is the alley's rule not ours and we love our alley a lot already.\n\n
+ After-meet dinner spot will be the IHOP in White City but of course there 
+ are other options available in and around the area.\n\nThis will be our ho
+ liday meet! Feel free to come in your reindeer outfits\, sleigh bells\, ug
+ ly sweaters\, anything that makes your season bright! Also\, to help out t
+ hose less fortunate\, we are asking folks to bring either a new unwrapped 
+ toy or nonperishable food items (not expired\, please! This happened recen
+ tly with a drive I did for soldiers. You'd be shocked how much stuff was p
+ ast its expiry date) not totaling more than $10. The food items will be do
+ nated to the Worcester County Food Bank and the toys to Toys or Tots.\n\nR
+ emember that this is a family center and children may be present\, so be o
+ n your best behavior! We got rave reviews from the staff after the last me
+ et so let's keep up the good work!\n\nhttps://www.furaffinity.net/journal/
+ 7184200/
+LAST-MODIFIED:20151118T013746Z
+LOCATION:AMF Town & Country Lanes\, 405 Boston Turnpike\, Shrewsbury\, MA 
+ 01545\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mass Fur Bowl
+DTSTART:20151115T000000Z
+DTEND:20151115T050000Z
+DTSTAMP:20160826T024324Z
+UID:4lm3s9gctfrt5fibist2g8srj0@google.com
+SEQUENCE:0
+CREATED:20150903T213358Z
+DESCRIPTION:http://www.furaffinity.net/journal/7095261/
+LAST-MODIFIED:20151112T164751Z
+LOCATION:Ryan Family Amusements\, 1067 MA-28\, South Yarmouth\, MA 02664\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auburn Meet and Greet
+DTSTART;TZID=America/New_York:20151128T130000
+DTEND;TZID=America/New_York:20151128T160000
+DTSTAMP:20160826T024324Z
+UID:u392hpd4u0qq0uvvjtm2ojlj3s@google.com
+RECURRENCE-ID;TZID=America/New_York:20151002T120000
+SEQUENCE:4
+CLASS:PUBLIC
+CREATED:20150820T045557Z
+DESCRIPTION:Taken from Facebook\n\nThis is a very casual meet for furs to 
+ hang out and get to know one another.\nPlease do not wear a fur suit to th
+ is meet.\n\nPlease be respectful of the boundaries of others and help us k
+ eep the fandom looking good :)\nBring games to play if you wish\, sketchpa
+ ds\, etc...\n\nWe will be in the food court.
+LAST-MODIFIED:20151112T163849Z
+LOCATION:Auburn Mall\, 385 Southbridge Street\, Auburn\, MA 01501\, United
+  States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New Hampshire Furbowl
+DTSTART:20160109T000000Z
+DTEND:20160109T030000Z
+DTSTAMP:20160826T024324Z
+UID:rikntar8rd0c0a3e0dp06piilk@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151110T172404Z
+DESCRIPTION:Hosted by @NHFurBowl on Twitter
+LAST-MODIFIED:20151110T172405Z
+LOCATION:Strikers East Bowling Center & Function Room\, 4 Essex Rd\, Raymo
+ nd\, NH 03077\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WooBowl #1 [TENTATIVE]
+DTSTART:20151107T190000Z
+DTEND:20151107T233000Z
+DTSTAMP:20160826T024324Z
+UID:27q7aqqk7nvfhf9n2uh1jsngu8@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20151009T043213Z
+DESCRIPTION:https://www.facebook.com/events/823250524440727/\n\nHey There 
+ Everyone!\nThis Event Page is one of the first steps in bringing a fun\, s
+ ocial\, FURRY bowling meet back to Central Massachusetts!! \n\nBecause thi
+ s is a pre-emptive page to an event\, there will be MORE UPDATES as they b
+ ecome readily available! But this is so you can mark it on your calendars 
+ and get ready for some fun! \n\nSo let's fight that Post-Con Depression an
+ d have some fun!\n\nWe are planning a post meet at one of the local restau
+ rants! So plan accordingly! We will take a vote once we have more details 
+ figured out\, but there are venues such as Buffalo Wild Wings in the area!
+  \n\nWe are planning having a small admission fee whether you are bowling 
+ or not. But again\, as the details become available\, we will edit the des
+ cription as such! \n\nIf you have any general questions\, please feel free
+  to ask Elizabeth Anders (Blue Floof) or myself! (Red Floof)!\n\nALSO!! I 
+ don't have everyone in Facebook\, so PLEASE if you know anyone that would 
+ like to go\, please feel free to invite them!!
+LAST-MODIFIED:20151103T190231Z
+LOCATION:AMF Town & Country Lanes\, 405 Boston Turnpike\, Shrewsbury\, MA 
+ 01545\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ANE Buffalo Wild Wings Charity Event
+DTSTART:20151118T230000Z
+DTEND:20151119T020000Z
+DTSTAMP:20160826T024324Z
+UID:qgm32dr6traaccmdo6okkm0900@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151027T214020Z
+DESCRIPTION:https://t.co/fMxpqpiqcI
+LAST-MODIFIED:20151027T214020Z
+LOCATION:Buffalo Wild Wings\, 250 Granite St #1025B\, Braintree\, MA 02184
+ \, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Halloween Chili's Meet
+DTSTART:20151031T230000Z
+DTEND:20151101T020000Z
+DTSTAMP:20160826T024324Z
+UID:maq8k22nel453qr9jjl1cmm9ms@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151027T213845Z
+DESCRIPTION:https://t.co/0bH6AcE6Fq
+LAST-MODIFIED:20151027T213845Z
+LOCATION:Chili's Grill & Bar\, 1276 Bald Hill Rd\, Warwick\, RI 02886\, Un
+ ited States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pumpkinfest Meet
+DTSTART:20151024T150000Z
+DTEND:20151024T183000Z
+DTSTAMP:20160826T024324Z
+UID:ei34lr1668qu3f9c8853ekbpao@google.com
+SEQUENCE:0
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CREATED:20151020T024342Z
+DESCRIPTION:https://www.furaffinity.net/journal/7118810/
+LAST-MODIFIED:20151020T024347Z
+LOCATION:Laconia Public Library\, 695 N Main St\, Laconia\, NH 03246\, Uni
+ ted States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pumpkinfest Meet
+DTSTART:20151023T200000Z
+DTEND:20151023T233000Z
+DTSTAMP:20160826T024324Z
+UID:imb64mjr156q044um8fk83ul6o@google.com
+SEQUENCE:0
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CLASS:PUBLIC
+CREATED:20151020T024257Z
+DESCRIPTION:https://www.furaffinity.net/journal/7118810/
+LAST-MODIFIED:20151020T024303Z
+LOCATION:Bank of New Hampshire\, 1441 Lake Shore Rd\, Gilford\, NH 03249\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fairground Cafe Meet
+DTSTART:20151025T160000Z
+DTEND:20151025T190000Z
+DTSTAMP:20160826T024324Z
+UID:250q0mb5tunjio0fe8k180jml0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151019T142000Z
+DESCRIPTION:http://welcome.mainefurs.org/index.php/calendar/icalrepeat.det
+ ail/2015/10/25/5/-/fairground-cafe-meet\n\nContact Novar Lynx (twitter @no
+ varlynx) \nLocation Fairground Cafe\; Topsham Fair Mall\; Topsham\, ME 040
+ 86\nFursuits: Tails and ears only! \nMeet at the Fairground Cafe for lunch
+ !\n\nWe'll be in the main dining area in the center. They're going to put 
+ a bunch of tables together. \n\nEveryone needs to pay for their own food. 
+ Bring about $20. You can get a whole meal for about $12-ish.\n\nHere's the
+ ir menu http://menusinbbt.com/restaurants/fairground-cafe/
+LAST-MODIFIED:20151019T142000Z
+LOCATION:Fairground Cafe\, 49 Topsham Fair Mall Rd # 14\, Topsham\, ME 040
+ 86\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Comicon Meet
+DTSTART:20151108T153000Z
+DTEND:20151108T190000Z
+DTSTAMP:20160826T024324Z
+UID:plsceuj1lrtoura098uv0jiudk@google.com
+SEQUENCE:0
+CREATED:20151019T132130Z
+DESCRIPTION:http://www.furaffinity.net/journal/7116374/
+LAST-MODIFIED:20151019T132130Z
+LOCATION:The Residences Providence\, W Exchange St\, Providence\, RI 02903
+ \, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Comicon Meet
+DTSTART:20151107T153000Z
+DTEND:20151107T190000Z
+DTSTAMP:20160826T024324Z
+UID:9ci206iokuq910o0uvuh5kkbb0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151019T132118Z
+DESCRIPTION:http://www.furaffinity.net/journal/7116374/
+LAST-MODIFIED:20151019T132119Z
+LOCATION:The Residences Providence\, W Exchange St\, Providence\, RI 02903
+ \, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tea Party Potluck
+DTSTART:20151108T190000Z
+DTEND:20151108T220000Z
+DTSTAMP:20160826T024324Z
+UID:qs25pu25i6lfrvpqnk8avirgt8@google.com
+SEQUENCE:0
+CREATED:20151019T131637Z
+DESCRIPTION:http://www.furaffinity.net/journal/7115704/\nNo Bottled Teas
+LAST-MODIFIED:20151019T131821Z
+LOCATION:
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rhode Island Furbowl 44
+DTSTART;TZID=America/New_York:20151107T200000
+DTEND;TZID=America/New_York:20151107T230000
+DTSTAMP:20160826T024324Z
+UID:e106unkiv9mvblcormd5ehatns@google.com
+RECURRENCE-ID;TZID=America/New_York:20151107T190000
+SEQUENCE:3
+CLASS:PUBLIC
+CREATED:20150820T043853Z
+DESCRIPTION:http://www.furaffinity.net/journal/7116427/
+LAST-MODIFIED:20151019T131749Z
+LOCATION:East Providence Lanes\, 80 Newport Avenue\, Rumford\, RI 02916\, 
+ United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auburn Minigolf Meet and Mini-Golf
+DTSTART:20151017T160000Z
+DTEND:20151017T210000Z
+DTSTAMP:20160826T024324Z
+UID:v16c7fm0ergb383h94r89ddkjc@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150820T050412Z
+DESCRIPTION:https://www.facebook.com/events/1513761915581863/\n\nBring cas
+ h as they do not accept cards.\n\nForm groups of no more than 4\n\nThe pri
+ ce to play a game of Mini Golf is $8.00\n\nThere is more to do at Crystal 
+ Caves other than mini golf as well:\nBasketball Trampoline or Gyro $5.00\n
+ Bungee Trampoline $7.00\nBilliards (pool) or Ping Pong Table $6.00 per 1/2
+  hour\n\nFA Journal: http://www.furaffinity.net/journal/6925060/\n\nPlease
+  visit their website for more information: http://www.crystalcaves.com/
+LAST-MODIFIED:20151015T202026Z
+LOCATION:Crystal Caves-Family Entertainment\, 790 Southbridge Street\, Aub
+ urn\, MA 01501\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New England Furs Halloween Mini Golf Meet
+DTSTART:20151024T220000Z
+DTEND:20151025T030000Z
+DTSTAMP:20160826T024324Z
+UID:ld4gmjk89759ojk1troasn8mt8@google.com
+SEQUENCE:1
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CLASS:PUBLIC
+CREATED:20150914T141308Z
+DESCRIPTION:https://www.facebook.com/events/865390413575558/\n\nThis is my
+  yearly halloween mini golf meet at Farmington Mini Golf in Farmington CT.
+  They redecorate the course every year including a giant pumpkin\, dry ice
+  mist\, sounds and lights\, and lots of halloween decorations. I've gotten
+  confirmation that they will be having this again this year and would like
+  to have us back! \n\nFursuits are welcome and encouraged...since hallowee
+ n costumes are allowed and permitted :D\n\nIf you don't have a fursuit doe
+ sn't mean you can't come! You can also come in a halloween costume if you 
+ wish\, or just ears and a tail would be fine too! \n\nAdmission price is 1
+ 0$ per person for one round of golf\n\nThere is also an ice cream parlor o
+ n the premises that serves soft serve ice cream\, slushies\, and some food
+ .\n\nThere are places to eat in the area as well.....McDonalds\, Friendly'
+ s\, People's Choice\, Dunkin Donuts\, and much more.\n\nIf anybody has any
+  questions\, feel free to message me :)\n\nPlease rsvp by October 10th so 
+ I may give them a head count......we go in teams of four around the golf c
+ ourse. It may be busy\, it has been in times past. Please be courteous to 
+ other golfers and if you are taking a long time\, let other people go in f
+ ront of you. \n\nIf everyone can have their teams picked out beforehand th
+ at would be great. As people get suited up and get paid\, please make your
+  way onto the course and start your game. After everyone is finished we wi
+ ll gather by the large cutout pumpkin for a group photo as we do every yea
+ r!\n\nDate and time is subject to change depending on availability of grou
+ p timing by establishment. And changes will be posted in due time.\n\nPlea
+ se arrive between 5:00-5:30pm to allow time to suit up\, pay\, and pick te
+ ams. Like stated before\, as people get suited up and get teams picked\, p
+ lease enter and start your game. They stop allowing people in to play golf
+  at 9pm but stay open until everyone goes home. But don't take all night l
+ ol.
+LAST-MODIFIED:20151013T035347Z
+LOCATION:Farmington Miniature Golf & Ice Cream\, 1048 Farmington Ave\, Far
+ mington\, CT 06032\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Silvermane's Halloween Party
+DTSTART:20151031T160000Z
+DTEND:20151101T210000Z
+DTSTAMP:20160826T024324Z
+UID:i6smma8hkkss5hj6v5mbjpb7g8@google.com
+SEQUENCE:3
+CREATED:20151001T005839Z
+DESCRIPTION:http://www.furaffinity.net/journal/7075907/\n\nHalloween Party
+  \nSaturday OCTOBER 30TH\nPresented and hosted by: silvermane \nHalloween 
+ party at 20 Harrisburg Ave. Westbrook\, Maine. Arrival begins at 12:00 PM.
+  RSVP to claim a spot\, first come first serve. Overnights are welcome\, b
+ ut please bring sleeping supplies. House has cats and dogs. \nFursuits: We
+ lcomed and encouraged!\n\n\n
+LAST-MODIFIED:20151009T233308Z
+LOCATION:20 Harrisburg Ave\, Westbrook\, ME 04092\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spitfire's Birthday Meet
+DTSTART:20151009T220000Z
+DTEND:20151010T060000Z
+DTSTAMP:20160826T024324Z
+UID:m49vgbu0u16flp622hc2eeisbc@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150914T140328Z
+DESCRIPTION:https://www.facebook.com/events/950183461687536/\n\nCome suit 
+ with us for Spitfire's birthday weekend!!!! We did it last year and all of
+  the people out walking the streets of Salem loved seeing our suits!!! Com
+ e join us for the fun!!!!
+LAST-MODIFIED:20151009T233007Z
+LOCATION:Salem\, MA\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vt Furs Chinese Buffet Meet
+DTSTART:20151115T180000Z
+DTEND:20151115T193000Z
+DTSTAMP:20160826T024324Z
+UID:kinbve7vr107m2grmufv5nho38@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20151008T002336Z
+DESCRIPTION:By: Vermont Furs\nEvent Description\nAll you can eat chinese i
+ nclude hibachi and sushi. Drinks are extra.\nRSVP Required Cost for buffet
+  is $11 includes hibachi and basic sushi. Drinks xtra\n\nWHEN\nSunday\, No
+ vember 15\, 2015 from 1:00 PM to 2:30 PM (EST) \n\nWHERE\nLucky Buffet Mil
+ ton\, Vt\n\nhttps://www.eventbrite.com/e/vt-furs-chinese-buffet-meet-ticke
+ ts-18954540541
+LAST-MODIFIED:20151008T002633Z
+LOCATION:Lucky Buffet\, 24 Main St\, Milton\, VT 05468\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dave & Buster's Meet
+DTSTART:20151108T000000Z
+DTEND:20151108T030000Z
+DTSTAMP:20160826T024324Z
+UID:0e72bsgfimjm8ll4ugf0fh9bas@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151008T001756Z
+DESCRIPTION:https://www.facebook.com/events/1715566045345064/\n\nTrying to
+  crowdsource a bit here.\n\nI will be planning an event at the Dave and Bu
+ ster's in Manchester CT.\n\nIn order to get a reservation for 10-20 people
+ \, there is a revenue minimum that we must meet. It is $500 on food\, drin
+ ks\, and Power Cards. That means if 20 people show up\, it's only $25 per 
+ person (which can be easily spent on food\, drinks\, games) We get the tab
+ le for 2 hours and there will be a contract (which I will have to sign\, a
+ nd I don't want to foot the bill if we don't spend $500 which is why it's 
+ important that we do)\nThe less people show up\, the more it will cost per
+  person.\n\nIf MORE than 20 people are interested\, we can upsize to a hal
+ f room OR full room. These would require is to get our own buffet\, which 
+ will cost per person. (Minimum $27 per person but includes food\, unlimite
+ d soda/coffee/tea and a $10 game card) They are rented out for 3 hours at 
+ a time.\n\nHalf room can fit 15 to 36 people. The room itself costs $150 b
+ ut it goes towards the revenue minimum which is $1100.\n\nFull room can fi
+ t up to 80 people. The room itself costs $300 but it goes towards the reve
+ nue minimum which is $2000.\n\nAttire for dining room will most likely be 
+ tails/ears\, preferably NOT full suits. This is because there will be a lo
+ t of normies and their children\, and the last thing we want is people sto
+ pping us every 5 seconds thinking we are a mascot or something and taking 
+ pictures with us. If you guys really want to wear your fullsuits to this\,
+  we should book one of the private rooms.\n\nThis is all very confusing bu
+ t the more people I can get to go\, the less it will cost for each person.
+  The more people show up\, the better our party can be.\n\nTHIS EVENT PAGE
+  IS ONLY TO SEE HOW MANY PEOPLE ARE INTERESTED\, THEN I WILL SEE ABOUT BOO
+ KING AND SIGNING THE CONTRACT. PLEASE RSVP TO THIS EVENT IF YOU CAN DEFINI
+ TELY MAKE IT. \n\nPlease message me if you have questions or would like to
+  help me plan this event!
+LAST-MODIFIED:20151008T001756Z
+LOCATION:Dave & Buster's\, 100 Buckland Hills Dr\, Manchester\, CT 06042\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Corn Maze Meet
+DTSTART:20151024T160000Z
+DTEND:20151024T190000Z
+DTSTAMP:20160826T024324Z
+UID:6cai0kqrdrkmf4llg49ns8acl0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151008T001455Z
+DESCRIPTION:https://www.facebook.com/events/808690962577101/\n\nAs we did 
+ last year\, there will be an outdoor furmeet at a corn maze! The location 
+ is Escobar's Highland Farm in Portsmouth. This will be held on Saturday\, 
+ October 24 at 12 noon. The address is 255 Middle Road in Portsmouth.\n\nAd
+ mission is $8 for ages 12 and up. You can print a $1 coupon at this link: 
+ http://www.escobarshighlandfarm.com/coupon.html They are having a Hallowee
+ n costume party that day\, so you can get $1 off admission if you come in 
+ a costume.\n\nFursuits are allowed! This is an outdoor event\, so we will 
+ not have a designated space to take a break and change up\, so we'll have 
+ to head back to our cars. Be aware of your limits while fursuiting. Anyone
+  who is not fursuiting will be a handler. We shall do one side of the maze
+ \, take a break\, and then do the other half.\n\nThe maze's theme this yea
+ r is the Pawtucket Red Sox. Bring anything baseball related if you can. Th
+ ere are also concessions\, hayrides and games at the farm.\n\nRemember tha
+ t this is a public event with families and children present. Be on your be
+ st behavior at all times. You are representing the Furry Fandom while you 
+ are there.\n\nPlease reply so we'll know how many people are coming.
+LAST-MODIFIED:20151008T001455Z
+LOCATION:Escobar's Highland Farm\, 255 Middle Rd\, Portsmouth\, RI 02871\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NH Furbowl
+DTSTART:20151219T000000Z
+DTEND:20151219T043000Z
+DTSTAMP:20160826T024324Z
+UID:r7rmh5k8522rpi8o6pgtd4koh0@google.com
+SEQUENCE:0
+CREATED:20151005T150304Z
+DESCRIPTION:Hosted by Colin Lion \n@NHFurbowl on Twitter\nOne hour hanging
+  out in the lounge before bowling.\nTwo hours of bowling and events and pr
+ izes!\nBowling is 10 dollars\, pay up front to ensure a spot!
+LAST-MODIFIED:20151005T150305Z
+LOCATION:Strikers East Bowling Center & Function Room\, 4 Essex Rd\, Raymo
+ nd\, NH 03077\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NH Furbowl
+DTSTART:20151107T000000Z
+DTEND:20151107T043000Z
+DTSTAMP:20160826T024324Z
+UID:e69djvubbn8tfircnu7nuj9aac@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20151005T150040Z
+DESCRIPTION:Hosted by Colin Lion \n@NHFurbowl on Twitter\nOne hour hanging
+  out in the lounge before bowling.\nTwo hours of bowling and events and pr
+ izes!\nBowling is 10 dollars\, pay up front to ensure a spot!
+LAST-MODIFIED:20151005T150151Z
+LOCATION:Strikers East Bowling Center & Function Room\, 4 Essex Rd\, Raymo
+ nd\, NH 03077\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Becky's Diner Meet
+DTSTART:20151023T150000Z
+DTEND:20151023T180000Z
+DTSTAMP:20160826T024324Z
+UID:ad8agejr2319ehdl118a6j4s9s@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151001T010058Z
+DESCRIPTION:http://www.furaffinity.net/journal/7075907/\n\nBecky's Diner M
+ eet \nSaturday OCTOBER 23RD\nPresented and hosted by: sunnydancer \nBecky'
+ s Diner meet! Come have a warm meal at an old fashioned diner located in P
+ ortland Maine. Meet up with fellow furries\, and enjoy the fandom\, and or
+  art. \n390 Commercial Street\, Portland\, Maine\, 14105\nArrival will beg
+ in at 11:00 AM\nFursuits: Tails and ears are okay.
+LAST-MODIFIED:20151001T010058Z
+LOCATION:Becky's Diner\, 390 Commercial St\, Portland\, ME 04101\, United 
+ States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Monster Mini-Golf
+DTSTART:20151011T200000Z
+DTEND:20151012T000000Z
+DTSTAMP:20160826T024324Z
+UID:tmecnli11ult2052ugbhdebt6g@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151001T005453Z
+DESCRIPTION:http://www.furaffinity.net/journal/7066529/\n\nI've announced 
+ this previously\, but no one has responded.\n\nThere will a fursuiting min
+ i-golf meet at Monster Mini-Golf in Seekonk on Sunday\, October 11 at 4 p.
+ m. They feature 18 holes of indoor miniature golf under blacklights with a
+  ghoulish monster theme. The address is 140 Taunton Ave\, Seekonk\, MA. (M
+ AP IS HERE) It is behind the Price-Rite supermarket.\n\nAdmission is $10. 
+ No exceptions. If you are coming\, you are paying $10 even if you don't go
+ lf. This is to help offset the cost of renting a party room. IMPORTANT: A 
+ HEAD COUNT IS NEEDED by Tuesday\, October 6\, so please let me know if you
+  are coming. The deposit on the party room is non-refundable.\n\nThe party
+  room will be our fursuit changing area and it may be crowded in there. If
+  you have any problems with this as far as changing up or if you want a pr
+ ivate space\, please let me know ASAP.\n\nI would suggest that you arrive 
+ on time and change up into fursuit as soon as possible. The room is reserv
+ ed for two hours\, and it takes a while to get a large group to go through
+  18 holes of mini-golf.\n\n\n\n\nJournal by CirrusSkyDragon  CirrusSkyDrag
+ on
+LAST-MODIFIED:20151001T005453Z
+LOCATION:Monster Mini Golf\, 140 Taunton Ave\, Seekonk\, MA 02771\, United
+  States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Apple Picking Meet
+DTSTART:20151004T160000Z
+DTEND:20151004T210000Z
+DTSTAMP:20160826T024324Z
+UID:rb70hs0j8213p9bhombahjrh4g@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151001T005232Z
+DESCRIPTION:http://www.furaffinity.net/journal/7063001/\n\n\n**APPLE PICKI
+ NG**\n\nTheRedBandit  TheRedBandit is hosting an apple picking meet! \n\nW
+ here: Stonybrook Farm Address: 128 Glidden Rd\, Gilford\, NH \nWhen: Sunda
+ y October 4th \nTime: Noon (12pm)\n\nThe orchard has a huge orchard and a 
+ tractor hay ride. They also have pumpkins\, pie.\, cider\, and donuts\, wh
+ ich would all be welcome treats. They're open 9am to 5pm. Dinner afterward
+ s may be planned.
+LAST-MODIFIED:20151001T005232Z
+LOCATION:Stonybrook Farm\, 128 Glidden Rd\, Gilford\, NH 03249\, United St
+ ates
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Furcade South
+DTSTART:20151128T220000Z
+DTEND:20151129T030000Z
+DTSTAMP:20160826T024324Z
+UID:131a08bcjpibtmejdbo04tqg2g@google.com
+SEQUENCE:0
+CREATED:20151001T004234Z
+DESCRIPTION:https://www.facebook.com/events/951452071562925/\n\nRound Thre
+ e... FIGHT!\n\nThis is the 3rd ever Furcade South Meet @ Tri-State Speedwa
+ ys in Dudley MA! This is a "sister meet" to the Furcade North (Pelham)\, a
+ nd it is located 20 minutes south of Worcester MA\, right on the Connectic
+ ut border.\n\nAt the last Furcade South we had 25+ people and we're excite
+ d to see this new event grow. Going forward\, we will alternate month-to-m
+ onth between "North" and "South" meets... There is talk of Pinball Wizard 
+ moving or renovating in the near future - this may also provide an alterna
+ te meet location while they are closed.\n\nTri-State Speedways has dozens 
+ of arcade games which operate on tokens and spit out prize tickets\, a lar
+ ge indoor Go-Kart race track\, indoor roller skating rink with music and b
+ lacklights\, indoor mini-golf course and play structure\, two bowling lane
+ s\, and several billiards tables and dart boards. They also have an on-sit
+ e restaurant with a full bar\, indoor and outdoor (smoking) seating\, and 
+ food of similar style and price to Applebees or The 99.\n\nThe event start
+ s at 5pm "furry time" - feel free to show up late\, but PLEASE don't come 
+ too early! They won't be ready for us... At 9:15ish the party room and rac
+ etrack will close\, and those who want to stay for food (and games) will m
+ ove downstairs to the restaurant where there are arcade games\, pool table
+ s and dartboards - skating will continue. Don't forget the Auburn Meet & G
+ reet @ Rocketland Park leading up to Furcade!\n\nPricing:\n\nGames--------
+ ---------------$0.25 Tokens (varies)\nPlayplace--------------------$5 "Pla
+ y All Day"\nMiniGolf----------------------$5 "Play All Day"\nBumper Cars--
+ -------------$3 (Per Ride)\nCandlepin Bowling---------$2 (10 Frames)\n\n"U
+ nlimited Wristband"----$15 (Bumper Cars\, Playplace\, Minigolf)\n\nRoller 
+ Skating---------------$10 (Rental + Admission)\n$7 if you have your own!\n
+ 2-for-1 Pricing for Furries!\n\nGoKarts (Non-member)-----$15/race\nGoKart 
+ Membership----------$10/year\nGoKart Member Prices:\n$12 - 1 Race\n$30 - 3
+  Races\n$55 - 5 Races\n$100 - 10 Races\n\nRACE PACKAGES CAN BE SHARED / SP
+ LIT BETWEEN MEMBERS!\n\nGoKart riders must wear closed-toe shoes (no sanda
+ ls!) and may or may not be able to ride with fursuit heads on\, depending 
+ on visibility and staff judgement....\n\nFursuits are not only welcome\, b
+ ut encouraged! Like Furcade North (Pelham)\, we've reserved and rented the
+  party room at the arcade\, which means tables for card games and food\, a
+ nd a place to store fursuit boxes. There are tables for for MTG and Cards 
+ Against Humanity\, as well as a table for snacks. Feel free to bring treat
+ s to share with your fellow furs! At the last few meets we had lots of tas
+ ty baked goods thanks to our guests. There's plenty of parking\, and food 
+ on-site.\n\nWe ask that guests each chip $5 at the door to offset the cost
+  of renting the place. Why rent out the room? The arcade is a business\, t
+ hey're there to make money... We know many if not most attendees will play
+  card games and hang out rather than pumping quarters into the machines or
+  racing/skating/etc - and that's OK because we own the space for the night
+ ! In the event that we exceed the cost of the rental and snacks\, addition
+ al funds collected will go towards making the next meet bigger/longer/bett
+ er.\n\nAs always\, let's be respectful of other arcade guests\, and repres
+ ent the fandom well\, so that we are invited back. No drugs or drama\, ple
+ ase! There is alcohol at the bar\, but don't overdo it! Remember we are he
+ re to have FUN and all rumors and "beef" should be left at the door - if y
+ ou do have an issue or concern\, inform one of the hosts and we will addre
+ ss it (don't gossip or post it publicly).\n\n\nRSVP\n\n\n\n\n\n\n\nFor the
+  TL\;DR Crowd...\n\n-Arcade Meet November 28th @ 5PM\n-Suits\, ears & tail
+ s welcome\n-Feel free to bring snacks/treats to share\n-Tables for MTG & C
+ AH\n-$5 cover charge\n-Don't be a jerk\n\nThere is the Auburn Meet and Gre
+ et prior to this meet.\nhttps://www.facebook.com/events/143555012649256/
+LAST-MODIFIED:20151001T004234Z
+LOCATION:Tri-State Speedway\, 35 Chase Ave\, Dudley\, MA 01571\, United St
+ ates
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Swap Meet
+DTSTART:20151018T110000Z
+DTEND:20151018T200000Z
+DTSTAMP:20160826T024324Z
+UID:vat5pqdabiro7o04otjh6j8bk0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151001T003657Z
+DESCRIPTION:Stafford Springs Speedway (October 18th\, hosted by Ty-Rods gr
+ oup)\n42nd Annual Ty-Rods Fall Auto Swap Meet\nOctober 18 @ 7:00 am - 4:00
+  pm\nGate admission is $11 (cash). ATM's on site.\n\nMyself(Tauren Tom) an
+ d Gear will be going up. Let us know if you want to join in and walk aroun
+ d. We tend to look for good deals on parts and cars. If you have a particu
+ lar part you're looking for\, we'll keep an eye out.\n\nhttps://www.facebo
+ ok.com/events/174525849552537/
+LAST-MODIFIED:20151001T003657Z
+LOCATION:Stafford Springs Motor Spdwy\, 55 West St\, Stafford Springs\, CT
+  06076\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pre-RI Furbowl park meet
+DTSTART:20151010T200000Z
+DTEND:20151010T230000Z
+DTSTAMP:20160826T024324Z
+UID:73kokh6puln3mjcinhm8qn1ptk@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20151001T003239Z
+DESCRIPTION:http://www.furaffinity.net/journal/7051432/\n\nThere will be a
+  meet at Slater Park at 4 p.m. on October 10 before RI Furbowl 43. This is
+  a quiet place to socialize and meet people instead of in the noisy bowlin
+ g alley. THIS MEET IS OPTIONAL. You do not have to attend this meet. The m
+ ain event for the day is the furbowl.\n\nThe location to meet up will be i
+ n the parking lot of Daggett Farm in Slater Park. The address is RR 1A (Ne
+ wport Avenue)\, Pawtucket\, RI. (MAP IS HERE) It is less than 10 minutes a
+ way from East Providence Lanes. We shall stay there until 6:30 so we can t
+ hen drive to the alley.\n\nFursuits are allowed at the park. You would hav
+ e to change up by your car. Remember that there is a furbowl taking place 
+ that night\, so don't overexert yourself.\n\n
+LAST-MODIFIED:20151001T003239Z
+LOCATION:Slater Park\, RR 1A\, Pawtucket\, RI 02860\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rhode Island Furbowl
+DTSTART;TZID=America/New_York:20151010T190000
+DTEND;TZID=America/New_York:20151010T220000
+DTSTAMP:20160826T024324Z
+UID:e106unkiv9mvblcormd5ehatns@google.com
+RECURRENCE-ID;TZID=America/New_York:20151003T190000
+SEQUENCE:3
+CLASS:PUBLIC
+CREATED:20150820T043853Z
+DESCRIPTION:http://www.furaffinity.net/journal/6962253/
+LAST-MODIFIED:20150927T161338Z
+LOCATION:East Providence Lanes\, 80 Newport Avenue\, Rumford\, RI 02916\, 
+ United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bios' Furry Cookout
+DTSTART:20150925T210000Z
+DTEND:20150926T020000Z
+DTSTAMP:20160826T024324Z
+UID:nt5omgk2msaq6kgf5ct0cqqjlc@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150924T010330Z
+DESCRIPTION:https://www.furaffinity.net/journal/7051757/
+LAST-MODIFIED:20150924T010336Z
+LOCATION:200 Post Road\, Apt. #611\, Warwick
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auburn Meet and Greet
+DTSTART;TZID=America/New_York:20150926T130000
+DTEND;TZID=America/New_York:20150926T163000
+DTSTAMP:20160826T024324Z
+UID:u392hpd4u0qq0uvvjtm2ojlj3s@google.com
+RECURRENCE-ID;TZID=America/New_York:20150926T120000
+SEQUENCE:2
+CLASS:PUBLIC
+CREATED:20150820T045557Z
+DESCRIPTION:Taken From Facebook https://www.facebook.com/events/1647898598
+ 788804/\n\nThis is a very casual meet for furs to hang out and get to know
+  one another.\nYou may wear a fursuit but remember...\n\n1. Prepare for ho
+ t or cooler weather\n2. We want to see your faces!\nTails and Ears are alw
+ ays welcome.\n\nPlease be respectful of the boundaries of others and help 
+ us keep the fandom looking good :)\nBring outdoor games to play if you wis
+ h! The park is perfect for kite flying and Frisbee tossing!\nIf you would 
+ like to bring food to share\, please do!\n\nDogs are welcome too (as long 
+ as friendly)!\nThere are big blue trash bins for da poops :P\nBring Chairs
+ \, food\, blankets\, outside games\, etc...\n\nAt Rocket Land Park in Aubu
+ rn we close to the entrance by the track under the 2 big trees.\n\nThere w
+ ill be a mini gold meet following this one.
+LAST-MODIFIED:20150924T003712Z
+LOCATION:Lemansky Park\, 22 Brayman Street\, Auburn\, MA 01501\, United St
+ ates
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Furcade North Meet
+DTSTART:20151024T210000Z
+DTEND:20151025T030000Z
+DTSTAMP:20160826T024324Z
+UID:tfirj78fle1c21ps7s78qujka0@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150914T140743Z
+DESCRIPTION:https://www.facebook.com/events/524613357690766/\n\nRound Five
+ ... FIGHT!\n\nThis is the 5th ever Arcade Fur Meet @ The Pinball Wizard Ar
+ cade in Pelham NH! This is a "sister meet" to the Furcade South (Dudley)\,
+  and it is located 10 minutes north of Lowell right on the MA border!\n\nL
+ ast time we had 50+ people and we're excited to see the event continue to 
+ grow. The event starts at 5pm "furry time" - feel free to show up late\, b
+ ut PLEASE don't come too early! They won't be ready for us...\n\nPinball W
+ izard has 100+ pinball machines and 150+ classic arcade cabinets\, as well
+  as billiards tables\, air-hockey\, skeeball and claw machines. Machines t
+ ake tokens (not quarters) and games cost $0.25-$1.00 per play\; most are o
+ ldschool and are at the lower end of the price range. $20 cash gets you $2
+ 5 worth of tokens\, and Groupons are available online so plan ahead with y
+ our carpool buddies.\n\nFursuits are not only welcome\, but encouraged! As
+  before\, we've reserved the party room at the arcade\, which means tables
+  for card games and food\, and a place to store fursuit boxes. There will 
+ be spaces for MTG and Cards Against Humanity\, as well as a table for snac
+ ks - feel free to bring treats to share with your fellow furs! Last time w
+ e had lots of tasty baked goods. There's plenty of parking\, and great piz
+ za\, subs and Chinese food available at the restaurants right next door.\n
+ \nWe ask that guests each chip $5 at the door to offset the cost of rentin
+ g the place. Why rent out the room? The arcade is a business\, they're the
+ re to make money... We know many if not most attendees will play card game
+ s and hang out rather than pumping quarters into the machines - and that's
+  OK because we own the space for the night! In the unlikely event that we 
+ exceed the cost of the rental and snacks\, additional funds collected will
+  go towards making the next meet bigger/longer/better.\n\nAs always\, let'
+ s be respectful of other arcade guests\, and represent the fandom well. No
+  drugs\, alcohol or drama\, please! And a big thanks to Nick Lang for our 
+ cover photo!\n\n\nRSVP\n\n\n\n\n\n\n\nFor the TL\;DR Crowd...\n\n-Arcade M
+ eet August 1st @ 5PM\n-Suits\, ears & tails welcome\n-Feel free to bring s
+ nacks/treats to share\n-Tables for MTG & CAH\n-$5 cover charge\n-Don't be 
+ a dick
+LAST-MODIFIED:20150914T143839Z
+LOCATION:Pinball Wizard Arcade\, 150 Bridge St Unit P\, Pelham\, NH 03076\
+ , United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Maine Furbowl
+DTSTART:20150919T180000Z
+DTEND:20150919T210000Z
+DTSTAMP:20160826T024324Z
+UID:nd67dpje8kpif67cgbhcdonjts@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150914T143710Z
+DESCRIPTION:https://www.facebook.com/events/883150705068165/\n\nThis is a 
+ fur bowl hosted by " https://twitter.com/novarlynx " he doesn't have Faceb
+ ook so i'm posting it on his behalf. \n\nthis is from the FA post " Spare 
+ Time Recreation\, September 19\, 2:00 PM. 215 Whitten Rd.\nHallowell\, ME 
+ 04347. Suiting is allowed " that can be found here " https://www.furaffini
+ ty.net/journal/7020779/ "\n\nhe also posted it on his twitter " https://tw
+ itter.com/novarlynx/status/639837354182746112 "\n\ni asked he said this ti
+ me the meet and bowling will be free this time\n\nhope to see you there
+LAST-MODIFIED:20150914T143710Z
+LOCATION:Sparetime Recreation\, 215 Whitten Rd\, Hallowell\, ME 04347\, Un
+ ited States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Big E Meetup
+DTSTART:20150920T140000Z
+DTEND:20150920T220000Z
+DTSTAMP:20160826T024324Z
+UID:2mggjncjfege5ofghq9qu4odpc@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150914T140026Z
+DESCRIPTION:A meetup at The Big E hosted by @Supameep and @Nashidart\n\nht
+ tps://www.facebook.com/events/713263618779869/\n\nCome join us Sunday for 
+ fun at the Eastern States Exposition in West Springfield! There's shops\, 
+ tiny houses\, events\, animals\, and just all round good times at the Big 
+ E! \n\nAlso it may be a bit hot\, don't forget money for water and to stay
+  hydrated!\n\nTickets are $12 at the door\, and parking is usually around 
+ $10 but there's places to park for cheaper or free if you look around.\n\n
+ Also I definitely don't suggest suiting in such a hot crowded environment\
+ , but tails ears and other simple accessories are more than welcome :3
+LAST-MODIFIED:20150914T143239Z
+LOCATION:The Big E\, 1305 Memorial Ave\, West Springfield\, MA 01089\, Uni
+ ted States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Shooters Billiards Meet
+DTSTART:20150926T230000Z
+DTEND:20150927T040000Z
+DTSTAMP:20160826T024324Z
+UID:mocict4po37u4vailfeu019kh8@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150909T135856Z
+DESCRIPTION:https://www.facebook.com/events/1696561640565627/1696645963890
+ 528/\n\nEver play pool in your fursuit? Want to? Then come down to the New
+  England Furs fursuit billiards meet! You don't need a fursuit to come and
+  play though.....anything is welcome :) There will be fans available to co
+ ll down the suiters\, as well as cold ice water too.\n\nThere is a bar on 
+ the premises and alcohol will be available for an additional fee.....as we
+ ll as food for an additional fee.\n\nThere is a small game room and if you
+  would like tokens for the game room\, go see the front desk. Part of the 
+ deal we get is for game room tokens as well from 7pm until 10pm.\n\nIt's 1
+ 5.95 per person. That includes 3 hours of pool\, soft drinks\, coffee\, te
+ a\, and game room tokens\n\nAfter the meet is over\, there is plenty of op
+ tions for food in the area. Most of us go over to Denny's a couple blocks 
+ away\, but now there is a new Ihop that just opened not too far away. Ther
+ e is also a Buffalo Wild Wings there now too.\n\nThe meet ends at 10pm\, p
+ lease do not hang around the billiards area for too long after 10pm or the
+  people that are hanging around will be charged for another hour of pool a
+ t regular price. You are free to do so if you choose\, or you can hang aro
+ und the arcade area.\n\nLocation : Shooters Billiards and Arcade\n50 Sprin
+ g Street\, Southington CT\n\nDate : September 26\, 2015\nTime : 7pm-10pm (
+ please arrive around 6:30 to allow time to collect the money and also suit
+  up\, we start promptly at 7pm and end promptly at 10pm)\nCost : 15.95$ pe
+ r person
+LAST-MODIFIED:20150914T140111Z
+LOCATION:Shooters Billiards & Arcade\, 50 Spring St\, Southington\, CT 064
+ 89\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Barker's Movie Meet
+DTSTART:20150912T210000Z
+DTEND:20150913T033000Z
+DTSTAMP:20160826T024324Z
+UID:u23n1njp8nlgdrkjm55kmup8kc@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150831T180516Z
+DESCRIPTION:https://www.weasyl.com/journal/93553/movie-and-dinner-furmeet-
+ 9-12
+LAST-MODIFIED:20150912T034456Z
+LOCATION:Cinemark\, 99 Redstone Road\, Manchester\, CT\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nelson Otter Furry/Fursuiting Birthday!
+DTSTART:20150912T210000Z
+DTEND:20150913T040000Z
+DTSTAMP:20160826T024324Z
+UID:e93cosc3t8ggegd8svc16n1fh4@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150717T141838Z
+DESCRIPTION:https://www.facebook.com/events/1854459644778448/
+LAST-MODIFIED:20150911T145221Z
+LOCATION:Pinball Wizard Arcade\, 150 Bridge St Unit P\, Pelham\, NH 03076\
+ , United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wachusett Mountain Hike Furmeet
+DTSTART:20151004T140000Z
+DTEND:20151004T180000Z
+DTSTAMP:20160826T024324Z
+UID:h1pdn2d1fcbng0i4dj8f188fvc@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150908T001106Z
+DESCRIPTION:https://www.facebook.com/events/1782337578660274/\nTime again 
+ for the annual hike furmeet! Summer temps give way to fall colors and appl
+ e picking and hoodies! Halloween around the corner too! Fun times! And it 
+ would be woefully incomplete without enjoying the beautiful nature around 
+ us!\nHosted by Loki Wolfdog
+LAST-MODIFIED:20150908T001225Z
+LOCATION:Wachusett Mountain Ski Area\, 499 Mountain Rd\, Princeton\, MA 01
+ 541\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Furcade South Meet
+DTSTART:20150926T210000Z
+DTEND:20150927T020000Z
+DTSTAMP:20160826T024324Z
+UID:8chq7350apclgm1lu9jj2gv9s0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150831T161245Z
+DESCRIPTION:https://www.facebook.com/events/1019634731404407/\n\nRound Two
+ ... FIGHT!\n\nThis is the 2nd ever Furcade South Meet @ Tri-State Speedway
+ s in Dudley MA! This is a "sister meet" to the Furcade North (Pelham)\, an
+ d it is located 20 minutes south of Worcester MA\, right on the Connecticu
+ t border.\n\nAt the last Furcade South we had 25+ people and we're excited
+  to see this new event grow. Going forward\, we will alternate month-to-mo
+ nth between "North" and "South" meets... There is talk of Pinball Wizard m
+ oving or renovating in the near future - this may also provide an alternat
+ e meet location while they are closed.\n\nTri-State Speedways has dozens o
+ f arcade games which operate on tokens and spit out prize tickets\, a larg
+ e indoor Go-Kart race track\, indoor roller skating rink with music and bl
+ acklights\, indoor mini-golf course and play structure\, two bowling lanes
+ \, and several billiards tables and dart boards. They also have an on-site
+  restaurant with a full bar\, indoor and outdoor (smoking) seating\, and f
+ ood of similar style and price to Applebees or The 99.\n\nThe event starts
+  at 5pm "furry time" - feel free to show up late\, but PLEASE don't come t
+ oo early! They won't be ready for us... At 9:15ish the party room and race
+ track will close\, and those who want to stay for food (and games) will mo
+ ve downstairs to the restaurant where there are arcade games\, pool tables
+  and dartboards - skating will continue.\n\nPricing:\n\nGames-------------
+ ----------$0.25 Tokens (varies)\nPlayplace--------------------$5 "Play All
+  Day"\nMiniGolf----------------------$5 "Play All Day"\nBumper Cars-------
+ --------$3 (Per Ride)\nCandlepin Bowling---------$2 (10 Frames)\nRoller Sk
+ ating---------------$10 (Rental + Admission)\n$7 if you have your own!\n"U
+ nlimited Wristband"----$15 (Bumper Cars\, Playplace\, Minigolf)\n\nGoKarts
+  (Non-member)-----$15/race\n\nGoKart Membership----------$10/year\n\nGoKar
+ t Member Prices:\n$12 - 1 Race\n$30 - 3 Races\n$55 - 5 Races\n$100 - 10 Ra
+ ces\n\nRACE PACKAGES CAN BE SHARED / SPLIT BETWEEN MEMBERS!\n\nGoKart ride
+ rs must wear closed-toe shoes (no sandals!) and may or may not be able to 
+ ride with fursuit heads on\, depending on visibility and staff judgement..
+ ..\n\nFursuits are not only welcome\, but encouraged! Like Furcade North (
+ Pelham)\, we've reserved and rented the party room at the arcade\, which m
+ eans tables for card games and food\, and a place to store fursuit boxes. 
+ There are tables for for MTG and Cards Against Humanity\, as well as a tab
+ le for snacks. Feel free to bring treats to share with your fellow furs! A
+ t the last few meets we had lots of tasty baked goods thanks to our guests
+ . There's plenty of parking\, and food on-site.\n\nWe ask that guests each
+  chip $5 at the door to offset the cost of renting the place. Why rent out
+  the room? The arcade is a business\, they're there to make money... We kn
+ ow many if not most attendees will play card games and hang out rather tha
+ n pumping quarters into the machines or racing/skating/etc - and that's OK
+  because we own the space for the night! In the event that we exceed the c
+ ost of the rental and snacks\, additional funds collected will go towards 
+ making the next meet bigger/longer/better.\n\nAs always\, let's be respect
+ ful of other arcade guests\, and represent the fandom well\, so that we ar
+ e invited back. No drugs or drama\, please! There is alcohol at the bar\, 
+ but don't overdo it! Remember we are here to have FUN and all rumors and "
+ beef" should be left at the door - if you do have an issue or concern\, in
+ form one of the hosts and we will address it (don't gossip or post it publ
+ icly).\n\n\nRSVP\n\n\n\n\n\n\n\nFor the TL\;DR Crowd...\n\n-Arcade Meet Se
+ ptember 26th @ 5PM\n-Suits\, ears & tails welcome\n-Feel free to bring sna
+ cks/treats to share\n-Tables for MTG & CAH\n-$5 cover charge\n-Don't be a 
+ dick
+LAST-MODIFIED:20150906T181152Z
+LOCATION:Tri-State Speedway\, 35 Chase Avenue\, Dudley\, MA 01571\, United
+  States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mass Fur Bowl Pet Appreciation Weekend Event
+DTSTART;VALUE=DATE:20150926
+DTEND;VALUE=DATE:20150928
+DTSTAMP:20160826T024324Z
+UID:8045gbats7n70kqjlktojdk874@google.com
+SEQUENCE:2
+CLASS:PUBLIC
+CREATED:20150524T135020Z
+DESCRIPTION:http://www.anthronewengland.org/beyond-the-con-events/2015/8/2
+ 4/as3uykrg2c9li4drkywn21o97mc22y
+LAST-MODIFIED:20150903T213202Z
+LOCATION:Provincetown\, MA\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rhode Island Furbowl
+DTSTART;TZID=America/New_York:20150905T190000
+DTEND;TZID=America/New_York:20150905T220000
+DTSTAMP:20160826T024324Z
+UID:e106unkiv9mvblcormd5ehatns@google.com
+RECURRENCE-ID;TZID=America/New_York:20150905T190000
+SEQUENCE:2
+CLASS:PUBLIC
+CREATED:20150820T043853Z
+DESCRIPTION:http://www.furaffinity.net/journal/6962253/
+LAST-MODIFIED:20150902T151225Z
+LOCATION:East Providence Lanes\, 80 Newport Avenue\, Rumford\, RI 02916\, 
+ United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zen's Furbowl
+DTSTART:20150905T233000Z
+DTEND:20150906T023000Z
+DTSTAMP:20160826T024324Z
+UID:43ioqkma87ffo3iclf992am9lc@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150803T160941Z
+DESCRIPTION:https://www.facebook.com/events/1622464778023349/\n\nYou asked
+  again\, and it's back. Join us at the Vernon Spare Time bowling\, bar & a
+ rcade.\n\nOpen invite\, so feel free to invite all your fluffy friends and
+  even your not-so-fluffy friends. Fursuits are welcomed and encouraged. Pl
+ ease be respectful of the Alley Rules.\n\nThere are food and drinks on-sit
+ e\, made possible by the alley. No outside food or drinks allowed.\n\nWe a
+ sk that you be on your best behavior. This is a business and a family frie
+ ndly arena so we ask that you keep it that way.\n\nThis bowling alley love
+ s to have us and would like us to keep coming back.
+LAST-MODIFIED:20150901T195133Z
+LOCATION:Spare Time Vernon\, 350 Talcottville Road\, Vernon\, CT 06066\, U
+ nited States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kazee's Housewarming Party
+DTSTART:20150911T210000Z
+DTEND:20150913T103000Z
+DTSTAMP:20160826T024324Z
+UID:cthjua7kjt346qqu5nr7vpe59s@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150818T231239Z
+DESCRIPTION:Bunch of furry freaks get together and terrorize Newport NH. W
+ ell serve turkey and booze. Three beds and a couple of air mattresses. Par
+ king space in back yard. Fursuit friendly.\n\nSource: https://www.facebook
+ .com/events/1475515862745565/
+LAST-MODIFIED:20150901T183351Z
+LOCATION:18 Oak street Newport NH 03733
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nothern Maine Fur Meet
+DTSTART:20150830T180000Z
+DTEND:20150831T000000Z
+DTSTAMP:20160826T024324Z
+UID:c2gqhjg3paptcgd61h6vt3t5qo@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150828T234552Z
+DESCRIPTION:https://twitter.com/MaineFurs/status/636725364652396545
+LAST-MODIFIED:20150828T234552Z
+LOCATION:Caribou sports inn\, 97 Bennett Dr\, Caribou\, ME\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Anthro New England
+DTSTART;VALUE=DATE:20160121
+DTEND;VALUE=DATE:20160125
+DTSTAMP:20160826T024324Z
+UID:isgf78scf6d134j9vigis15ln4@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150825T233104Z
+DESCRIPTION:http://www.anthronewengland.org/
+LAST-MODIFIED:20150825T233104Z
+LOCATION:Hyatt Regency Cambridge\, Overlooking Boston\, 575 Memorial Drive
+ \, Cambridge\, MA 02139\, United States
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Furpocalypse
+DTSTART;VALUE=DATE:20151030
+DTEND;VALUE=DATE:20151102
+DTSTAMP:20160826T024324Z
+UID:1vf5rmsqep4qemv0csvao0vutg@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150825T232942Z
+DESCRIPTION:https://furpocalypse.org/
+LAST-MODIFIED:20150825T232943Z
+LOCATION:Crowne Plaza Hartford - Cromwell\, 100 Berlin Road\, Cromwell\, C
+ T 06416\, United States
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amusment Park Meet
+DTSTART;VALUE=DATE:20150826
+DTEND;VALUE=DATE:20150827
+DTSTAMP:20160826T024324Z
+UID:s1apslgr4g9dhaqapq4be18anc@google.com
+SEQUENCE:0
+CREATED:20150825T190447Z
+DESCRIPTION:https://www.facebook.com/events/1036003336452210/\n\nIt's stil
+ l the summer and Wednesday looks like its going to have some decent summer
+  weather. So why not have fun at an amusement park :3!\n\nCanobie Lake Par
+ k will be open from 11 am to 10 pm. Parking is free\, but its $36 to get i
+ n to the park or &25 for everyone after 5pm. Check the official site here 
+ : http://www.canobie.com/index.html for more information! Please do not tr
+ y to bring outside food into the park\, as you enter through the second ga
+ te the employees will mark your hand with a stamp so you can come and go a
+ s you please! I would suggest eating lunch/dinner at your car as it saves 
+ you money from expensive park food :3 Also if you bring a bag there will b
+ e people at the second gate who will be there to check bags. If you need t
+ o take medications during the day\, there will be a window on your right d
+ irectly after passing the second gate\, please check in there! Chances are
+  a staff member at the gates will direct you to the window.\n\nThere are l
+ ockers at the park\, there are some near the water park and some near the 
+ front gate. The price of use will depend which lockers you go to and the s
+ ize of the lockers. I will email Canobie asking for details on those.\n\nW
+ hether you like roller coasters\, water rides\, or some of the more docile
+  rides\, Canobie has a nice mix with 4 roller coasters ranging from docile
+  for kids to the extremes of an almost vertical drop! They also have more 
+ docile rides like a Ferris Wheel and a pirate ship themed ride that swings
+  from side to side. Do you like water? Canobie also has a log flume ride a
+ s well as a major flume ride\, don't want to ride the water rides\, but st
+ ill want to get splashed? Its okay you can always just get hit by the mass
+ ive wave that comes up from the Boston Tea Party or ride down the water sl
+ ide on a tube! They also have a whole water park.\nThere are also small at
+ tractions like games\, arcades\, a mirror maze and more!\n\nRides may shut
+  down do to weather like if a thunder storm occurs. Whether the ride is sh
+ ut down for the rest of the day or only temporary that is up to the park!\
+ n\nIf anyone goes to Canobie\, stay safe and fun! There is a first aid sta
+ tion in the park\, but lets try not to have anyone visit it! It may be a w
+ eekday so chances are the park won't be as packed as the weekend\, but ple
+ ase be weary of your environment\, including little kids or people running
+  through the park!\n\nI will also be emailing Canobie on if they will allo
+ w suits or just simply tails.\n\nPlease check the website for Canobie here
+  : http://www.canobie.com/index.html for more information on prices for th
+ e park\, information on rides\, a map of the park\, and more!\n\nGot quest
+ ions? Go ahead and send me a message and I will do my best to answer it! :
+ P
+LAST-MODIFIED:20150825T190447Z
+LOCATION:Canobie Lake Park\, 85 North Policy Street\, Salem\, NH 03079\, U
+ nited States
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furs Pre-Bowl Park Meet
+DTSTART:20150905T200000Z
+DTEND:20150905T230000Z
+DTSTAMP:20160826T024324Z
+UID:3e4q58h0jb6ti38gkde14gr29k@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150825T185804Z
+DESCRIPTION:http://www.furaffinity.net/journal/6988093/
+LAST-MODIFIED:20150825T185804Z
+LOCATION:Slater Park\, RR 1A\, Pawtucket\, RI 02680\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Improv Comedy Meet
+DTSTART:20150905T010000Z
+DTEND:20150905T020000Z
+DTSTAMP:20160826T024324Z
+UID:jg98ncvtla3mtsua7sv4fu9jk0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150825T185642Z
+DESCRIPTION:www.furaffinity.net/journal/6988090/
+LAST-MODIFIED:20150825T185642Z
+LOCATION:Warwick Museum of Art\, 3259 Post Road\, Warwick\, RI 02886\, Uni
+ ted States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Netflix & Chill
+DTSTART:20150919T200000Z
+DTEND:20150920T010000Z
+DTSTAMP:20160826T024324Z
+UID:9osrr1fr3fmhmvh4jh88abj9hs@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150825T185328Z
+DESCRIPTION:Hosted @eredien on twitter\, pm him for more details\n
+LAST-MODIFIED:20150825T185328Z
+LOCATION:Belmont\, MA\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auburn Meet and Greet
+DTSTART;TZID=America/New_York:20150926T120000
+DTEND;TZID=America/New_York:20150926T153000
+DTSTAMP:20160826T024324Z
+UID:u392hpd4u0qq0uvvjtm2ojlj3s@google.com
+SEQUENCE:1
+RRULE:FREQ=WEEKLY;COUNT=4;BYDAY=WE,TH,FR,SA
+EXDATE;TZID=America/New_York:20151001T120000
+EXDATE;TZID=America/New_York:20150930T120000
+CLASS:PUBLIC
+CREATED:20150820T045557Z
+DESCRIPTION:Taken From Facebook\n\nThis is a very casual meet for furs to 
+ hang out and get to know one another.\nYou may wear a fursuit but remember
+ ...\n\n1. Prepare for hot or cooler weather\n2. We want to see your faces!
+ \nTails and Ears are always welcome.\n\nPlease be respectful of the bounda
+ ries of others and help us keep the fandom looking good :)\nBring outdoor 
+ games to play if you wish! The park is perfect for kite flying and Frisbee
+  tossing!\nIf you would like to bring food to share\, please do!\n\nDogs a
+ re welcome too (as long as friendly)!\nThere are big blue trash bins for d
+ a poops :P\nBring Chairs\, food\, blankets\, outside games\, etc...\n\nAt 
+ Rocket Land Park in Auburn we close to the entrance by the track under the
+  2 big trees.\n\nThere will be a mini gold meet following this one.
+LAST-MODIFIED:20150820T045654Z
+LOCATION:Lemansky Park\, 22 Brayman Street\, Auburn\, MA 01501\, United St
+ ates
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rhode Island Furbowl
+DTSTART;TZID=America/New_York:20150905T190000
+DTEND;TZID=America/New_York:20150905T220000
+DTSTAMP:20160826T024324Z
+UID:e106unkiv9mvblcormd5ehatns@google.com
+SEQUENCE:2
+RRULE:FREQ=MONTHLY;COUNT=4;BYDAY=1SA
+CLASS:PUBLIC
+CREATED:20150820T043853Z
+DESCRIPTION:http://www.furaffinity.net/journal/6962253/
+LAST-MODIFIED:20150820T044205Z
+LOCATION:East Providence Lanes\, 80 Newport Avenue\, Rumford\, RI 02916\, 
+ United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Currier Museum of Art Meet
+DTSTART:20150830T160000Z
+DTEND:20150830T200000Z
+DTSTAMP:20160826T024324Z
+UID:ild8lkur8nqh1drtu894jjbon0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150819T143528Z
+DESCRIPTION:http://www.furaffinity.net/journal/6976697/
+LAST-MODIFIED:20150819T143528Z
+LOCATION:Currier Museum of Art\, 150 Ash Street\, Manchester\, NH 03104\, 
+ United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Belated Birthday and Late Summer BBQ Bonanza!
+DTSTART:20150912T190000Z
+DTEND:20150913T170000Z
+DTSTAMP:20160826T024324Z
+UID:lh34flhevv6v087pj4f2puliec@google.com
+SEQUENCE:2
+CLASS:PUBLIC
+CREATED:20150818T230849Z
+DESCRIPTION:Source: https://www.facebook.com/events/876342455747328/\n\nSi
+ nce my illustrious security company had such wisdom to deny my time off re
+ quest on my birthday\, I've decided to take it upon myself to tell them to
+  "stick it where the sun don't shine" and take the weekend off to have a l
+ ittle BBQ!\n\nBurgers\, hot dogs\, and chicken will be served along with a
+  few snacks and soft drinks. Please feel free to bring a dish or dessert i
+ f you'd like to help feed some of the hungry masses.\n\nFeel free to bring
+  a guest / mate / or other if you would like\, just give me the heads up s
+ o I can be sure we have enough food and drink\n\nJust to keep down on the 
+ cost\, BYOB please~ (a selection of house beers and various hooch will be 
+ available: PBR\, Bud Platinum\, whatever is left in my bar mixed in a punc
+ h bowl).\n\nLimited crash space WILL be available for those who really wan
+ t to party it up. 2.5 pullout beds\, sofas and floors will be at your disp
+ osable.\n\nA hangover breakfast of waffles\, eggs\, bacon\, and coffee wil
+ l be served after a battery of cannon fire to make sure everyone's up.\n\n
+ Hope to see you all there!
+LAST-MODIFIED:20150818T232403Z
+LOCATION:484 Bushy Hill Rd\, Simsbury\, CT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Becky's Diner Meet
+DTSTART:20150823T160000Z
+DTEND:20150823T200000Z
+DTSTAMP:20160826T024324Z
+UID:5nsqjukf54spnsmg8ds6bn8ooc@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150817T014454Z
+DESCRIPTION:https://twitter.com/MaineFurs/status/632954636673155072
+LAST-MODIFIED:20150817T014454Z
+LOCATION:Becky's Diner\, 390 Commercial Street\, Portland\, ME 04101\, Uni
+ ted States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rota Springs Ice Cream Meet
+DTSTART:20150815T210000Z
+DTEND:20150815T230000Z
+DTSTAMP:20160826T024324Z
+UID:vs25hqc5p5cm6u3shcrr8n80ho@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150812T005751Z
+DESCRIPTION:https://twitter.com/Supameep/status/631267330350260225
+LAST-MODIFIED:20150812T005751Z
+LOCATION:Rota Spring Ice Cream\, 117 Chace Hill Road\, Sterling\, MA 01564
+ \, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gabe's Cookout
+DTSTART:20150815T160000Z
+DTEND:20150815T200000Z
+DTSTAMP:20160826T024324Z
+UID:k3de6vsvfmmj3lee68rua9hme0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150811T203535Z
+DESCRIPTION:www.furaffinity.net/journal/6957204/\nBYO Food and Drinks
+LAST-MODIFIED:20150811T203539Z
+LOCATION:133 South Main Street in Attleboro\, MA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Champlain Valley Fair 2015
+DTSTART:20150829T190000Z
+DTEND:20150830T000000Z
+DTSTAMP:20160826T024324Z
+UID:gmm296nhl46b8f8sdf73ca4akk@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150716T005122Z
+DESCRIPTION:https://www.facebook.com/events/848102908599493/\nhttp://www.f
+ uraffinity.net/journal/6903046/\n\nTHIS YEAR THERE WILL BE NO SUITING AT T
+ HE FAIR!\n\nFree Ticket for Blood donations: http://www.furaffinity.net/jo
+ urnal/6944257/
+LAST-MODIFIED:20150810T163923Z
+LOCATION:Champlain Valley Exposition\, 105 Pearl Street\, Essex Junction\,
+  VT 05452\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hampton Beach Meet
+DTSTART:20150829T150000Z
+DTEND:20150829T210000Z
+DTSTAMP:20160826T024324Z
+UID:ci2ib81f706d7i2qm93mtjst1o@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150810T163555Z
+DESCRIPTION:Taken From Nisha on Facebook: https://www.facebook.com/events/
+ 658730597595631/\n\nCome hang with your fellow furs and enjoy a day in the
+  surf and sun! Of course\, if the surf and sand aren't your thing there's 
+ plenty more to do too!\n\nThe "official" location\, if you put it into you
+ r GPS\, will put you in the parking lot behind the former Surf Hotel/ Happ
+ y Hampton arcade.\n\nThe meetup time is 11:00 am and we will be meeting at
+  the Seashell stage across the street from the Casino Ballroom complex. I 
+ will have my badges on me so I will be somewhat easy to spot. From there w
+ e can decide what to do next\, and there's literally lots to do. As it's l
+ ate August the water temp is roughly 65 degrees\, maybe a bit more\, and i
+ t doesn't take long for one's body to adjust to the temperature so if it's
+  hot\, jump in!\n\nThe parking lots are cheaper the further away from the 
+ boardwalk you are\, but it's also a farther walk\, so if you planned on br
+ inging beach gear like umbrellas and stuff you will probably want to park 
+ closer\, but get there early as prices can rise as the day goes on. The tw
+ o best places to park are the Chat Chew and Play lot (you'll find it if yo
+ u use the aforementioned "official" location) and the Casino parking lot b
+ ehind the waterslides. I've paid $10 for all day parking at both locations
+  around 11 am.\n\nFeel free to bring balls\, Frisbees\, Nerf balls\, anyth
+ ing like that to use on the sand. Ideally I'd like to have several blanket
+ s out as a sort of "base" but that part we can play by ear if people want 
+ to shop\, go to arcades or do anything else.\n\nThere are many places to g
+ rab a bite to eat\, we could also wrap it up at one of the nicer sit-down 
+ sort of places along the boardwalk. I will put up a poll with some names.\
+ n\nLet's hope for some nice weather!
+LAST-MODIFIED:20150810T163607Z
+LOCATION:Hampton Beach\, 115 Ocean Blvd\, Hampton Beach\, New Hampshire 03
+ 843
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auburn Mini-Golf Meet
+DTSTART:20150822T200000Z
+DTEND:20150822T230000Z
+DTSTAMP:20160826T024324Z
+UID:sdu16cjrqs5qssi26uojpekob4@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150729T131445Z
+DESCRIPTION:https://www.facebook.com/events/1165641743513792/
+LAST-MODIFIED:20150809T002553Z
+LOCATION:Crystal Caves-Family Entertainment\, 790 Southbridge Street\, Aub
+ urn\, MA 01501\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auburn Meet and Greet
+DTSTART:20150822T160000Z
+DTEND:20150822T193000Z
+DTSTAMP:20160826T024324Z
+UID:0tn251egfsr90gft930kiv546c@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150729T131319Z
+DESCRIPTION:https://www.facebook.com/events/1216482625035909/
+LAST-MODIFIED:20150809T002543Z
+LOCATION:22 Brayman St\, Auburn\, MA 01501\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:King Richard's Faire Meet
+DTSTART:20150912T140000Z
+DTEND:20150913T000000Z
+DTSTAMP:20160826T024324Z
+UID:pp1uduvckku8r11vod18m075b4@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150803T125526Z
+DESCRIPTION:http://www.furaffinity.net/journal/6919554/
+LAST-MODIFIED:20150803T130201Z
+LOCATION:King Richard's Faire\, 235 Main Street\, Carver\, MA 02330\, Unit
+ ed States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NESFA Picnic
+DTSTART:20150906T190000Z
+DTEND:20150906T230000Z
+DTSTAMP:20160826T024324Z
+UID:uukptsk2h958bd37v2hebt34rg@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150803T125848Z
+DESCRIPTION:http://www.nesfa.org/\nhttp://www.furaffinity.net/journal/6935
+ 719/
+LAST-MODIFIED:20150803T125856Z
+LOCATION:Larz Anderson Park\, 15 Newton Street\, Brookline\, MA 02445\, Un
+ ited States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chateau Meet
+DTSTART:20150814T220000Z
+DTEND:20150815T020000Z
+DTSTAMP:20160826T024324Z
+UID:j4ta3prda5tific117ri79brdo@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150803T125000Z
+DESCRIPTION:http://www.furaffinity.net/journal/6866364/
+LAST-MODIFIED:20150803T125000Z
+LOCATION:The Chateau Restaurants\, 195 School Street\, Waltham\, MA 02451\
+ , United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Furcade South Meet
+DTSTART:20150829T210000Z
+DTEND:20150830T020000Z
+DTSTAMP:20160826T024324Z
+UID:dm7lc0ujevvoijlmpf81rmpar8@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150803T124803Z
+DESCRIPTION:https://www.furaffinity.net/journal/6936237\nhttps://www.faceb
+ ook.com/events/918538204851993/
+LAST-MODIFIED:20150803T124811Z
+LOCATION:Tri-State Speedway\, 35 Chase Avenue\, Dudley\, MA 01571\, United
+  States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BWW Meet
+DTSTART:20150731T223000Z
+DTEND:20150731T233000Z
+DTSTAMP:20160826T024324Z
+UID:h616m4ml3ramoprs471kdesi68@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150731T120129Z
+DESCRIPTION:Alright people! Join @ClassyCadence and I this Friday at 6:30p
+ m at the Braintree BWW for a group dinner! Please RSVP here! https://twitt
+ er.com/NexusFolf/status/626041625324711936
+LAST-MODIFIED:20150731T120129Z
+LOCATION:Buffalo Wild Wings\, 250 Granite Street #1025B\, Braintree\, MA 0
+ 2184\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furs Coffee House Art Jam
+DTSTART:20150906T190000Z
+DTEND:20150906T220000Z
+DTSTAMP:20160826T024324Z
+UID:bok5475q3rb865g0dlmf55bg10@google.com
+SEQUENCE:0
+CREATED:20150728T133214Z
+DESCRIPTION:http://www.furaffinity.net/user/rhodeislandfurs/
+LAST-MODIFIED:20150728T133214Z
+LOCATION:Brewed Awakenings Coffee House\, 1316 Bald Hill Road\, Warwick\, 
+ RI 02886\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rhode Island Furbowl #41
+DTSTART:20150808T230000Z
+DTEND:20150809T033000Z
+DTSTAMP:20160826T024324Z
+UID:saq0gnte6icdp980hcec26p9k0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150728T133029Z
+DESCRIPTION:http://www.furaffinity.net/journal/6917430/
+LAST-MODIFIED:20150728T133029Z
+LOCATION:East Providence Lanes\, 80 Newport Avenue\, Rumford\, RI 02916\, 
+ United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Iggy's Doughboys & Chowder House Beach Meet
+DTSTART:20150801T230000Z
+DTEND:20150802T020000Z
+DTSTAMP:20160826T024324Z
+UID:rvr5un25jjqmiuqcm11dbsa6vk@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150728T132507Z
+DESCRIPTION:http://www.furaffinity.net/journal/6864830/\nhttp://www.furaff
+ inity.net/journal/6912147/
+LAST-MODIFIED:20150728T132555Z
+LOCATION:Iggy's Doughboys & Chowder House\, 889 Oakland Beach Avenue\, War
+ wick\, RI 02889\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Old Orchard Beach Meet
+DTSTART:20150829T130000Z
+DTEND:20150829T190000Z
+DTSTAMP:20160826T024324Z
+UID:e9e4hvi2p2jpd5br813h365ikc@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150728T132123Z
+DESCRIPTION:http://www.furaffinity.net/journal/6907923/
+LAST-MODIFIED:20150728T132132Z
+LOCATION:Old Orchard Beach\, ME\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fur-Xoticon
+DTSTART;VALUE=DATE:20160527
+DTEND;VALUE=DATE:20160530
+DTSTAMP:20160826T024324Z
+UID:6pqvmm3edjvn7udl4aldstgok0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150721T144934Z
+DESCRIPTION:http://osdclan.com/fur-xoticon/
+LAST-MODIFIED:20150721T144934Z
+LOCATION:Clarion Hotel & Aqua Lagoon Waterpark\, 1080 Riverdale Street\, W
+ est Springfield\, MA 01089\, United States
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tilt Arcade Meet
+DTSTART:20151004T180000Z
+DTEND:20151004T220000Z
+DTSTAMP:20160826T024324Z
+UID:ghn8152ilioh2h1f3hofb6hg1s@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150721T144455Z
+DESCRIPTION:http://www.furaffinity.net/journal/6903064/
+LAST-MODIFIED:20150721T144455Z
+LOCATION:Tilt Classic Arcade & Ale House\, 7 Fayette Drive\, South Burling
+ ton\, VT 05403\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Dobra Tea Meet
+DTSTART:20150906T160000Z
+DTEND:20150906T200000Z
+DTSTAMP:20160826T024324Z
+UID:hhpp3r51maap6ko3osul3joafg@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150716T005339Z
+DESCRIPTION:http://www.furaffinity.net/journal/6903056/\nhttps://www.faceb
+ ook.com/events/889857154422053/
+LAST-MODIFIED:20150721T144358Z
+LOCATION:80 Church St\, Burlington\, VT 05401\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Annual VT furs BBQ
+DTSTART:20150718T160000Z
+DTEND:20150719T010000Z
+DTSTAMP:20160826T024324Z
+UID:b2s8gptkr00nsuqljvvf0qum04@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150512T021421Z
+DESCRIPTION:https://www.eventbrite.com/e/vermont-furs-bbq-2015-tickets-173
+ 93249678\nThe algae blooms cleared up. North Beach is a go for Saturday. I
+ n the event that they reemerge Sandbar State Park in Milton is our back up
+ .
+LAST-MODIFIED:20150716T004620Z
+LOCATION:North Beach Campground\, 60 Institute Road\, Burlington\, VT 0540
+ 8\, United States
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Post-Con Beach Party
+DTSTART:20150718T150000Z
+DTEND:20150718T190000Z
+DTSTAMP:20160826T024324Z
+UID:69kc1f7v0p62117h1jd628cg44@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150716T004452Z
+DESCRIPTION:https://www.facebook.com/events/803573719741074/\nhttp://www.f
+ uraffinity.net/journal/6861869/
+LAST-MODIFIED:20150716T004452Z
+LOCATION:115 Ocean Blvd\, Hampton\, NH 03842\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furs Coffee House Art Jam
+DTSTART:20150719T190000Z
+DTEND:20150719T220000Z
+DTSTAMP:20160826T024324Z
+UID:rmn79qm2mnm9o4276oge4ts5m0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150707T041906Z
+DESCRIPTION:http://t.co/X4H42oCbV9
+LAST-MODIFIED:20150707T041920Z
+LOCATION:Brewed Awakenings Coffee House\, 1316 Bald Hill Road\, Warwick\, 
+ RI 02886\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auburn Meet and Greet
+DTSTART:20150725T160000Z
+DTEND:20150725T193000Z
+DTSTAMP:20160826T024324Z
+UID:ckd6p1k42gkgait6h1jipn1upk@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150705T161053Z
+DESCRIPTION:http://www.furaffinity.net/journal/6812193/
+LAST-MODIFIED:20150705T161053Z
+LOCATION:Rocketland Park\, 5 Brayman St\, Auburn\, Massachusetts 01501\, U
+ nited States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auburn Mini-Golf Meet
+DTSTART:20150725T200000Z
+DTEND:20150725T230000Z
+DTSTAMP:20160826T024324Z
+UID:a6l56cnl90adoje56spf4jano4@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150705T153315Z
+DESCRIPTION:http://www.furaffinity.net/journal/6849602/
+LAST-MODIFIED:20150705T153315Z
+LOCATION:Crystal Caves-Family Entertainment\, 790 Southbridge Street\, Aub
+ urn\, MA 01501\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Alex Haas Give Back Event
+DTSTART;VALUE=DATE:20150707
+DTEND;VALUE=DATE:20150710
+DTSTAMP:20160826T024324Z
+UID:2vo7lhagouaf7nsmp01jp3dado@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150702T135127Z
+DESCRIPTION:https://www.facebook.com/events/114367858902387/\n3 day donati
+ on event\, bring flyer
+LAST-MODIFIED:20150703T171245Z
+LOCATION:Chili's Grill & Bar\, 610 Amherst Street\, Nashua\, NH 03063\, Un
+ ited States
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pelham Arcade Meet
+DTSTART:20150801T210000Z
+DTEND:20150802T020000Z
+DTSTAMP:20160826T024324Z
+UID:01nmht2nqcfb2ua2b1sdsb7nf4@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150702T141641Z
+DESCRIPTION:https://www.facebook.com/events/1642106556005215/\nhttp://www.
+ furaffinity.net/journal/6860717/
+LAST-MODIFIED:20150703T165953Z
+LOCATION:Pinball Wizard Arcade\, 150 Bridge Street Unit P\, Pelham\, NH 03
+ 076\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Groovin on the Green Suiting Meet
+DTSTART:20150702T211500Z
+DTEND:20150703T001500Z
+DTSTAMP:20160826T024324Z
+UID:1jsf8a9kjfdrakn4e5n3fdih54@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150702T134853Z
+DESCRIPTION:Meet and change at best buy\nhttp://www.furaffinity.net/journa
+ l/6856454/#cid:46376938\nhttp://www.findandgoseek.net/listing/groovin-on-t
+ he-green--maple-tree-place-williston/arts__culture
+LAST-MODIFIED:20150702T134854Z
+LOCATION:28 Walnut St\, Williston\, VT 05495\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Essex Jct 4th of July Celebration    
+DTSTART:20150704T213000Z
+DTEND:20150705T030000Z
+DTSTAMP:20160826T024324Z
+UID:2g7il765u2lafo4f3793sse9cc@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150618T220740Z
+DESCRIPTION:FURSUITERS YOU MUST BE IN RED WHITE AND BLUE - NOT NEGOTABLE! 
+ \nhttp://www.furaffinity.net/journal/6822110/
+LAST-MODIFIED:20150630T215058Z
+LOCATION:Essex Junction Recreation Department\, 75 Maple Street\, Essex Ju
+ nction\, VT 05452\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Portcon Furry meet up
+DTSTART;VALUE=DATE:20150627
+DTEND;VALUE=DATE:20150628
+DTSTAMP:20160826T024324Z
+UID:7kdaj5b42rmulhkrf29ide2kug@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150624T151437Z
+DESCRIPTION:https://www.facebook.com/events/1454503561526555/
+LAST-MODIFIED:20150624T151437Z
+LOCATION:Portland\, ME\, USA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Waterfire Providence
+DTSTART:20150801T220000Z
+DTEND:20150802T030000Z
+DTSTAMP:20160826T024324Z
+UID:kb81jgc71neug1sqn7cmgn345c@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150624T151208Z
+DESCRIPTION:https://www.facebook.com/events/1517096108531809/
+LAST-MODIFIED:20150624T151208Z
+LOCATION:Providence\, Rhode Island
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Providencetown Carnival Parade
+DTSTART:20150820T160000Z
+DTEND:20150820T220000Z
+DTSTAMP:20160826T024324Z
+UID:jggiapvh076u7oi2tdjh1qubvk@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150624T151043Z
+DESCRIPTION:Walk in a parade. FURSUITERS ONLY. Public bonfire afterwards. 
+ \nhttp://www.furaffinity.net/journal/6828835/
+LAST-MODIFIED:20150624T151043Z
+LOCATION:Jerome Smith Lot\, Providencetown\, MA.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Portland Pride Parade
+DTSTART:20150620T133000Z
+DTEND:20150620T163000Z
+DTSTAMP:20160826T024324Z
+UID:mk3kb2eqhnatdnda59n97s65ao@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150617T003835Z
+DESCRIPTION:https://t.co/iUKjQqgDwz
+LAST-MODIFIED:20150617T003843Z
+LOCATION:Monument St\, Portland\, ME 04101\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kimble Farm Meet
+DTSTART:20150628T190000Z
+DTEND:20150628T213000Z
+DTSTAMP:20160826T024324Z
+UID:jccctc1t1iu8u81qek9o9ffes0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150608T222254Z
+DESCRIPTION:No Fursuiting!\nhttp://www.furaffinity.net/journal/6795120/
+LAST-MODIFIED:20150617T003646Z
+LOCATION:Kimball Farm\, 400 Littleton Road\, Westford\, MA 01886\, United 
+ States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furs Potluck
+DTSTART:20150628T190000Z
+DTEND:20150629T000000Z
+DTSTAMP:20160826T024324Z
+UID:0hi16hj2oau276057u1tsrib18@google.com
+SEQUENCE:0
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CLASS:PUBLIC
+CREATED:20150617T003425Z
+DESCRIPTION:Unit 5\nhttp://t.co/X9FvMet2yd
+LAST-MODIFIED:20150617T003639Z
+LOCATION:1801 Mineral Spring Ave\, North Providence\, RI\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tabletop Gaming Meet
+DTSTART:20150608T213000Z
+DTEND:20150609T010000Z
+DTSTAMP:20160826T024324Z
+UID:cls8o13jc74a6tlt6as4qqvg5c@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150608T222535Z
+DESCRIPTION:http://www.furaffinity.net/journal/6744824/
+LAST-MODIFIED:20150608T222535Z
+LOCATION:Myriad Games: Amherst\, 124 New Hampshire 101A\, Amherst\, NH 030
+ 31\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leo's Super Bowl Furmeet
+DTSTART:20150626T180000Z
+DTEND:20150626T210000Z
+DTSTAMP:20160826T024324Z
+UID:kv6u20aj6u3rijvbso2f2nf6uk@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150608T222138Z
+DESCRIPTION:http://www.furaffinity.net/journal/6765151/
+LAST-MODIFIED:20150608T222150Z
+LOCATION:Leo's Super Bowl\, 84 Haverhill Road\, Amesbury\, MA 01913\, Unit
+ ed States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zarphus' Bowling Meet
+DTSTART:20150602T010000Z
+DTEND:20150602T030000Z
+DTSTAMP:20160826T024324Z
+UID:lab10j5oe7801bbrpar2u0c7e4@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150531T201752Z
+DESCRIPTION:Normal Clothes only\nhttps://twitter.com/NEFuzz/status/6051049
+ 19457062912
+LAST-MODIFIED:20150531T201752Z
+LOCATION:Apple Valley Bowl\, 1304 South Main Street\, Plantsville\, CT 064
+ 79\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pelham NH Arcade Furmeet
+DTSTART:20150530T210000Z
+DTEND:20150531T030000Z
+DTSTAMP:20160826T024324Z
+UID:m38p9onvvoei2g15854cnmvqbo@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150508T043813Z
+DESCRIPTION:https://www.furaffinity.net/journal/6702875/
+LAST-MODIFIED:20150530T033730Z
+LOCATION:Pinball Wizard Arcade\, 150 Bridge Street Unit P\, Pelham NH 0307
+ 6-3420\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Northern Maine Fur Meet
+DTSTART:20150531T200000Z
+DTEND:20150601T020000Z
+DTSTAMP:20160826T024324Z
+UID:vk99ualvdreg2ksmi6m8pa0kgk@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150530T033040Z
+DESCRIPTION:**Normal Clothes Per Request* \nhttps://twitter.com/MaineFurs/
+ status/599038722806513664\nHost: @SteeleCryotank
+LAST-MODIFIED:20150530T033040Z
+LOCATION:Caribou Bowl O Drome & Sports\, 97 Bennett Drive\, Caribou\, ME 0
+ 4736\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Room Block Regestration for Fur-Xoticon Opens
+DTSTART;VALUE=DATE:20150608
+DTEND;VALUE=DATE:20150609
+DTSTAMP:20160826T024324Z
+UID:5vcfup2bvlcncq2tp9r6neehb0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150526T022749Z
+DESCRIPTION:https://twitter.com/WXCEvents
+LAST-MODIFIED:20150526T022749Z
+LOCATION:http://fur-xoticon.com
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VT Paintball Meet
+DTSTART:20150620T160000Z
+DTEND:20150620T190000Z
+DTSTAMP:20160826T024324Z
+UID:ofgaqshge85isjl91c8q8fmf7g@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150512T021007Z
+DESCRIPTION:http://www.furaffinity.net/journal/6610251/
+LAST-MODIFIED:20150525T020745Z
+LOCATION:Colchester Paintball\, 1751 East Road\, Colchester\, VT 05446\, U
+ nited States
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI FurBowl #40
+DTSTART:20150703T230000Z
+DTEND:20150704T020000Z
+DTSTAMP:20160826T024324Z
+UID:8pollfdonvu7mrn59opj8qidak@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150525T020642Z
+DESCRIPTION:http://www.furaffinity.net/user/rhodeislandfurs
+LAST-MODIFIED:20150525T020642Z
+LOCATION:East Providence Lanes\, 80 Newport Avenue\, Rumford\, RI 02916\, 
+ United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furs Jurassic World Movie Meet
+DTSTART:20150616T210000Z
+DTEND:20150617T013000Z
+DTSTAMP:20160826T024324Z
+UID:4hfi8hmeh22okl7gask5g81jdo@google.com
+SEQUENCE:0
+CREATED:20150525T020414Z
+DESCRIPTION:Dinner first at the Unos at 5p\nhttp://www.furaffinity.net/jou
+ rnal/6759129/
+LAST-MODIFIED:20150525T020414Z
+LOCATION:Providence Place Mall\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VT Furs Tea Meet
+DTSTART:20150614T160000Z
+DTEND:20150614T190000Z
+DTSTAMP:20160826T024324Z
+UID:2ii67ajpqi30potk4q69mels4g@google.com
+SEQUENCE:2
+CLASS:PUBLIC
+CREATED:20150512T020824Z
+DESCRIPTION:http://www.furaffinity.net/journal/6729900/
+LAST-MODIFIED:20150525T020109Z
+LOCATION:Dobras Tea House\, Burlington\, VT
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furs Coffee House Artjam
+DTSTART:20150607T190000Z
+DTEND:20150607T220000Z
+DTSTAMP:20160826T024324Z
+UID:jrorcvpr9idotc8bk213rqs9g0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150525T020006Z
+DESCRIPTION:http://www.furaffinity.net/journal/6759119/
+LAST-MODIFIED:20150525T020006Z
+LOCATION:Brewed Awakenings Coffee House\, 1316 Bald Hill Road\, Warwick\, 
+ RI 02886\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auburn Meet and Greet
+DTSTART:20150613T160000Z
+DTEND:20150613T210000Z
+DTSTAMP:20160826T024324Z
+UID:tm2eaf2me537jqce1a8t1vbvk8@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150525T015804Z
+DESCRIPTION:Rocketland Park\nhttp://www.furaffinity.net/journal/6759074/
+LAST-MODIFIED:20150525T015804Z
+LOCATION:22 Brayman St\, Auburn\, MA 01501\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furbowl #39
+DTSTART:20150605T230000Z
+DTEND:20150606T040000Z
+DTSTAMP:20160826T024324Z
+UID:95esr77iq5l388m871msupusi4@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150525T015456Z
+DESCRIPTION:http://www.furaffinity.net/journal/6759115/
+LAST-MODIFIED:20150525T015456Z
+LOCATION:East Providence Lanes\, 80 Newport Avenue\, Rumford\, RI 02916\, 
+ United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Arago's Goodbye Party
+DTSTART:20150726T180000Z
+DTEND:20150727T010000Z
+DTSTAMP:20160826T024324Z
+UID:78qbtf0th4ios3smftnbgdcpi0@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150524T135813Z
+DESCRIPTION:http://www.furaffinity.net/journal/6755160/
+LAST-MODIFIED:20150524T232715Z
+LOCATION:Purgatory Chasm\, Sutton\, MA 01590\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mass Fur Bowl # 39
+DTSTART:20150822T230000Z
+DTEND:20150823T040000Z
+DTSTAMP:20160826T024324Z
+UID:agdqa102up24vq9kg3bun4s3l0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150524T134917Z
+DESCRIPTION:http://www.furaffinity.net/user/massfurbowl/
+LAST-MODIFIED:20150524T134917Z
+LOCATION:Ryan Family Amusements\, 1067 Massachusetts 28\, South Yarmouth\,
+  MA 02664\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mass Fur Bowl #38
+DTSTART:20150725T230000Z
+DTEND:20150726T040000Z
+DTSTAMP:20160826T024324Z
+UID:27481ampvnpn70ij5htp3ctamo@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150524T134811Z
+DESCRIPTION:http://www.furaffinity.net/user/massfurbowl/
+LAST-MODIFIED:20150524T134811Z
+LOCATION:Ryan Family Amusements\, 1067 Massachusetts 28\, South Yarmouth\,
+  MA 02664\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Revere Beach Meet
+DTSTART:20150523T170000Z
+DTEND:20150523T210000Z
+DTSTAMP:20160826T024324Z
+UID:2dc174likhjci51mkbp6gi41sc@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150519T185628Z
+DESCRIPTION:http://www.furaffinity.net/journal/6744414/
+LAST-MODIFIED:20150519T185628Z
+LOCATION:Revere Beach\, Revere\, MA 02151\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NH Furs Greely Park Furmeet
+DTSTART:20150523T173000Z
+DTEND:20150523T210000Z
+DTSTAMP:20160826T024324Z
+UID:ifbihct21rhvksh1gi95k05oeg@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150517T221126Z
+DESCRIPTION:http://www.furaffinity.net/journal/6743148/
+LAST-MODIFIED:20150517T221126Z
+LOCATION:Greeley Park\, 100 Concord Street\, Nashua\, NH 03064\, United St
+ ates
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Strut Your Mutt Charity Pet Walk
+DTSTART:20150620T140000Z
+DTEND:20150620T173000Z
+DTSTAMP:20160826T024324Z
+UID:1lhbgph176fobelsmnjpr0dmak@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150512T020540Z
+DESCRIPTION:http://www.furaffinity.net/journal/6712041/
+LAST-MODIFIED:20150512T020540Z
+LOCATION:North Attleboro High School\, 564 Landry Avenue\, North Attleboro
+ ugh\, MA 02760\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auburn Furs Meet and Greet
+DTSTART:20150523T160000Z
+DTEND:20150523T190000Z
+DTSTAMP:20160826T024324Z
+UID:kf4m531aon96ca84vrr2q2kq9o@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150508T043540Z
+DESCRIPTION:No bowl this month just the meet and greet\nhttps://www.facebo
+ ok.com/events/815291098566962/
+LAST-MODIFIED:20150508T043540Z
+LOCATION:22 Brayman St\, Auburn\, MA 01501\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zen's Furbowl
+DTSTART:20150502T233000Z
+DTEND:20150503T023000Z
+DTSTAMP:20160826T024324Z
+UID:j61arod7jkt1krnaq0ionbs6lo@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150501T160846Z
+DESCRIPTION:https://www.facebook.com/events/344582192404476/
+LAST-MODIFIED:20150501T160846Z
+LOCATION:Spare Time Vernon\, 350 Talcottville Road\, Vernon\, CT 06066\, U
+ nited States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CT Mini Golf Meet
+DTSTART:20150530T210000Z
+DTEND:20150531T020000Z
+DTSTAMP:20160826T024324Z
+UID:mf72e7nuevu5021u8citeu12i4@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150501T031252Z
+DESCRIPTION:RSVP: https://www.facebook.com/events/471288563020415/\n
+LAST-MODIFIED:20150501T031252Z
+LOCATION:Safari Golf\, 2340 Berlin Turnpike\, Berlin\, CT 06037\, United S
+ tates
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VT Furs Table Top Gaming Library Meet
+DTSTART:20150509T160000Z
+DTEND:20150509T200000Z
+DTSTAMP:20160826T024324Z
+UID:pu7lmg6ooihj96886gfjao1lrc@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150427T231817Z
+DESCRIPTION:http://www.furaffinity.net/journal/6692688/
+LAST-MODIFIED:20150427T231817Z
+LOCATION:Brownell Library\, 6 Lincoln Street\, Essex Junction\, VT 05452\,
+  United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wachusett Mountain Hike Furmeet
+DTSTART:20150524T140000Z
+DTEND:20150524T190000Z
+DTSTAMP:20160826T024324Z
+UID:hh282k2425cdteh6n4q444qlcs@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150426T164116Z
+DESCRIPTION:http://www.furaffinity.net/journal/6687671/
+LAST-MODIFIED:20150426T164552Z
+LOCATION:Wachusett Mountain Ski Area\, 499 Mountain Road\, Princeton\, MA 
+ 01541\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mass Fur Bowl
+DTSTART:20150606T230000Z
+DTEND:20150607T040000Z
+DTSTAMP:20160826T024324Z
+UID:81j4er0jroitk76blc9v1141pk@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150426T163950Z
+DESCRIPTION:
+LAST-MODIFIED:20150426T163950Z
+LOCATION:Ryan Family Amusements\, 1067 Massachusetts 28\, South Yarmouth\,
+  MA 02664\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furs Memorial Day Park Furmeet
+DTSTART:20150525T170000Z
+DTEND:20150525T220000Z
+DTSTAMP:20160826T024324Z
+UID:s05qldmp8nrq13ovcumdse0r3s@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150426T163840Z
+DESCRIPTION:http://www.furaffinity.net/journal/6686618/
+LAST-MODIFIED:20150426T163840Z
+LOCATION:Roger Williams Park\, 1000 Elmwood Avenue\, Providence\, RI 02905
+ \, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Furry Hike
+DTSTART:20150725T170000Z
+DTEND:20150725T230000Z
+DTSTAMP:20160826T024324Z
+UID:9jk17icbp66e86vojtblff67f8@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150424T181644Z
+DESCRIPTION:Greetings\, Furries and Therians. During a discussion on what 
+ else we can do in place of bowls someone said hiking. I immediately though
+ t of this place.\n\nThe Mt. Tom state res is a really great place to hike\
+ , have a cookout\, bike\, or play sports. \n\nMeeting place: We will be me
+ eting by the playground. It is up the hill past the dam. There's a small p
+ arking area. If said parking area is full you may need to turn around and 
+ park your car in the main parking area that is pretty obvious on your way 
+ in. Look for a Silver Mazda 3i that says "Furry Pride" on the rear windshi
+ eld. Ill be under a canopy with picnic tables underneath. \n\nThere is a f
+ ee to get into the reservation. Please be aware of that. Bring up to $10 b
+ ecause I'm not sure what the fee is for a day pass right now.\n\nRules:\n1
+ . DO NOT LITTER! I cannot stress that enough. Mt. Tom is beautiful. Let's 
+ keep it that way.\n\n2. Fursuiting is not recommended. Itll be the middle 
+ of July and it can get hot. Besides\, would we really want to catch the pa
+ rk rangers attention?\n\n3. Safety first: I cannot be responsible for anyo
+ ne's safety. Mt. Tom is a big place so try to stick to trails. If you are 
+ under the age of 18 get parents/guardians permission to go and make sure t
+ hey're 100% aware of where/what you are doing. Respect boundaries! \n\nI r
+ ecommend you bring plenty of water and OFF! spray. Itll be hot and the bug
+ s like to bite around there. \n\n\nIf any admins or experienced event orga
+ nizers feel like I'm missing something please let me know.
+LAST-MODIFIED:20150424T181644Z
+LOCATION:Mt Tom State Reservation\, West Springfield\,  MA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Illobmirt's Birth-NIGHT Party
+DTSTART:20150503T210000Z
+DTEND:20150504T030000Z
+DTSTAMP:20160826T024324Z
+UID:2m5n901ok04q6qlu06sjh8mlco@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150424T181443Z
+DESCRIPTION:Taken From: https://plus.google.com/u/0/events/c4us3r2th204s92
+ lap81ptl4t1s?authkey=CLeK5OHXoeHEZQ\n\nFeaturing:\n=========\n+ Music by D
+ J Code\n+ Basic food/drink provided.\n+ Various card  games and entertainm
+ ent provided \n\nRules:\n======\n* $20 charge for those staying the night 
+ -> Paypal please (PM for info)\n* Bring your own Food / Drinks\n* Bring yo
+ ur own Games﻿
+LAST-MODIFIED:20150424T181443Z
+LOCATION:400 Staples Dr\, Framingham\, MA 01702\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auburn Meet and Greet
+DTSTART:20150418T160000Z
+DTEND:20150418T193000Z
+DTSTAMP:20160826T024324Z
+UID:cepo48n20sjnaq8bg8u8gs6rhg@google.com
+SEQUENCE:1
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CLASS:PUBLIC
+CREATED:20150329T042826Z
+DESCRIPTION:http://www.furaffinity.net/journal/6616749/\n\nWill be at rock
+ etland park
+LAST-MODIFIED:20150417T194553Z
+LOCATION:Rocketland Playground Auburn MA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Potluck Dinner
+DTSTART:20150418T193000Z
+DTEND:20150419T033000Z
+DTSTAMP:20160826T024324Z
+UID:div4k292o67thm17rlmt8qdvho@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150318T030415Z
+DESCRIPTION:http://www.furaffinity.net/journal/6651077/\nUnit five\, fifth
+  buzzer down.
+LAST-MODIFIED:20150417T193914Z
+LOCATION:Northview Condominiums 1801 Mineral Spring Ave\, North Providence
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TacoCon (aka Hippo De Mayo) + Margaritas Dinner Meet Up
+DTSTART:20150507T200000Z
+DTEND:20150508T010000Z
+DTSTAMP:20160826T024324Z
+UID:5v0kjm64log953n8u84v4511q4@google.com
+SEQUENCE:0
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CREATED:20150411T151935Z
+DESCRIPTION:http://www.furaffinity.net/journal/6641367/ (last listed event
+ )
+LAST-MODIFIED:20150411T152120Z
+LOCATION:Margaritas Mexican Restaurant\, 1037 Elm Street\, Manchester\, NH
+  03101\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kasey's Graduation Party
+DTSTART:20150509T200000Z
+DTEND:20150509T233000Z
+DTSTAMP:20160826T024324Z
+UID:8kl4ig23fod77rn5tonui5etmc@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150411T151916Z
+DESCRIPTION:http://www.furaffinity.net/journal/6632246/
+LAST-MODIFIED:20150411T151916Z
+LOCATION:61 South St\, Troy\, NH 03465\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:"Maine-New England Furs- Annual BBQ?" 
+DTSTART:20150509T150000Z
+DTEND:20150509T193000Z
+DTSTAMP:20160826T024324Z
+UID:fenav9a8h8tcd1tcvn4srj4q34@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150411T150112Z
+DESCRIPTION:https://www.furaffinity.net/journal/6644913/
+LAST-MODIFIED:20150411T150112Z
+LOCATION:Fort Williams Park\, 1000 Shore Road\, Cape Elizabeth\, ME 04107\
+ , United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furs Dance Party
+DTSTART:20150509T200000Z
+DTEND:20150510T160000Z
+DTSTAMP:20160826T024324Z
+UID:onod9cfputie6etpsdpqogqm4k@google.com
+SEQUENCE:0
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CLASS:PUBLIC
+CREATED:20150317T184722Z
+DESCRIPTION:http://www.furaffinity.net/journal/6564352/
+LAST-MODIFIED:20150406T045019Z
+LOCATION:Comfort Inn\, 2 George Street\, Pawtucket\, RI 02904\, United Sta
+ tes
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auburn Furbowl
+DTSTART:20150418T193000Z
+DTEND:20150418T230000Z
+DTSTAMP:20160826T024324Z
+UID:o1kmqs744mq4kfqgdnllg1imn0@google.com
+SEQUENCE:2
+CLASS:PUBLIC
+CREATED:20150329T042841Z
+DESCRIPTION:http://www.furaffinity.net/journal/6616752/
+LAST-MODIFIED:20150406T001945Z
+LOCATION:AMF Auburn Lanes\, 101 Southbridge Street\, Auburn\, MA 01501\, U
+ nited States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Koda The Fox Birthday Bowling Meet
+DTSTART:20150502T190000Z
+DTEND:20150502T220000Z
+DTSTAMP:20160826T024324Z
+UID:7c3hsuisr5d7plgnft0jt4smh8@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150405T234213Z
+DESCRIPTION:https://www.facebook.com/events/816525675062117/
+LAST-MODIFIED:20150405T234213Z
+LOCATION:Towne and Country Bowl\, 982 Norwich Road\, Plainfield\, CT 06374
+ \, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Area Furry Luncheon
+DTSTART:20150510T170000Z
+DTEND:20150510T203000Z
+DTSTAMP:20160826T024324Z
+UID:cq9lt0lth3t0dhb91657ri3p1c@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150401T161449Z
+DESCRIPTION:http://www.furaffinity.net/journal/6623403/
+LAST-MODIFIED:20150401T161449Z
+LOCATION:99 Restaurant\, 29-31 Austin Street\, Charlestown\, MA 02129\, Un
+ ited States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pelham NH Arcade Furmeet
+DTSTART:20150411T203000Z
+DTEND:20150412T003000Z
+DTSTAMP:20160826T024324Z
+UID:7mqtvour0rgvrlra2v9bcp15jk@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150330T032705Z
+DESCRIPTION:https://www.furaffinity.net/journal/6577984/
+LAST-MODIFIED:20150330T032705Z
+LOCATION:Pinball Wizard Arcade\, 150 Bridge Street Unit P\, Pelham NH 0307
+ 6-3420\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auburn Furbowl
+DTSTART:20150328T210000Z
+DTEND:20150329T000000Z
+DTSTAMP:20160826T024324Z
+UID:mvutk3qb661p7ehhlt2pfd0bqs@google.com
+SEQUENCE:1
+CLASS:PUBLIC
+CREATED:20150317T175557Z
+DESCRIPTION:http://www.furaffinity.net/journal/6466440/
+LAST-MODIFIED:20150328T033315Z
+LOCATION:AMF Auburn Lanes\, 101 Southbridge Street\, Auburn\, MA 01501\, U
+ nited States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Auburn Furs Meet and Greet
+DTSTART:20150328T170000Z
+DTEND:20150328T210000Z
+DTSTAMP:20160826T024324Z
+UID:obnp19jia8c5da7e3hkmn6m6jk@google.com
+SEQUENCE:0
+ATTENDEE;CN="New England Furry Events";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:86krr4fvs3jjbv4nsstlj4e2v0@gro
+ up.calendar.google.com
+CLASS:PUBLIC
+CREATED:20150317T175453Z
+DESCRIPTION:http://www.furaffinity.net/journal/6466428/
+LAST-MODIFIED:20150328T033304Z
+LOCATION:Auburn Mall\, 385 Southbridge Street\, Auburn\, MA 01501\, United
+  States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Burger Boy ME Meet
+DTSTART:20150329T210000Z
+DTEND:20150329T230000Z
+DTSTAMP:20160826T024324Z
+UID:vm345prmmt5vlk2qf3n3uo2pvk@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150325T204001Z
+DESCRIPTION:http://www.furaffinity.net/journal/6607617/
+LAST-MODIFIED:20150325T204001Z
+LOCATION:Burger Boy\, 234 Sweden Street\, Caribou\, ME 04736\, United Stat
+ es
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NH Tabletop Gaming Meet
+DTSTART:20150406T213000Z
+DTEND:20150407T020000Z
+DTSTAMP:20160826T024324Z
+UID:o8vo0mq8rrsqh4jn0cd0dtpuko@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150325T134813Z
+DESCRIPTION:http://www.furaffinity.net/journal/6606066/
+LAST-MODIFIED:20150325T134813Z
+LOCATION:Myriad Games: Amherst\, 124 New Hampshire 101A\, Amherst\, NH 030
+ 31\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NH Bowl
+DTSTART:20150329T213000Z
+DTEND:20150330T020000Z
+DTSTAMP:20160826T024324Z
+UID:jr2vteqc962fs20mue68dkce70@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150325T134734Z
+DESCRIPTION:http://www.furaffinity.net/journal/6606066/
+LAST-MODIFIED:20150325T134734Z
+LOCATION:Funspot\, 579 Endicott Street North\, Laconia\, NH 03246\, United
+  States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NH Coffee Meet
+DTSTART:20150328T210000Z
+DTEND:20150329T000000Z
+DTSTAMP:20160826T024324Z
+UID:s92ffudo4i2ma9ruo93448a3qo@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150325T134704Z
+DESCRIPTION:http://www.furaffinity.net/journal/6606066/
+LAST-MODIFIED:20150325T134704Z
+LOCATION:True Brew Barista\, 3 Bicentennial Square\, Concord\, NH 03301\, 
+ United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Max's Picnic
+DTSTART:20150404T140000Z
+DTEND:20150405T040000Z
+DTSTAMP:20160826T024324Z
+UID:umo0v3j75j1ngmrnhqcsfivi44@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150321T031130Z
+DESCRIPTION:https://www.facebook.com/events/1794434900782355/\n=====\nIf y
+ ou have any questions\, like about bringing food\, or a particular activit
+ y- message me here or on Twitter: ''Mad'' Max Punk@railbaron18 Of course i
+ f you have my #\, that's even better. :)\n=====
+LAST-MODIFIED:20150323T130353Z
+LOCATION:127 Vermont St\, Holyoke\, MA 01040\, USA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Coffee House Art Jam
+DTSTART:20150419T190000Z
+DTEND:20150419T210000Z
+DTSTAMP:20160826T024324Z
+UID:ugo074ssfihbsssomtkbgcva1k@google.com
+SEQUENCE:0
+CREATED:20150323T125738Z
+DESCRIPTION:
+LAST-MODIFIED:20150323T125738Z
+LOCATION:Brewed Awakenings Coffee House\, 1316 Bald Hill Road\, Warwick\, 
+ RI 02886\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furbowl #37
+DTSTART:20150404T230000Z
+DTEND:20150405T020000Z
+DTSTAMP:20160826T024324Z
+UID:1qj7r4cl3rec6pqot6pccqf4q0@google.com
+SEQUENCE:0
+CREATED:20150323T124502Z
+DESCRIPTION:http://www.furaffinity.net/journal/6597123/
+LAST-MODIFIED:20150323T124502Z
+LOCATION:East Providence Lanes\, 80 Newport Avenue\, Rumford\, RI 02916\, 
+ United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CT Furry Picnic 
+DTSTART:20150606T150000Z
+DTEND:20150606T230000Z
+DTSTAMP:20160826T024324Z
+UID:eqdpgs5nrn8qql1884kql2855o@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150317T184950Z
+DESCRIPTION:Back for thirds! The picnic is an all-you-can-eat event taking
+  place by Hartford\, CT. $10 (per person) entry + $5 (per vehicle) parking
+ . For those coming from further away\, the hotel block is $69/nt or $109/n
+ t (both +tax) for a suite\n\nhttp://www.furrypicnic.com\nhttps://twitter.c
+ om/FurryPicnic\n\nNote that the CT Diner meet occurs the night prior\, so 
+ make it a weekend of fur!﻿
+LAST-MODIFIED:20150317T184950Z
+LOCATION:Wickham Park\, 1329 Middle Turnpike West\, Manchester\, CT 06040\
+ , United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RI Furbowl 38
+DTSTART:20150509T170000Z
+DTEND:20150509T200000Z
+DTSTAMP:20160826T024324Z
+UID:m2l9g68488iqkg54ukqhtbnuts@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150317T184542Z
+DESCRIPTION:http://www.furaffinity.net/journal/6530579/
+LAST-MODIFIED:20150317T184542Z
+LOCATION:East Providence Lanes\, 80 Newport Avenue\, Rumford\, RI 02916\, 
+ United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:North Hampton Pride Parade
+DTSTART:20150502T154500Z
+DTEND:20150502T204500Z
+DTSTAMP:20160826T024324Z
+UID:461mp4ga0itm7usvijkfm53bco@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150317T181605Z
+DESCRIPTION:http://www.furaffinity.net/journal/6474817/
+LAST-MODIFIED:20150317T181605Z
+LOCATION:3CtyFairgrounds Northampton\, MA
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Massfur Movie Night
+DTSTART:20150502T230000Z
+DTEND:20150503T030000Z
+DTSTAMP:20160826T024324Z
+UID:tmh41qc3imq6imsrue21jc21lo@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150317T181127Z
+DESCRIPTION:http://www.furaffinity.net/user/samhain
+LAST-MODIFIED:20150317T181127Z
+LOCATION:Showcase Cinema de Lux Randolph\, 73 Mazzeo Drive\, Randolph\, MA
+  02368\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cape Bowl #36
+DTSTART:20150425T230000Z
+DTEND:20150426T030000Z
+DTSTAMP:20160826T024324Z
+UID:eoe6cou1t2mfig1gjatl5f55r0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150317T180950Z
+DESCRIPTION:http://www.furaffinity.net/user/massfurbowl/
+LAST-MODIFIED:20150317T180950Z
+LOCATION:Ryan Family Amusements\, 1067 Massachusetts 28\, South Yarmouth\,
+  MA 02664\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beardsley Zoo Furmeet
+DTSTART:20150425T140000Z
+DTEND:20150425T200000Z
+DTSTAMP:20160826T024324Z
+UID:k1akja8at434itmdtnjhssb2a0@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150317T180824Z
+DESCRIPTION:((hosted by taru cat\,\noriginal: https://www.facebook.com/eve
+ nts/345069295702649/\n))\n\nEver wanted to meow at a tiger? Howl at the wo
+ lves? OR just chill with the roaming peacocks? Well you can! At this place
+ \, you can wear ears and tails! (No Fursuits please! Don't want to spook t
+ he animals!) and hang out with your favorite critters at the local zoo! Ge
+ t together and enjoy some ice cream at the park inside the zoo\, bring you
+ r sketchbooks to study and doodle! Or bring your camera to take photos!\n\
+ nADMISSION PRICES: $14.00 per person!\n\nPARKING IS FREEEEEEE \n\nTIME: 10
+ :00 AM to 3:30 PM\n\nMORE INFO HERE\n\nhttp://www.beardsleyzoo.org/visitor
+ info-vi1﻿
+LAST-MODIFIED:20150317T180824Z
+LOCATION:Connecticut's Beardsley Zoo\, 1875 Noble Avenue\, Bridgeport\, CT
+  06610\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Boston Area Furry Luncheon
+DTSTART:20150412T170000Z
+DTEND:20150412T190000Z
+DTSTAMP:20160826T024324Z
+UID:lqvdglbup2vhfr6gdfc5n9ir50@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150317T180558Z
+DESCRIPTION:http://www.furaffinity.net/journal/6549439/
+LAST-MODIFIED:20150317T180558Z
+LOCATION:99 Restaurant\, 29-31 Austin Street\, Charlestown\, MA 02129\, Un
+ ited States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vermont Furs Breakfast Meet
+DTSTART:20150412T150000Z
+DTEND:20150412T170000Z
+DTSTAMP:20160826T024324Z
+UID:m64qgbvtdurrbn75vpq821r9u4@google.com
+SEQUENCE:0
+CLASS:PUBLIC
+CREATED:20150317T180433Z
+DESCRIPTION:http://www.furaffinity.net/journal/6387018/
+LAST-MODIFIED:20150317T180433Z
+LOCATION:JP's Restaurant & Deli\, 39 River Road #1\, Essex Junction\, VT 0
+ 5452\, United States
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
