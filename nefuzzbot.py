@@ -15,7 +15,6 @@
 #########################################################
 import telepot
 import calendar
-import json
 from icalendar import Calendar
 import requests
 from urllib.request import urlopen
@@ -205,7 +204,7 @@ class Event:
     def getMessage(self, withDate=False, withDay=True):
         if not self.isCon:
             message = "♦" + ((str(self.time.month) + "/" + str(self.time.day) + " ") if withDate else "") + (
-            self.dayOfWeek if withDay else "") + " at " + self.shortTime + " in " + self.city + (
+            self.dayOfWeek[-3:] if withDay else "") + " at " + self.shortTime + " in " + self.city + (
                       "" if self.host.isState else ", " + self.state) + " is " + self.host.name + "'s " + self.fixedName + " at " + self.place + "! " + self.notes + " " + self.link
         else:
             message = "🎉" + ((" " + str(self.time.month) + "/" + str(
@@ -369,7 +368,6 @@ def handler(m):
 
 #####Push first events to file
     if message.text == '/firstEventPush':
-        print('worked')
         pushToPrevious()
 
 
@@ -820,7 +818,8 @@ def postMeetChanges():
     newEventList = getEvents(today, 60)
     previousEvents = pullFromPrevious()
     announcementLists = compareNewEvents(previousEvents, newEventList)
-    if (len(announcementLists[0]) + len(announcementLists[1]) + len(announcementLists[2])) < 1:
+    announceCount = len(announcementLists[0]) + len(announcementLists[1]) + len(announcementLists[2])
+    if announceCount < 1:
         print("No Changes on " + str(datetime.now()))
         return
     telegramMessage = "📣Time for some announcments!\n\n"
@@ -830,9 +829,9 @@ def postMeetChanges():
         telegramMessage += "\tNew Meets Added:\n\n"
 
     for event in announcementLists[0]:
-        text = event.name + " will be hosted by " + event.host.name + " on " + event.dayOfWeek + " " + str(event.time.month) + "/" + str(event.time.day) + " at " + event.shortTime + " in " + event.city + ", " + event.state + ". " + event.link
+        text = event.name + " will be hosted by " + event.host.name + " on " + event.dayOfWeek[-3:] + " " + str(event.time.month) + "/" + str(event.time.day) + " at " + event.shortTime + " in " + event.city + ", " + event.state + ". " + event.link
         if len("➕: " + text) <= 140:
-            api.update_status("➕: " + text, twitterRoot)
+            api.update_status("➕: " + text, twitterRoot.id)
             #bot.sendMessage(50191149,"Tweet good\n" + str(len("➕: " + text)) + " characters\n➕: " + text, reply_markup=baseKeyboard)
         else:
             bot.sendMessage(50191149,"Tweet not sent!\n" + str(len("➕: " + text)) + " characters\n➕: " + text, reply_markup=baseKeyboard)
@@ -842,9 +841,9 @@ def postMeetChanges():
         telegramMessage += "\tMeet Times Changed:\n\n"
 
     for event in announcementLists[1]:
-        text = event.name + " in " + event.city + ", " + event.state + " has been moved to " + event.dayOfWeek + " " + str(event.time.month) + "/" + str(event.time.day) + " at " + event.shortTime +  ". " + event.link
+        text = event.name + " in " + event.city + ", " + event.state + " has been moved to " + event.dayOfWeek[-3:] + " " + str(event.time.month) + "/" + str(event.time.day) + " at " + event.shortTime +  ". " + event.link
         if len("🕒: " + text) <= 140:
-            api.update_status("🕒: " + text, twitterRoot)
+            api.update_status("🕒: " + text, twitterRoot.id)
             #bot.sendMessage(50191149,"Tweet good!\n" + str(len("🕒: " + text)) + " characters\n🕒: " + text, reply_markup=baseKeyboard)
         else:
             bot.sendMessage(50191149,"Tweet not sent!\n" + str(len("🕒: " + text)) + " characters\n🕒: " + text, reply_markup=baseKeyboard)
@@ -854,15 +853,15 @@ def postMeetChanges():
         telegramMessage += "\tMeets Canceled:\n\n"
 
     for event in announcementLists[2]:
-        text = event.name + " in " + event.city + ", " + event.state + " on " + event.dayOfWeek + " " + str(event.time.month) + "/" + str(event.time.day) + " at " + event.shortTime +  " has been canceled"
+        text = event.name + " in " + event.city + ", " + event.state + " on " + event.dayOfWeek[-3:] + " " + str(event.time.month) + "/" + str(event.time.day) + " at " + event.shortTime +  " has been canceled"
         if len("🚫: " + text) <= 140:
-            api.update_status("🚫: " + text, twitterRoot)
+            api.update_status("🚫: " + text, twitterRoot.id)
             #bot.sendMessage(50191149,"Tweet good!\n" + str(len("🚫: " + text)) + " characters\n🚫: " + text, reply_markup=baseKeyboard)
         else:
             bot.sendMessage(50191149,"Tweet not sent!\n" + str(len("🚫: " + text)) + " characters\n🚫: " + text, reply_markup=baseKeyboard)
         telegramMessage += "🚫" + text + '\n\n'
 
-    bot.sendMessage('@NEFuzz', telegramMessage, reply_markup=baseKeyboard)
+    bot.sendMessage('@NEFuzz', telegramMessage)
     pushToPrevious()
 
 
@@ -876,9 +875,9 @@ def pushToPrevious():
             "0%40group.calendar.google.com/public/ba"
             "sic.ics")
     cal = Calendar.from_ical(ics.content)
-    print("Push for first time at :" + str(datetime.now()))
     file = open('previous_events.ics', 'wb')
     file.write(cal.to_ical())
+    print("Push for first time at :" + str(datetime.now()))
 
 
 def tryUserName(message):
