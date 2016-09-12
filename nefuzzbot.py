@@ -106,7 +106,8 @@ infoBlurb = "Welcome to New England Fuzz!\n\nWe are a project devoted" \
             "?mid=zGZAfMbseBcs.k9AkKhhD1qHw\n◆The @NEFuzz Twitter:\n https://" \
             "twitter.com/NEFuzz\n◆The Events Map:\n http://chadnorwood.com/gc" \
             "m/?gc=86krr4fvs3jjbv4nsstlj4e2v0%40group.calendar.google.com\n" \
-            "◆Our Website:\n http://thenewenglandfuzz.wix.com/nefuzz"
+            "◆Our Website:\n http://thenewenglandfuzz.wix.com/nefuzz\n" \
+            "◆Event Submission Form:\n https://goo.gl/forms/KCuLjsf0My2o3Vx93"
 
 
 #Classes

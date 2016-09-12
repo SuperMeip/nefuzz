@@ -1,0 +1,36 @@
+Adding calendar events:
+
+	Try not to include the state in the event name, this makes it redundant in the tweet
+	
+	If any recurring events need to be changed tell me it may mess stuff up, I'm not sure
+	
+	To add a recurring event it must be incredibly conistant, like the Coffee meet or the CT Diner meet
+	
+	For the 'RI Furbowl' type it just like that, no numbers following
+	
+	If a twitter is avaialble always use twitter as a contact
+		Special cases, always use these for their events:
+			@microfurcon
+			@nhfurbowl
+			@massfurbowl
+		Don't forget to use state twitters if the state group is hosting it:
+			@nhfurs
+			@rifurs (use this for anything hosted by cirus too)
+			@mafurs
+			@mainefurs (anything hosted by nova too)
+			@vermontfurs
+			@ctfurs
+		if they don't have a twitter, get their FA name followed by [FA]
+		
+	Format for event details:
+		LINK
+		CONTACT
+		NOTES (if it a con, make the note 'CON!')
+		
+		DESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTION
+		DESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTION
+		DESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTIONDESCRIPTION
+	
+	Format for event location:
+		NAME OF VENUE, ADRESS, CITY, STATE&ZIP, USA(optional)
+	
