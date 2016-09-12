@@ -30,7 +30,8 @@ import sys
 #Universal
 #########################################################
 
-bot = telepot.Bot("90380697:AAH5MQZtw_SpcqPN60yBlz57UMrP7K0oDmQ")
+bot = telepot.Bot("90380697:AAH5MQZtw_SpcqPN60yBlz57UMrP7K0oDmQ") #RealBot
+#bot = telepot.Bot("244994637:AAGTEiul3ebt9oEYv4ibbhbBBkuZ0Ul741A") #TestBot
 bot.getMe()
 
 auth = tweepy.OAuthHandler('iuzk7MAIdF6Rssoa72nRLeH7R',
@@ -48,6 +49,8 @@ dateTestYear = re.compile("\d{1,2}\/\d{1,2}\/\d{4}")
 distanceTest = re.compile("\d:\d\d|\d{1,3}mi")
 
 daysOfWeek = ['•FRI', '•SAT', '•SUN', '•MON', '•TUE', '•WED', '•THU']
+
+adminIDs = [50191149, 135591396]
 
 baseKeyboard = ReplyKeyboardMarkup(keyboard=[
     [KeyboardButton(text='•Search meets')],
@@ -367,36 +370,36 @@ def handler(m):
 
 
 #####Push first events to file
-    if message.text == '/firstEventPush':
+    if (message.text == '/firstEventPush') & (isAdmin(message.user)):
         pushToPrevious()
 
 
 #####test Changed Meets
-    if message.text == '/testChanges':
+    if (message.text == '/testChanges') & (isAdmin(message.user)):
         postMeetChanges()
 
 #####Post Events
-    if message.text == '/post twitter EPK':
+    if (message.text == '/post twitter') & (isAdmin(message.user)):
         post(True, False)
-    if message.text == '/post telegram EPK':
+    if (message.text == '/post telegram') & (isAdmin(message.user)):
         post(False, True)
-    if message.text == '/post both EPK':
+    if (message.text == '/post both') & (isAdmin(message.user)):
         post()
 
 
 #####Tweet
-    if '/tweetEPK' in message.text:
-        sendTweet(message.text[9:])
+    if ('/tweet' in message.text) & (isAdmin(message.user)):
+        sendTweet(message.text[6:])
 
 
 #####Postpone Events
     global  postTw
     global postTe
-    if message.text == '/postpone twitter':
+    if (message.text == '/postpone twitter') & (isAdmin(message.user)):
         postTw = False
-    if message.text == '/postpone telegram':
+    if (message.text == '/postpone telegram') & (isAdmin(message.user)):
         postTe = False
-    if message.text == '/reset postpone':
+    if (message.text == '/reset postpone') & (isAdmin(message.user)):
         postTw = True
         postTe = True
 
@@ -490,7 +493,7 @@ def handler(m):
 #####Get by Week
 #####Stage 1 : button pressed
     elif message.text == '•Week':
-        bot.sendMessage(message.chat, "Get meets by the weekend!\n To check what meets are on this or an upcoming weekend, select one of the following options: ", reply_markup=weekendKeyboard)
+        bot.sendMessage(message.chat, tryUserName(message) + "Get meets by the weekend!\n To check what meets are on this or an upcoming weekend, select one of the following options: ", reply_markup=weekendKeyboard)
 #####Stage 2 : weeks sent
     elif message.text == 'Next weekend':
         if Users[message.user].lastMessage == '•Week':
@@ -527,6 +530,10 @@ def handler(m):
         Users[message.user].lastMessage = message.text
     else:
         bot.sendMessage(message.chat, tryUserName(message) + failMessage, reply_markup=baseKeyboard)
+
+
+def isAdmin(userID):
+    return userID in adminIDs
 
 
 def eventsByDate(date):
