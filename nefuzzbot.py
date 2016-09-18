@@ -26,6 +26,11 @@ import time
 from datetime import datetime, timedelta
 from telepot.namedtuple import ReplyKeyboardMarkup, KeyboardButton
 import sys
+import os
+
+#Constants
+#########################################################
+WORKING_DIR = os.path.dirname(os.path.realpath(__file__))
 
 #Universal
 #########################################################
@@ -670,7 +675,7 @@ def getEvents(date=True, days=1, fromPrevious=False):
             "sic.ics")
         cal = Calendar.from_ical(ics.content)
     else:
-        ics = open("previous_events.ics", 'rb').read()
+        ics = open("%s/previous_events.ics" % WORKING_DIR, 'rb').read()
         cal = Calendar.from_ical(ics)
     for e in cal.walk('vevent'):
         eventTime = e.get('dtstart')
@@ -883,7 +888,7 @@ def pushToPrevious():
             "0%40group.calendar.google.com/public/ba"
             "sic.ics")
     cal = Calendar.from_ical(ics.content)
-    file = open('previous_events.ics', 'wb')
+    file = open("%s/previous_events.ics" % WORKING_DIR, 'wb')
     file.write(cal.to_ical())
     print("Push for first time at :" + str(datetime.now()))
 
