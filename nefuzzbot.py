@@ -35,15 +35,44 @@ WORKING_DIR = os.path.dirname(os.path.realpath(__file__))
 #Universal
 #########################################################
 
-bot = telepot.Bot("90380697:AAH5MQZtw_SpcqPN60yBlz57UMrP7K0oDmQ") #RealBot
+#Load auth info from config file
+f = open('%s/auth_keys.conf' % WORKING_DIR, 'r')
+initial_line = f.readline().rstrip()
+if initial_line != '[auth-keys]':
+    print ("ERROR: auth config file invalid")
+    print (initial_line)
+    exit(1)
+        
+for line in f:
+    config = line.rstrip().split('=')
+    if config[0] == 'telegram':
+        telegram_token = config[1]
+    elif config[0] == 'tweepy_consumer_token':
+        tweepy_consumer_token = config[1]
+    elif config[0] == 'tweepy_consumer_secret':
+        tweepy_consumer_secret = config[1]
+    elif config[0] == 'tweepy_access_token':
+        tweepy_access_token = config[1]
+    elif config[0] == 'tweepy_access_secret':
+        tweepy_access_secret = config[1]
+    else:
+        print ("WARNING: unknown values in auth config: %s" % config[0])
+
+# Make sure we have them all
+if telegram_token == None or tweepy_consumer_token == None or tweepy_consumer_secret == None or tweepy_access_token == None or tweepy_access_secret == None:
+    print ("ERROR: auth config doesn't have all that we need")
+    exit(1)
+
+# Load all auths
+bot = telepot.Bot(telegram_token) #RealBot
 #bot = telepot.Bot("244994637:AAGTEiul3ebt9oEYv4ibbhbBBkuZ0Ul741A") #TestBot
 bot.getMe()
 
-auth = tweepy.OAuthHandler('iuzk7MAIdF6Rssoa72nRLeH7R',
-                           'YwKHP8oiN3Y8vLJsZBI21pt2YKcGngCdcOiRK7sBKSmo4K8cJp')
+auth = tweepy.OAuthHandler(tweepy_consumer_token, tweepy_consumer_secret)
+    
+auth.set_access_token(tweepy_access_token, tweepy_access_secret)
 
-auth.set_access_token('3091524431-89AZUFk0ZmBoeYDWX8Rnbmeah8HR8VHu5LkeTBO',
-                      'GB87nlvJTPHZAL7Ep6S2x4ft9XjFLf07l6XgY7LaTL9Jj')
+auth.set_access_token(tweepy_access_token, tweepy_access_secret)
 
 api = tweepy.API(auth)
 
@@ -335,7 +364,7 @@ class Distance:
 
 
 #Functions
-#########################################################
+#########################################################    
 
 def handler(m):
 #####Set up variables
