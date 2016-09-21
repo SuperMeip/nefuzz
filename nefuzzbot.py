@@ -409,9 +409,13 @@ def handler(m):
         pushToPrevious()
 
 
-#####test Changed Meets
-    if (message.text == '/testChanges') & (isAdmin(message.user)):
+#####post Changed Meets
+    if (message.text == '/postChanges') & (isAdmin(message.user)):
         postMeetChanges()
+
+#####test Changed Meets
+    if (message.text == '/checkChanges') & (isAdmin(message.user)):
+        postMeetChanges(test=True)
 
 #####Post Events
     if (message.text == '/post twitter') & (isAdmin(message.user)):
@@ -856,16 +860,19 @@ def compareNewEvents(oldMeets, newMeets):
     return meetAnnouncments
 
 
-def postMeetChanges():
+def postMeetChanges(test = False):
     newEventList = getEvents(today, 60)
     previousEvents = pullFromPrevious()
     announcementLists = compareNewEvents(previousEvents, newEventList)
     announceCount = len(announcementLists[0]) + len(announcementLists[1]) + len(announcementLists[2])
     if announceCount < 1:
         print("No Changes on " + str(datetime.now()))
+        if test:
+            bot.sendMessage(50191149,"No changes to report", reply_markup=baseKeyboard)
         return
-    telegramMessage = "📣Time for some announcments!\n\n"
-    twitterRoot = api.update_status(telegramMessage)
+    telegramMessage = "📣Time for some announcements!\n\n"
+    if not test:
+        twitterRoot = api.update_status(telegramMessage)
 
     if len(announcementLists[0]) > 0:
         telegramMessage += "\tNew Meets Added:\n\n"
@@ -873,7 +880,8 @@ def postMeetChanges():
     for event in announcementLists[0]:
         text = event.name + " will be hosted by " + event.host.name + " on " + event.dayOfWeek[-3:] + " " + str(event.time.month) + "/" + str(event.time.day) + " at " + event.shortTime + " in " + event.city + ", " + event.state + ". " + event.link
         if len("➕: " + text) <= 140:
-            api.update_status("➕: " + text, twitterRoot.id)
+            if not test:
+                api.update_status("➕: " + text, twitterRoot.id)
             #bot.sendMessage(50191149,"Tweet good\n" + str(len("➕: " + text)) + " characters\n➕: " + text, reply_markup=baseKeyboard)
         else:
             bot.sendMessage(50191149,"Tweet not sent!\n" + str(len("➕: " + text)) + " characters\n➕: " + text, reply_markup=baseKeyboard)
@@ -885,7 +893,8 @@ def postMeetChanges():
     for event in announcementLists[1]:
         text = event.name + " in " + event.city + ", " + event.state + " has been moved to " + event.dayOfWeek[-3:] + " " + str(event.time.month) + "/" + str(event.time.day) + " at " + event.shortTime +  ". " + event.link
         if len("🕒: " + text) <= 140:
-            api.update_status("🕒: " + text, twitterRoot.id)
+            if not test:
+                api.update_status("🕒: " + text, twitterRoot.id)
             #bot.sendMessage(50191149,"Tweet good!\n" + str(len("🕒: " + text)) + " characters\n🕒: " + text, reply_markup=baseKeyboard)
         else:
             bot.sendMessage(50191149,"Tweet not sent!\n" + str(len("🕒: " + text)) + " characters\n🕒: " + text, reply_markup=baseKeyboard)
@@ -897,14 +906,18 @@ def postMeetChanges():
     for event in announcementLists[2]:
         text = event.name + " in " + event.city + ", " + event.state + " on " + event.dayOfWeek[-3:] + " " + str(event.time.month) + "/" + str(event.time.day) + " at " + event.shortTime +  " has been canceled"
         if len("🚫: " + text) <= 140:
-            api.update_status("🚫: " + text, twitterRoot.id)
+            if not test:
+                api.update_status("🚫: " + text, twitterRoot.id)
             #bot.sendMessage(50191149,"Tweet good!\n" + str(len("🚫: " + text)) + " characters\n🚫: " + text, reply_markup=baseKeyboard)
         else:
             bot.sendMessage(50191149,"Tweet not sent!\n" + str(len("🚫: " + text)) + " characters\n🚫: " + text, reply_markup=baseKeyboard)
         telegramMessage += "🚫" + text + '\n\n'
 
-    bot.sendMessage('@NEFuzz', telegramMessage)
-    pushToPrevious()
+    if not test:
+        bot.sendMessage('@NEFuzz', telegramMessage)
+        pushToPrevious()
+    else:
+        bot.sendMessage(50191149,telegramMessage, reply_markup=baseKeyboard)
 
 
 def pullFromPrevious():
