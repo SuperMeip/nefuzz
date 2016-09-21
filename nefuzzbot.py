@@ -65,7 +65,6 @@ if telegram_token == None or tweepy_consumer_token == None or tweepy_consumer_se
 
 # Load all auths
 bot = telepot.Bot(telegram_token) #RealBot
-#bot = telepot.Bot("244994637:AAGTEiul3ebt9oEYv4ibbhbBBkuZ0Ul741A") #TestBot
 bot.getMe()
 
 auth = tweepy.OAuthHandler(tweepy_consumer_token, tweepy_consumer_secret)
@@ -132,7 +131,7 @@ cancelButton = ReplyKeyboardMarkup(keyboard =[
 
 infoBlurb = "Welcome to New England Fuzz!\n\nWe are a project devoted" \
             " to bringing free and readily available information about all" \
-            " the furry goings on in New England!\n\nHere are some usefull" \
+            " the furry goings on in New England!\n\nHere are some useful" \
             " links to help you keep up with the New England furry community:" \
             "\n◆The Event Calendar:\n https://www.google.com/calendar/embed?src" \
             "=86krr4fvs3jjbv4nsstlj4e2v0%40group.calendar.google.com&ctz\n◆" \
@@ -235,13 +234,13 @@ class Event:
                 30: ".5",
             }
             shortTime += mins.get(self.time.minute, ":" + str(self.time.minute))
-            shortTime += "p" if self.time.hour > 12 else "a"
+            shortTime += "p" if self.time.hour > 11 else "a"
             self.shortTime = shortTime
 
 
     def getMessage(self, withDate=False, withDay=True):
         if not self.isCon:
-            message = "♦" + ((str(self.time.month) + "/" + str(self.time.day) + " ") if withDate else "") + (
+            message = "🔷" + ((str(self.time.month) + "/" + str(self.time.day) + " ") if withDate else "") + (
             self.dayOfWeek[-3:] if withDay else "") + " at " + self.shortTime + " in " + self.city + (
                       "" if self.host.isState else ", " + self.state) + " is " + self.host.name + "'s " + self.fixedName + " at " + self.place + "! " + self.notes + " " + self.link
         else:
@@ -371,7 +370,7 @@ def handler(m):
     failed = False
     failMessage = ""
     message = Request(m)
-    print("Message recieved at " + str(datetime.now()) + "\n  User: " + str(message.user) + (" : @" + message.userName if message.hasUserName else "") +
+    print("Message received at " + str(datetime.now()) + "\n  User: " + str(message.user) + (" : @" + message.userName if message.hasUserName else "") +
           (", Sent in group: " + str(message.chat) if message.isGroupMessage else "") + '\n\t' + "Message: " + (message.text if not message.location else "*Location sent"))
 
 
@@ -577,18 +576,18 @@ def isAdmin(userID):
 
 def eventsByDate(date):
     events = getEvents(date,1)
-    message = "Events occuring on " + str(date.month) + "/" + str(date.day) + "/" + str(date.year) + ":\n\n"
+    message = "Events occurring on " + str(date.month) + "/" + str(date.day) + "/" + str(date.year) + ":\n\n"
     if len(events)>0:
         for e in events:
             message += e.getMessage(False, False) + "\n\n"
     else:
-        message = "There are NO events occuring on " + str(date.month) + "/" + str(date.day) + "/" + str(date.year) + "."
+        message = "There are NO events occurring on " + str(date.month) + "/" + str(date.day) + "/" + str(date.year) + "."
     return message
 
 
 def eventByDay(day):
     events = getEvents(today,7)
-    message = "Events occuring on this upcoming " + day + ":\n\n"
+    message = "Events occurring on this upcoming " + day + ":\n\n"
     event = False
     if len(events) > 0:
         for e in events:
@@ -596,19 +595,19 @@ def eventByDay(day):
                 message += e.getMessage(False, False) + "\n\n"
                 event = True
     if not event:
-        message = "There are NO events occuring on this upcoming " + day + "."
+        message = "There are NO events occurring on this upcoming " + day + "."
     return message
 
 
 def eventByWeekend(weeks):
     date = getMonday(today + timedelta(days=(7*weeks)))
     events = getEvents(date,7)
-    message = "Events occuring on the week of " + str(date.month) + "/" + str(date.day) + "/" + str(date.year) + ":\n\n"
+    message = "Events occurring on the week of " + str(date.month) + "/" + str(date.day) + "/" + str(date.year) + ":\n\n"
     if len(events) > 0:
         for e in events:
             message += e.getMessage(False, True) + "\n\n"
     else:
-        message = "There are NO events occuring the week of " + str(date.month) + "/" + str(date.day) + "/" + str(date.year) + "."
+        message = "There are NO events occurring the week of " + str(date.month) + "/" + str(date.day) + "/" + str(date.year) + "."
     return message
 
 
@@ -624,12 +623,12 @@ def eventByMonth(days, span=False):
             events = getEvents(start, thatMonthDays)
     else:
         events = getEvents(today, days)
-    message = "Events occuring within the selected timeframe:\n\n"
+    message = "Events occurring within the selected timeframe:\n\n"
     if len(events) > 0:
         for e in events:
             message += e.getMessage(True, True) + "\n\n"
     else:
-        message = "There are NO events occuring within the desired timeframe."
+        message = "There are NO events occurring within the desired timeframe."
     return message
 
 
@@ -644,7 +643,7 @@ def getMonday(date):
 def eventByLocation(location, distance, isLocation=False):
     desiredDistance = Distance(distance)
     events = getEvents(today,60)
-    message = "Events occuring within " + desiredDistance.toStr(True,True) + " of " + (location if not isLocation else "you") + " in the next 60 days:\n\n"
+    message = "Events occurring within " + desiredDistance.toStr(True,True) + " of " + (location if not isLocation else "you") + " in the next 60 days:\n\n"
     event = False
     for e in events:
         eventDistance = Distance(False,location, e.city + " " + e.state, isLocation)
@@ -652,7 +651,7 @@ def eventByLocation(location, distance, isLocation=False):
             message += e.getMessage(True, True) + " Distance: " + eventDistance.toStr(True,True) + "\n\n"
             event = True
     if not event:
-        message = "There are NO events occuring within " + desiredDistance.toStr(True,True) + " of " + location if not isLocation else "you" + " in the next 60 days."
+        message = "There are NO events occurring within " + desiredDistance.toStr(True,True) + " of " + location if not isLocation else "you" + " in the next 60 days."
     return message
 
 
@@ -871,7 +870,7 @@ def postMeetChanges(test = False):
             bot.sendMessage(50191149,"No changes to report", reply_markup=baseKeyboard)
         return
     telegramMessage = "📣Time for some announcements!\n\n"
-    if not test:
+    if (not test) & (announceCount > 1):
         twitterRoot = api.update_status(telegramMessage)
 
     if len(announcementLists[0]) > 0:
@@ -881,7 +880,10 @@ def postMeetChanges(test = False):
         text = event.name + " will be hosted by " + event.host.name + " on " + event.dayOfWeek[-3:] + " " + str(event.time.month) + "/" + str(event.time.day) + " at " + event.shortTime + " in " + event.city + ", " + event.state + ". " + event.link
         if len("➕: " + text) <= 140:
             if not test:
-                api.update_status("➕: " + text, twitterRoot.id)
+                if announceCount > 1:
+                    api.update_status("➕: " + text, twitterRoot.id)
+                else:
+                    api.update_status("➕: " + text)
             #bot.sendMessage(50191149,"Tweet good\n" + str(len("➕: " + text)) + " characters\n➕: " + text, reply_markup=baseKeyboard)
         else:
             bot.sendMessage(50191149,"Tweet not sent!\n" + str(len("➕: " + text)) + " characters\n➕: " + text, reply_markup=baseKeyboard)
@@ -894,7 +896,10 @@ def postMeetChanges(test = False):
         text = event.name + " in " + event.city + ", " + event.state + " has been moved to " + event.dayOfWeek[-3:] + " " + str(event.time.month) + "/" + str(event.time.day) + " at " + event.shortTime +  ". " + event.link
         if len("🕒: " + text) <= 140:
             if not test:
-                api.update_status("🕒: " + text, twitterRoot.id)
+                if announceCount > 1:
+                    api.update_status("🕒: " + text, twitterRoot.id)
+                else:
+                    api.update_status("🕒: " + text)
             #bot.sendMessage(50191149,"Tweet good!\n" + str(len("🕒: " + text)) + " characters\n🕒: " + text, reply_markup=baseKeyboard)
         else:
             bot.sendMessage(50191149,"Tweet not sent!\n" + str(len("🕒: " + text)) + " characters\n🕒: " + text, reply_markup=baseKeyboard)
@@ -907,7 +912,10 @@ def postMeetChanges(test = False):
         text = event.name + " in " + event.city + ", " + event.state + " on " + event.dayOfWeek[-3:] + " " + str(event.time.month) + "/" + str(event.time.day) + " at " + event.shortTime +  " has been canceled"
         if len("🚫: " + text) <= 140:
             if not test:
-                api.update_status("🚫: " + text, twitterRoot.id)
+                if announceCount > 1:
+                    api.update_status("🚫: " + text, twitterRoot.id)
+                else:
+                    api.update_status("🚫: " + text)
             #bot.sendMessage(50191149,"Tweet good!\n" + str(len("🚫: " + text)) + " characters\n🚫: " + text, reply_markup=baseKeyboard)
         else:
             bot.sendMessage(50191149,"Tweet not sent!\n" + str(len("🚫: " + text)) + " characters\n🚫: " + text, reply_markup=baseKeyboard)
