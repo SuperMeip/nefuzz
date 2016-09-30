@@ -470,7 +470,7 @@ def handler(m):
         bot.sendMessage(message.chat, tryUserName(message) + "Press one of the buttons below or send a distance in miles or drive time in one of the following formats: \n#mi as miles\n#:## as hours:minuets", reply_markup=distKeyboard)
 #####Stage 2 : pressed/sent distance
     elif re.search(distanceTest, message.text):
-        if Users[message.chat].lastMessage == '•Location':
+        if Users[message.user].lastMessage == '•Location':
             distance = re.search(distanceTest, message.text).group(0)
             Users[message.user].dist = distance
             Users[message.user].distSet = True
