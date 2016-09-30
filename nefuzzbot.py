@@ -474,7 +474,10 @@ def handler(m):
             distance = re.search(distanceTest, message.text).group(0)
             Users[message.user].dist = distance
             Users[message.user].distSet = True
-            bot.sendMessage(message.chat, tryUserName(message) + "Distance set to: " + distance + ". Please enter a location to search around:\n examples:\n Worcester,MA\n ", reply_markup=locKeyboard)
+            if message.isGroupMessage:
+                bot.sendMessage(message.chat, tryUserName(message) + "Distance set to: " + distance + ". Please enter a location to search around:\n examples:\n Worcester,MA\n ", reply_markup=cancelButton)
+            else:
+                bot.sendMessage(message.chat, tryUserName(message) + "Distance set to: " + distance + ". Please enter a location to search around:\n examples:\n Worcester,MA\n ", reply_markup=locKeyboard)
 #####Stage 3 : Sent origin
     elif Users[message.user].distSet:
         if message.location:
