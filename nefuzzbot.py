@@ -194,7 +194,7 @@ class Event:
         else:
             self.time = Time
         if(self.time < datetime(datetime.now().year, 3, 13, 2)  ) or (self.time > datetime(datetime.now().year, 11, 6, 2)):
-            self.time = self.time + timedelta(hours=1)
+            self.time = self.time - timedelta(hours=1)
         self.location = Location
         self.host = Host
         self.link = Link
