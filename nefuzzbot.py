@@ -193,7 +193,7 @@ class Event:
             self.time = Time.replace(tzinfo=None)
         else:
             self.time = Time
-        if(self.Time < datetime(datetime.now().year, 3, 13, 2)  ) or (self.time > datetime(datetime.now().year, 11, 6, 2)):
+        if(self.time < datetime(datetime.now().year, 3, 13, 2)  ) or (self.time > datetime(datetime.now().year, 11, 6, 2)):
             self.time.hour -= 1
         self.location = Location
         self.host = Host
