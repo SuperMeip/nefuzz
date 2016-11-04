@@ -399,6 +399,9 @@ def handler(m):
         bot.sendMessage(message.chat, tryUserName(message) + "Welcome to NEFuzz bot! Press a button to continue", reply_markup=baseKeyboard)
         Users[message.user].lastMessage = 'Cancel'
 
+#####Check Events
+    if message.text == '/version':
+        bot.sendMessage(message.chat, tryUserName(message) + "Bot is at version 1.12", reply_markup=baseKeyboard)
 
 #####Check Events
     if message.text == '/check':
