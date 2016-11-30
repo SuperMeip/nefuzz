@@ -81,26 +81,26 @@ dateTest = re.compile("\d{1,2}\/\d{2}")
 dateTestYear = re.compile("\d{1,2}\/\d{1,2}\/\d{4}")
 distanceTest = re.compile("\d:\d\d|\d{1,3}mi")
 
-daysOfWeek = ['�FRI', '�SAT', '�SUN', '�MON', '�TUE', '�WED', '�THU']
+daysOfWeek = ['•FRI', '•SAT', '•SUN', '•MON', '•TUE', '•WED', '•THU']
 
 adminIDs = [50191149, 135591396]
 
 baseKeyboard = ReplyKeyboardMarkup(keyboard=[
-    [KeyboardButton(text='�Search meets')],
-    [KeyboardButton(text='�Get meets by:')],
-    ['�Info and Links']
+    [KeyboardButton(text='•Search meets')],
+    [KeyboardButton(text='•Get meets by:')],
+    ['•Info and Links']
     ], selective=True)
 
 getByKeyboard = ReplyKeyboardMarkup(keyboard=[
-    ['�Date', '�Day'],
-    ['�Week', '�Month'],
-    ['�Location', '�Cancel']
+    ['•Date', '•Day'],
+    ['•Week', '•Month'],
+    ['•Location', '•Cancel']
 ], selective=True)
 
 dayKeyboard = ReplyKeyboardMarkup(keyboard=[
-    ['�FRI', '�SAT', '�SUN'],
-    ['�MON', '�TUE'],
-    ['�WED', '�THU']
+    ['•FRI', '•SAT', '•SUN'],
+    ['•MON', '•TUE'],
+    ['•WED', '•THU']
 ], selective=True)
 
 distKeyboard = ReplyKeyboardMarkup(keyboard=[
@@ -121,26 +121,26 @@ monthKeyboard = ReplyKeyboardMarkup(keyboard =[
 ], selective=True)
 
 locKeyboard = ReplyKeyboardMarkup(keyboard =[
-    [KeyboardButton(text="�Send location",request_location=True)],
-    ['�Cancel']
+    [KeyboardButton(text="•Send location",request_location=True)],
+    ['•Cancel']
 ], selective=True)
 
 cancelButton = ReplyKeyboardMarkup(keyboard =[
-    ['�Cancel']
+    ['•Cancel']
 ], selective=True)
 
 infoBlurb = "Welcome to New England Fuzz!\n\nWe are a project devoted" \
             " to bringing free and readily available information about all" \
             " the furry goings on in New England!\n\nHere are some useful" \
             " links to help you keep up with the New England furry community:" \
-            "\n?The Event Calendar:\n https://www.google.com/calendar/embed?src" \
-            "=86krr4fvs3jjbv4nsstlj4e2v0%40group.calendar.google.com&ctz\n?" \
+            "\n◆The Event Calendar:\n https://www.google.com/calendar/embed?src" \
+            "=86krr4fvs3jjbv4nsstlj4e2v0%40group.calendar.google.com&ctz\n◆" \
             "New Enlgand Furs Map:\n https://www.google.com/maps/d/u/0/edit" \
-            "?mid=zGZAfMbseBcs.k9AkKhhD1qHw\n?The @NEFuzz Twitter:\n https://" \
-            "twitter.com/NEFuzz\n?The Events Map:\n http://chadnorwood.com/gc" \
+            "?mid=zGZAfMbseBcs.k9AkKhhD1qHw\n◆The @NEFuzz Twitter:\n https://" \
+            "twitter.com/NEFuzz\n◆The Events Map:\n http://chadnorwood.com/gc" \
             "m/?gc=86krr4fvs3jjbv4nsstlj4e2v0%40group.calendar.google.com\n" \
-            "?Our Website:\n http://thenewenglandfuzz.wix.com/nefuzz\n" \
-            "?Event Submission Form:\n https://goo.gl/forms/KCuLjsf0My2o3Vx93"
+            "◆Our Website:\n http://thenewenglandfuzz.wix.com/nefuzz\n" \
+            "◆Event Submission Form:\n https://goo.gl/forms/KCuLjsf0My2o3Vx93"
 
 
 #Classes
@@ -189,7 +189,7 @@ class Event:
         self.isRepeat = IsRepeat
         self.ID = UID
         self.name = Name
-        self.isCon = IsCon
+		self.isCon = IsCon
         if type(Time) is datetime:
             self.time = Time.replace(tzinfo=None)
         else:
@@ -220,13 +220,13 @@ class Event:
             self.fixedName = hostTwitters.get(trimhost, self.name)
 
         days = {
-            0: '�MON',
-            1: '�TUE',
-            2: '�WED',
-            3: '�THR',
-            4: '�FRI',
-            5: '�SAT',
-            6: '�SUN'
+            0: '•MON',
+            1: '•TUE',
+            2: '•WED',
+            3: '•THR',
+            4: '•FRI',
+            5: '•SAT',
+            6: '•SUN'
         }
         self.dayOfWeek = days.get(self.time.weekday(), "NAN")
 
@@ -243,11 +243,11 @@ class Event:
 
     def getMessage(self, withDate=False, withDay=True):
         if not self.isCon:
-            message = "??" + ((str(self.time.month) + "/" + str(self.time.day) + " ") if withDate else "") + (
+            message = "🔷" + ((str(self.time.month) + "/" + str(self.time.day) + " ") if withDate else "") + (
             self.dayOfWeek[-3:] if withDay else "") + " at " + self.shortTime + " in " + self.city + (
                       "" if self.host.isState else ", " + self.state) + " is " + self.host.name + "'s " + self.fixedName + " at " + self.place + "! " + self.notes + " " + self.link
         else:
-            message = "??" + ((" " + str(self.time.month) + "/" + str(
+            message = "🎉" + ((" " + str(self.time.month) + "/" + str(
                 self.time.day) + " ") if withDate else "") + "CON: " + self.name + " is this weekend in " + self.city + ', ' + self.state + ". Have fun and be safe! " + self.host.name + ". " + self.link
         return message
 
@@ -390,12 +390,12 @@ def handler(m):
 #####Group Catch
     if message.isGroupMessage & (not message.hasUserName):
         bot.sendMessage(message.chat, message.tempName + ", you must have an @ username to use this bot in a group chat", reply_markup=baseKeyboard)
-        Users[message.user].lastMessage = '�Cancel'
+        Users[message.user].lastMessage = '•Cancel'
         return
 
 
 #####Cancel
-    if (message.text == '/cancel') or (message.text == '�Cancel') or (message.text == '/start@NEFuzzBot') or (message.text == '/start') or (message.text == '/cancel@NEFuzzBot'):
+    if (message.text == '/cancel') or (message.text == '•Cancel') or (message.text == '/start@NEFuzzBot') or (message.text == '/start') or (message.text == '/cancel@NEFuzzBot'):
         Users[message.user].distSet = False
         bot.sendMessage(message.chat, tryUserName(message) + "Welcome to NEFuzz bot! Press a button to continue", reply_markup=baseKeyboard)
         Users[message.user].lastMessage = 'Cancel'
@@ -450,33 +450,33 @@ def handler(m):
 
 
 #####Info
-    if message.text == '�Info and Links':
+    if message.text == '•Info and Links':
         bot.sendMessage(message.chat, tryUserName(message) + infoBlurb, reply_markup=baseKeyboard)
 
 
 #####Search
 #####Stage 1 : pressed button
-    elif message.text == '�Search meets':
+    elif message.text == '•Search meets':
         bot.sendMessage(message.chat, tryUserName(message) + "Enter a specific phrase to search in the events happening in the next 60 days. Keep in mind this is specific", reply_markup=cancelButton)
 #####Stage 2 : entered term
-    elif Users[message.user].lastMessage == '�Search meets':
+    elif Users[message.user].lastMessage == '•Search meets':
         bot.sendMessage(message.chat, tryUserName(message) + "Searching for '" + message.text + "' in all meets, please wait this may take a moment.", reply_markup=baseKeyboard)
         bot.sendMessage(message.chat, tryUserName(message) + eventBySearch(message.text), reply_markup=baseKeyboard)
 
 
 #####GetBy
 #####Stage 1 : pressed button
-    elif message.text == '�Get meets by:':
+    elif message.text == '•Get meets by:':
         bot.sendMessage(message.chat, tryUserName(message) + "Use the options below to search for and obtain lists of meets in different ways", reply_markup=getByKeyboard)
 
 
 #####Get by location
 #####Stage 1 : pressed button
-    elif message.text == '�Location':
+    elif message.text == '•Location':
         bot.sendMessage(message.chat, tryUserName(message) + "Press one of the buttons below or send a distance in miles or drive time in one of the following formats: \n#mi as miles\n#:## as hours:minuets", reply_markup=distKeyboard)
 #####Stage 2 : pressed/sent distance
     elif re.search(distanceTest, message.text):
-        if Users[message.user].lastMessage == '�Location':
+        if Users[message.user].lastMessage == '•Location':
             distance = re.search(distanceTest, message.text).group(0)
             Users[message.user].dist = distance
             Users[message.user].distSet = True
@@ -506,12 +506,12 @@ def handler(m):
 
 #####Get By Date
 #####Stage 1 : button pressed
-    elif message.text == '�Date':
+    elif message.text == '•Date':
         bot.sendMessage(message.chat, tryUserName(message) + "Enter a date in MM/DD or MM/DD/YYYY format and we will send a list of all the events on that day: ", reply_markup=baseKeyboard)
 #####Stage 2 : entered date
     elif re.search(dateTest, message.text):
         if re.search(dateTestYear, message.text):
-            if Users[message.user].lastMessage == '�Date':
+            if Users[message.user].lastMessage == '•Date':
                 try:
                     date = datetime.strptime(message.text, "%m/%d/%Y")
                     bot.sendMessage(message.chat, tryUserName(message) + eventsByDate(date.date()), reply_markup=baseKeyboard)
@@ -519,7 +519,7 @@ def handler(m):
                     failed = True
                     failMessage = "Invalid date, please try again"
         else:
-            if Users[message.user].lastMessage == '�Date':
+            if Users[message.user].lastMessage == '•Date':
                 try:
                     date = datetime.strptime(message.text + '/' + str(datetime.now().year), "%m/%d/%Y")
                     bot.sendMessage(message.chat, tryUserName(message) + eventsByDate(date.date()), reply_markup=baseKeyboard)
@@ -530,46 +530,46 @@ def handler(m):
 
 #####Get by day
 #####Stage 1 : button pressed
-    elif message.text == '�Day':
+    elif message.text == '•Day':
         bot.sendMessage(message.chat, tryUserName(message) + "Choose the upcoming day to check it for meets:", reply_markup=dayKeyboard)
 #####Stage 2 : picked day
     elif message.text in daysOfWeek:
-        if Users[message.user].lastMessage == '�Day':
+        if Users[message.user].lastMessage == '•Day':
             bot.sendMessage(message.chat, tryUserName(message) + eventByDay(message.text), reply_markup=baseKeyboard)
 
 
 #####Get by Week
 #####Stage 1 : button pressed
-    elif message.text == '�Week':
+    elif message.text == '•Week':
         bot.sendMessage(message.chat, tryUserName(message) + "Get meets by the weekend!\n To check what meets are on this or an upcoming weekend, select one of the following options: ", reply_markup=weekendKeyboard)
 #####Stage 2 : weeks sent
     elif message.text == 'Next weekend':
-        if Users[message.user].lastMessage == '�Week':
+        if Users[message.user].lastMessage == '•Week':
             bot.sendMessage(message.chat, tryUserName(message) + eventByWeekend(1), reply_markup=baseKeyboard)
     elif message.text == 'This weekend':
-        if Users[message.user].lastMessage == '�Week':
+        if Users[message.user].lastMessage == '•Week':
             bot.sendMessage(message.chat, tryUserName(message) + eventByWeekend(0), reply_markup=baseKeyboard)
     elif message.text == '2 Weekends from now':
-        if Users[message.user].lastMessage == '�Week':
+        if Users[message.user].lastMessage == '•Week':
             bot.sendMessage(message.chat, tryUserName(message) + eventByWeekend(2), reply_markup=baseKeyboard)
     elif 'Weeks' in message.text:
-        if Users[message.user].lastMessage == '�Week':
+        if Users[message.user].lastMessage == '•Week':
             bot.sendMessage(message.chat, tryUserName(message) + eventByWeekend(int(message.text.split()[0])), reply_markup=baseKeyboard)
 
 
 #####Get by Month
 #####Stage 1 : button pressed
-    elif message.text == '�Month':
+    elif message.text == '•Month':
         bot.sendMessage(message.chat, "Get meets by the month!\n To check what meets are in this or an upcoming month, select one of the following options: ", reply_markup=monthKeyboard)
 #####Stage 2 : weeks sent
     elif message.text == 'Next month':
-        if Users[message.user].lastMessage == '�Month':
+        if Users[message.user].lastMessage == '•Month':
             bot.sendMessage(message.chat, tryUserName(message) + eventByMonth(1), reply_markup=baseKeyboard)
     elif message.text == 'This month':
-        if Users[message.user].lastMessage == '�Month':
+        if Users[message.user].lastMessage == '•Month':
             bot.sendMessage(message.chat, tryUserName(message) + eventByMonth(0), reply_markup=baseKeyboard)
     elif 'The next ' in message.text:
-        if Users[message.user].lastMessage == '�Month':
+        if Users[message.user].lastMessage == '•Month':
             bot.sendMessage(message.chat, tryUserName(message) + eventByMonth(int(message.text.split()[2]), True), reply_markup=baseKeyboard)
 
 
@@ -807,7 +807,7 @@ def checkState(name):
 
 def TwitterPostEvents(events):
 
-    rootStatus = api.update_status("?? It's time to announce this weekend's meets!")
+    rootStatus = api.update_status("📢 It's time to announce this weekend's meets!")
 
     print(str(len(events)))
 
@@ -821,7 +821,7 @@ def TwitterPostEvents(events):
 
 
 def TelegramPostEvents(events):
-    Message = "??Time to announce meets and events for this weekend!\n\n"
+    Message = "📢Time to announce meets and events for this weekend!\n\n"
 
     for event in events:
         Message += event.getMessage() + '\n\n'
@@ -879,7 +879,7 @@ def postMeetChanges(test = False):
         if test:
             bot.sendMessage(50191149,"No changes to report", reply_markup=baseKeyboard)
         return
-    telegramMessage = "??Time for some announcements!\n\n"
+    telegramMessage = "📣Time for some announcements!\n\n"
     if (not test) & (announceCount > 1):
         twitterRoot = api.update_status(telegramMessage)
 
@@ -888,48 +888,48 @@ def postMeetChanges(test = False):
 
     for event in announcementLists[0]:
         text = event.name + " will be hosted by " + event.host.name + " on " + event.dayOfWeek[-3:] + " " + str(event.time.month) + "/" + str(event.time.day) + " at " + event.shortTime + " in " + event.city + ", " + event.state + ". " + event.link
-        if len("?: " + text) <= 140:
+        if len("➕: " + text) <= 140:
             if not test:
                 if announceCount > 1:
-                    api.update_status("?: " + text, twitterRoot.id)
+                    api.update_status("➕: " + text, twitterRoot.id)
                 else:
-                    api.update_status("?: " + text)
-            #bot.sendMessage(50191149,"Tweet good\n" + str(len("?: " + text)) + " characters\n?: " + text, reply_markup=baseKeyboard)
+                    api.update_status("➕: " + text)
+            #bot.sendMessage(50191149,"Tweet good\n" + str(len("➕: " + text)) + " characters\n➕: " + text, reply_markup=baseKeyboard)
         else:
-            bot.sendMessage(50191149,"Tweet not sent!\n" + str(len("?: " + text)) + " characters\n?: " + text, reply_markup=baseKeyboard)
-        telegramMessage += "?" + text + '\n\n'
+            bot.sendMessage(50191149,"Tweet not sent!\n" + str(len("➕: " + text)) + " characters\n➕: " + text, reply_markup=baseKeyboard)
+        telegramMessage += "➕" + text + '\n\n'
 
     if len(announcementLists[1]) > 0:
         telegramMessage += "\tMeet Times Changed:\n\n"
 
     for event in announcementLists[1]:
         text = event.name + " in " + event.city + ", " + event.state + " has been moved to " + event.dayOfWeek[-3:] + " " + str(event.time.month) + "/" + str(event.time.day) + " at " + event.shortTime +  ". " + event.link
-        if len("??: " + text) <= 140:
+        if len("🕒: " + text) <= 140:
             if not test:
                 if announceCount > 1:
-                    api.update_status("??: " + text, twitterRoot.id)
+                    api.update_status("🕒: " + text, twitterRoot.id)
                 else:
-                    api.update_status("??: " + text)
-            #bot.sendMessage(50191149,"Tweet good!\n" + str(len("??: " + text)) + " characters\n??: " + text, reply_markup=baseKeyboard)
+                    api.update_status("🕒: " + text)
+            #bot.sendMessage(50191149,"Tweet good!\n" + str(len("🕒: " + text)) + " characters\n🕒: " + text, reply_markup=baseKeyboard)
         else:
-            bot.sendMessage(50191149,"Tweet not sent!\n" + str(len("??: " + text)) + " characters\n??: " + text, reply_markup=baseKeyboard)
-        telegramMessage += "??" + text + '\n\n'
+            bot.sendMessage(50191149,"Tweet not sent!\n" + str(len("🕒: " + text)) + " characters\n🕒: " + text, reply_markup=baseKeyboard)
+        telegramMessage += "🕒" + text + '\n\n'
 
     if len(announcementLists[2]) > 0:
         telegramMessage += "\tMeets Canceled:\n\n"
 
     for event in announcementLists[2]:
         text = event.name + " in " + event.city + ", " + event.state + " on " + event.dayOfWeek[-3:] + " " + str(event.time.month) + "/" + str(event.time.day) + " at " + event.shortTime +  " has been canceled"
-        if len("??: " + text) <= 140:
+        if len("🚫: " + text) <= 140:
             if not test:
                 if announceCount > 1:
-                    api.update_status("??: " + text, twitterRoot.id)
+                    api.update_status("🚫: " + text, twitterRoot.id)
                 else:
-                    api.update_status("??: " + text)
-            #bot.sendMessage(50191149,"Tweet good!\n" + str(len("??: " + text)) + " characters\n??: " + text, reply_markup=baseKeyboard)
+                    api.update_status("🚫: " + text)
+            #bot.sendMessage(50191149,"Tweet good!\n" + str(len("🚫: " + text)) + " characters\n🚫: " + text, reply_markup=baseKeyboard)
         else:
-            bot.sendMessage(50191149,"Tweet not sent!\n" + str(len("??: " + text)) + " characters\n??: " + text, reply_markup=baseKeyboard)
-        telegramMessage += "??" + text + '\n\n'
+            bot.sendMessage(50191149,"Tweet not sent!\n" + str(len("🚫: " + text)) + " characters\n🚫: " + text, reply_markup=baseKeyboard)
+        telegramMessage += "🚫" + text + '\n\n'
 
     if not test:
         bot.sendMessage('@NEFuzz', telegramMessage)
