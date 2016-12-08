@@ -189,7 +189,7 @@ class Event:
         self.isRepeat = IsRepeat
         self.ID = UID
         self.name = Name
-		self.isCon = IsCon
+        self.isCon = IsCon
         if type(Time) is datetime:
             self.time = Time.replace(tzinfo=None)
         else:
@@ -990,5 +990,6 @@ postTe = True
 today = datetime.now(localtz).date() + timedelta(days=0)
 startMinuet = datetime.now().minute
 Users = {}
+
 if __name__ == '__main__':
     main()
