@@ -670,7 +670,9 @@ def eventBySearch(text):
     message = "Events found containing, '" + text + "', in their description in the next 60 days:\n\n"
     event = False
     for e in events:
+        print("searching for '" + text + "' in " + e.name + '\n')
         if re.search(text.lower(),(e.location + " " + e.description + " " + e.name + " " + e.host.name).lower()):
+            print("Found\n")
             message += e.getMessage(True, True) + "\n\n"
             event = True
     if not event:
