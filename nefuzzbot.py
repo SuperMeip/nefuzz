@@ -264,6 +264,19 @@ class Event:
         return time1 < time2
 
 
+    def __eq__(self, other):
+        if self.name != other.name:
+            return False
+        if self.isCon:
+            time1 = datetime(year=self.time.year, month=self.time.month, day=self.time.day)
+        else:
+            time1 = self.time
+        if other.isCon:
+            time2 = datetime(year=other.time.year, month=other.time.month, day=other.time.day)
+        else:
+            time2 = other.time
+        return time1 == time2
+
 class Distance:
     def __init__(self, byString, origin="", destination="", originLatLon=False, destinationLatLon=False):
         self.Failed = False
@@ -670,9 +683,9 @@ def eventBySearch(text):
     message = "Events found containing, '" + text + "', in their description in the next 60 days:\n\n"
     event = False
     for e in events:
-        print("searching for '" + text + "' in " + e.name + '\n')
+        print("Searching for '" + text + "' in " + e.name + " on " + str(e.time))
         if re.search(text.lower(),(e.location + " " + e.description + " " + e.name + " " + e.host.name).lower()):
-            print("Found\n")
+            print("\tFound")
             message += e.getMessage(True, True) + "\n\n"
             event = True
     if not event:
@@ -731,6 +744,7 @@ def getEvents(date=True, days=1, fromPrevious=False):
         rr = e.get('rrule')
         if type(eventTime) != type(date):
             eventTime = eventTime.date()
+        print("Event Found: " + e.get('summary') + " on " + str(eventTime))
         if str(rr) != "None":
             if 'count' not in rr:
                 if 'until' not in rr:
@@ -742,9 +756,6 @@ def getEvents(date=True, days=1, fromPrevious=False):
 
 
 def addNormalEvent(event, eList):
-    for e in eList:
-        if str(e.name) == str(event.get('summary')):
-            return
     newEvent = event
     eventTime = newEvent.get('dtstart')
     if type(eventTime) != datetime:
@@ -753,6 +764,9 @@ def addNormalEvent(event, eList):
         timeAdjust = -4 if eventTime.utcoffset() / timedelta(hours=1) != -4.0 else 0
         eventTime = eventTime + timedelta(hours=timeAdjust)
     newEvent['dtstart'] = eventTime
+    for e in eList:
+        if e == newEvent:
+            return
     addEvent(newEvent, eList, False)
 
 
@@ -788,6 +802,7 @@ def addEvent(event, eList, isRepeat):
     name = event.get('summary')
     newEvent = Event(name, eventTime, location, host, link, notes, isCon, desc, uid, isRepeat)
     eList.append(newEvent)
+    print("Event grabbed: " + newEvent.name + " on " + str(newEvent.time))
     return
 
 
